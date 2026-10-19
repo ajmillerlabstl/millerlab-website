@@ -1,0 +1,41 @@
+{%- comment -%}
+  a team member's photo, title, links and full bio, shown right on the team page
+  usage: {% include member-bio.html slug="allison-miller" %} (list.html passes slug)
+  (wrapped in nomarkdown, on a fresh line, so the page's markdown leaves the html alone)
+{%- endcomment -%}
+
+{%- assign member = site.members | where: "slug", include.slug | first %}
+
+{::nomarkdown}
+<article class="member-bio" id="{{ member.slug }}">
+<img
+  src="{{ member.image | default: 'images/photo.jpg' | relative_url | uri_escape }}"
+  class="member-bio-image"
+  alt="Photo of {{ member.name }}"
+  loading="lazy"
+  {% include fallback.html %}
+>
+<div class="member-bio-text">
+<h4 class="member-bio-name">{{ member.name }}</h4>
+{%- if member.description %}
+<div class="member-bio-title">{{ member.description }}</div>
+{%- endif %}
+{%- if member.links %}
+<div class="member-bio-links">
+{%- for link in member.links -%}
+{%- assign key = link[0] -%}
+{%- assign value = link[1] -%}
+{% include button.html type=key link=value style="bare" %}
+{%- endfor -%}
+</div>
+{%- endif %}
+<div class="member-bio-body">
+{%- if member.content contains "<p" -%}
+{{ member.content }}
+{%- else -%}
+{{ member.content | markdownify }}
+{%- endif -%}
+</div>
+</div>
+</article>
+{:/nomarkdown}
