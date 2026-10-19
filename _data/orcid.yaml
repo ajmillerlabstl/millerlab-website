@@ -1,2 +1,4 @@
-# Add the PI's ORCID here to pull in her full publication record automatically, e.g.
+# Add the PI's ORCID here to pull in her full publication record automatically.
+# Replace the [] below with a line like:
 # - orcid: 0000-0000-0000-0000
+[]
