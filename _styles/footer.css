@@ -1,20 +1,62 @@
 footer {
+  padding: 56px max(24px, (100% - 1240px) / 2) 28px;
+  background: var(--ink);
+  color: var(--on-ink);
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: var(--compact);
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+}
+
+.footer-title {
+  margin-bottom: 6px;
+  font-family: var(--title);
+  font-weight: var(--bold);
+  font-size: 1.4rem;
+  color: var(--background);
+}
+
+[data-dark=true] .footer-title {
+  color: var(--text);
+}
+
+.footer-label {
+  margin-bottom: 6px;
+  font-family: var(--code);
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+.footer-links {
+  margin-top: 6px;
+  margin-left: -5px;
+}
+
+.footer-bottom {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
   gap: 20px;
-  padding: 40px;
-  line-height: var(--spacing);
-  box-shadow: var(--shadow);
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: solid 1px rgba(255, 255, 255, 0.1254901961);
+  font-family: var(--code);
+  font-size: 0.8rem;
 }
 
-footer a {
-  color: var(--text) !important;
+footer a,
+footer .button[data-style=bare] {
+  color: var(--on-ink) !important;
 }
 
-footer a:hover {
-  color: var(--primary) !important;
+footer a:hover,
+footer .button[data-style=bare]:hover {
+  color: var(--accent) !important;
 }
 
 footer .icon {

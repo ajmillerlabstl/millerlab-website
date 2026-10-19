@@ -91,7 +91,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400;1,700" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -205,6 +205,10 @@
 
   
     <link href="/millerlab-website/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/millerlab-website/_styles/home.css" rel="stylesheet">
   
 
   
@@ -345,6 +349,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -365,6 +371,8 @@
   <script src="/millerlab-website/_scripts/dark-mode.js"></script>
 
   <script src="/millerlab-website/_scripts/fetch-tags.js"></script>
+
+  <script src="/millerlab-website/_scripts/gallery.js"></script>
 
   <script src="/millerlab-website/_scripts/read-more.js"></script>
 
@@ -387,12 +395,11 @@
 
 
 
-
-<header class="background" style="--image: url('/millerlab-website/images/site/home.jpg')" data-dark="true" data-big>
+<header>
   <a href="/millerlab-website/" class="home">
     
     
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text">
         
           <span class="title">Miller Lab</span>
         
@@ -409,55 +416,55 @@
     
     
       
-        <a href="/millerlab-website/research/" data-tooltip="Our research">
+        <a href="/millerlab-website/research/">
           Research
         </a>
       
     
       
-        <a href="/millerlab-website/team/" data-tooltip="About our team">
+        <a href="/millerlab-website/team/">
           Team
         </a>
       
     
       
-        <a href="/millerlab-website/publications/" data-tooltip="Published works">
+        <a href="/millerlab-website/publications/">
           Publications
         </a>
       
     
       
-        <a href="/millerlab-website/blog/" data-tooltip="News and announcements">
+        <a href="/millerlab-website/blog/">
           Blog
         </a>
       
     
       
-        <a href="/millerlab-website/teaching/" data-tooltip="Courses">
+        <a href="/millerlab-website/teaching/">
           Teaching
         </a>
       
     
       
-        <a href="/millerlab-website/outreach/" data-tooltip="Community engagement">
+        <a href="/millerlab-website/outreach/">
           Outreach
         </a>
       
     
       
-        <a href="/millerlab-website/media/" data-tooltip="In the news">
+        <a href="/millerlab-website/media/">
           Media
         </a>
       
     
       
-        <a href="/millerlab-website/photos/" data-tooltip="Lab photos">
+        <a href="/millerlab-website/photos/">
           Photos
         </a>
       
     
       
-        <a href="/millerlab-website/join-us/" data-tooltip="Open positions and contact">
+        <a href="/millerlab-website/join-us/" class="nav-highlight">
           Join Us
         </a>
       
@@ -465,108 +472,439 @@
   </nav>
 </header>
 
-    <main>
-      <!--
-  modify main content of page:
-  - add section breaks
-  - attach section properties
-  - filter out blank sections
--->
 
 
 
+    <main class="home-page">
 
-
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <h1 id="perennial-plant-diversity-and-evolution">Perennial Plant Diversity and Evolution</h1>
-
-<p>The Miller Lab studies perennial plant biology, diversity, and evolution — from crops and their wild relatives to
-the root systems that help perennials thrive and survive. The lab is a joint partnership between the
-<a href="https://www.danforthcenter.org/">Donald Danforth Plant Science Center</a> and the
-<a href="https://www.slu.edu/">Department of Biology at Saint Louis University</a>.</p>
-
-<div class="button-wrapper">
-    <a class="button" href="/millerlab-website/research" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>Our research</span>
+      <div class="home-wrap home-hero">
+        <div class="home-hero-panel">
+          <h1>Perennial plant diversity <em>&amp;</em> evolution</h1>
+          <p>From crops and their wild relatives to the root systems that help perennials thrive and survive.</p>
+          <div class="home-buttons">
+            <a class="home-button" data-style="accent" href="/millerlab-website/team/">Meet the team</a>
+            <a class="home-button" data-style="outline-light" href="#projects">Current projects</a>
+          </div>
+        </div>
+
+        
+        <figure class="gallery" aria-roledescription="carousel" aria-label="Lab photos">
+          <div class="gallery-frame">
+            
+              <img src="/millerlab-website/images/gallery/field-plot.jpg" alt="Lab members working in a perennial crop field plot" class="gallery-slide active" data-caption="Perennial crop field plot">
+            
+              <img src="/millerlab-website/images/gallery/vineyard.jpg" alt="Lab members in a vineyard" class="gallery-slide" data-caption="Working in the vineyard" loading="lazy" aria-hidden="true">
+            
+              <img src="/millerlab-website/images/gallery/wildflowers.jpg" alt="Native wildflowers in bloom" class="gallery-slide" data-caption="Native wildflowers in bloom" loading="lazy" aria-hidden="true">
+            
+              <img src="/millerlab-website/images/gallery/field-trip.jpg" alt="Lab members hiking along a creek bed" class="gallery-slide" data-caption="Field trip" loading="lazy" aria-hidden="true">
+            
+              <img src="/millerlab-website/images/gallery/prairie-sunset.jpg" alt="Prairie at sunset" class="gallery-slide" data-caption="Prairie at sunset" loading="lazy" aria-hidden="true">
+            
+              <img src="/millerlab-website/images/gallery/lab-group.jpg" alt="Miller Lab group photo" class="gallery-slide" data-caption="The Miller Lab" loading="lazy" aria-hidden="true">
+            
+            
+              <button class="gallery-arrow" data-dir="-1" aria-label="Previous photo" hidden>
+                <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <button class="gallery-arrow" data-dir="1" aria-label="Next photo" hidden>
+                <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+              </button>
+            
+          </div>
+          <figcaption>
+            <span class="gallery-caption" aria-live="polite">Perennial crop field plot</span>
+            
+              <span class="gallery-controls" hidden>
+                
+                  <button class="gallery-dot" data-index="0" aria-label="Show photo 1 of 6" aria-current="true"><span></span></button>
+                
+                  <button class="gallery-dot" data-index="1" aria-label="Show photo 2 of 6"><span></span></button>
+                
+                  <button class="gallery-dot" data-index="2" aria-label="Show photo 3 of 6"><span></span></button>
+                
+                  <button class="gallery-dot" data-index="3" aria-label="Show photo 4 of 6"><span></span></button>
+                
+                  <button class="gallery-dot" data-index="4" aria-label="Show photo 5 of 6"><span></span></button>
+                
+                  <button class="gallery-dot" data-index="5" aria-label="Show photo 6 of 6"><span></span></button>
+                
+                <button class="gallery-pause" aria-label="Pause slideshow">
+                  <i class="fa-solid fa-pause" aria-hidden="true"></i>
+                </button>
+              </span>
+            
+          </figcaption>
+        </figure>
+      </div>
+
       
-    </a>
-  </div>
+      <div class="home-band" data-style="paper">
+        <div class="home-wrap home-about">
+          <div class="home-about-text">
+            <h2>About the lab</h2>
+            <p>The Miller Lab studies perennial plant biology, diversity, and evolution. Members work across bioinformatics,
+ethnobotany, evolutionary ecology, field botany, genetics, genomics, morphology, root biology, and statistics.</p>
 
-<div class="button-wrapper">
-    <a class="button" href="/millerlab-website/team" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
+<p>The lab is a joint faculty partnership between two St. Louis institutions, and collaborates with scientists at
+botanical gardens, universities, research centers, nonprofits, and governmental organizations across the country
+and world.</p>
+
+          </div>
+          <div class="home-institutions">
+            
+              <a href="https://www.danforthcenter.org/" class="home-institution">
+                <span class="home-label">WHERE THE LAB IS BASED</span>
+                <span class="home-institution-name">Donald Danforth Plant Science Center</span>
+                <span class="home-muted">Allison Miller is Vice President of Research, and a Member and Principal Investigator.</span>
+                <span class="home-link">danforthcenter.org →</span>
+              </a>
+            
+              <a href="https://www.slu.edu/arts-and-sciences/biology/" class="home-institution">
+                <span class="home-label">ACADEMIC HOME</span>
+                <span class="home-institution-name">Saint Louis University, Department of Biology</span>
+                <span class="home-muted">Allison Miller is Professor of Biology. Graduate and undergraduate researchers join through SLU.</span>
+                <span class="home-link">slu.edu/biology →</span>
+              </a>
+            
+          </div>
+        </div>
+      </div>
+
       
-        <span>Meet the team</span>
       
-    </a>
-  </div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<h2 id="news">News</h2>
-
-<p>Lab news, announcements, and blog posts live on the <a href="blog">Blog</a> page.</p>
-
-<div class="button-wrapper">
-    <a class="button" href="/millerlab-website/blog" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>Read the latest news</span>
+      <div class="home-band" data-style="deep" id="people">
+        <div class="home-wrap">
+          <div class="home-heading-row">
+            <div>
+              <span class="home-label">19 CURRENT MEMBERS</span>
+              <h2>The people</h2>
+            </div>
+            <div class="home-buttons">
+              <a class="home-button" data-style="accent" href="/millerlab-website/team/">Meet the team</a>
+              <a class="home-button" data-style="outline-light" href="/millerlab-website/join-us/">Join the lab</a>
+            </div>
+          </div>
+          <div class="home-people">
+            
+              
+              
+              
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#allison-miller">
+                  <img src="/millerlab-website/images/team/allison-miller.jpg" alt="Photo of Allison Miller" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">PRINCIPAL INVESTIGATOR</span>
+                  <span class="home-person-name">Allison Miller</span>
+                </a>
+              
+            
+              
+              
+              
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#missy-rung-blue">
+                  <img src="/millerlab-website/images/team/missy-rung-blue.jpg" alt="Photo of Missy Rung-Blue" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">STAFF</span>
+                  <span class="home-person-name">Missy Rung-Blue</span>
+                </a>
+              
+            
+              
+              
+              
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#emma-vagelos">
+                  <img src="/millerlab-website/images/team/emma-vagelos.jpg" alt="Photo of Emma Vagelos" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">LAB TECHNICIAN</span>
+                  <span class="home-person-name">Emma Vagelos</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#gillian-doty">
+                  <img src="/millerlab-website/images/team/gillian-doty.jpg" alt="Photo of Gillian Doty" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">LAB TECHNICIAN</span>
+                  <span class="home-person-name">Gillian Doty</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#karen-schmiedeler">
+                  <img src="/millerlab-website/images/team/karen-schmiedeler.jpg" alt="Photo of Karen Schmiedeler" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">LAB TECHNICIAN</span>
+                  <span class="home-person-name">Karen Schmiedeler</span>
+                </a>
+              
+            
+              
+              
+              
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#autumn-brown">
+                  <img src="/millerlab-website/images/team/autumn-brown.jpg" alt="Photo of Autumn Brown" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">RESEARCH SCIENTIST</span>
+                  <span class="home-person-name">Autumn Brown</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#molly-hanlon">
+                  <img src="/millerlab-website/images/team/molly-hanlon.jpg" alt="Photo of Molly Hanlon" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">RESEARCH SCIENTIST</span>
+                  <span class="home-person-name">Molly Hanlon</span>
+                </a>
+              
+            
+              
+              
+              
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#rachel-tavares">
+                  <img src="/millerlab-website/images/team/rachel-tavares.jpg" alt="Photo of Rachel Tavares" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">POSTDOCTORAL RESEARCHER</span>
+                  <span class="home-person-name">Rachel Tavares</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#stella-woeltjen">
+                  <img src="/millerlab-website/images/team/stella-woeltjen.jpg" alt="Photo of Stella Woeltjen" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">POSTDOCTORAL RESEARCHER</span>
+                  <span class="home-person-name">Stella Woeltjen</span>
+                </a>
+              
+            
+              
+              
+              
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#danielle-hopkins">
+                  <img src="/millerlab-website/images/team/danielle-hopkins.jpg" alt="Photo of Danielle Hopkins" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">PHD STUDENT</span>
+                  <span class="home-person-name">Danielle Hopkins</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#kenneth-chukweubuka-okonkwo">
+                  <img src="/millerlab-website/images/team/kenneth-chukweubuka-okonkwo.jpg" alt="Photo of Kenneth Chukweubuka Okonkwo" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">PHD STUDENT</span>
+                  <span class="home-person-name">Kenneth Chukweubuka Okonkwo</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#nia-worth">
+                  <img src="/millerlab-website/images/team/nia-worth.jpg" alt="Photo of Nia Worth" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">PHD STUDENT</span>
+                  <span class="home-person-name">Nia Worth</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#tyler-thrash">
+                  <img src="/millerlab-website/images/team/tyler-thrash.jpg" alt="Photo of Tyler Thrash" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">PHD STUDENT</span>
+                  <span class="home-person-name">Tyler Thrash</span>
+                </a>
+              
+            
+              
+              
+              
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#allie-schenewerk">
+                  <img src="/millerlab-website/images/team/allie-schenewerk.jpg" alt="Photo of Allie Schenewerk" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">UNDERGRADUATE STUDENT</span>
+                  <span class="home-person-name">Allie Schenewerk</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#julia-erker">
+                  <img src="/millerlab-website/images/team/julia-erker.jpg" alt="Photo of Julia Erker" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">UNDERGRADUATE STUDENT</span>
+                  <span class="home-person-name">Julia Erker</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#paige-bostic">
+                  <img src="/millerlab-website/images/team/paige-bostic.jpg" alt="Photo of Paige Bostic" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">UNDERGRADUATE STUDENT</span>
+                  <span class="home-person-name">Paige Bostic</span>
+                </a>
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#zenga-stroff">
+                  <img src="/millerlab-website/images/team/zenga-stroff.jpg" alt="Photo of Zenga Stroff" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">UNDERGRADUATE STUDENT</span>
+                  <span class="home-person-name">Zenga Stroff</span>
+                </a>
+              
+            
+              
+              
+              
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#lauren-fox">
+                  <img src="/millerlab-website/images/team/lauren-fox.jpg" alt="Photo of Lauren Fox" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">HIGH SCHOOL INTERN</span>
+                  <span class="home-person-name">Lauren Fox</span>
+                </a>
+              
+            
+              
+              
+              
+              
+                
+                <a class="home-person" href="/millerlab-website/team/#henry-and-lily">
+                  <img src="/millerlab-website/images/team/henry-and-lily.jpg" alt="Photo of Henry and Lily" loading="lazy" onerror="this.src = '/millerlab-website/images/fallback.svg'; this.onerror = null;">
+                  <span class="home-label">HONORARY LAB MEMBER</span>
+                  <span class="home-person-name">Henry and Lily</span>
+                </a>
+              
+            
+          </div>
+          <p class="home-alumni">
+            Plus 111 alumni in the
+            <a href="/millerlab-website/team/#miller-lab-hall-of-fame">Miller Lab Hall of Fame →</a>
+          </p>
+        </div>
+      </div>
+
       
-    </a>
-  </div>
-  </section>
+      <div class="home-wrap home-section" id="projects">
+        <div class="home-heading-row">
+          <h2>Current projects</h2>
+          <a class="home-link" href="/millerlab-website/research/">All projects →</a>
+        </div>
+        <div class="home-cards">
+          
+          
+            
+            
+            <a class="home-card" href="/millerlab-website/research/">
+              
+                <img src="/millerlab-website/images/site/media.jpg" alt="" loading="lazy">
+              
+              <span class="home-card-label" data-color="0">
+                NO. 01 · VITIS · GRAFTING
+              </span>
+              <span class="home-card-body">
+                <span class="home-card-title">Grapevine rootstocks and climate</span>
+                <span class="home-muted">Graft-transmissible effects of rootstocks on grapevine shoots, to adapt perennial crops for climate change.</span>
+              </span>
+            </a>
+          
+            
+            
+            <a class="home-card" href="/millerlab-website/research/">
+              
+                <img src="/millerlab-website/images/site/footer.jpg" alt="" loading="lazy">
+              
+              <span class="home-card-label" data-color="1">
+                NO. 02 · ROOTS · GENOMICS
+              </span>
+              <span class="home-card-body">
+                <span class="home-card-title">Roots and domestication</span>
+                <span class="home-muted">Root systems, comparative genomics, and domestication of North American grapevines.</span>
+              </span>
+            </a>
+          
+            
+            
+            <a class="home-card" href="/millerlab-website/research/">
+              
+                <img src="/millerlab-website/images/site/publications.jpg" alt="" loading="lazy">
+              
+              <span class="home-card-label" data-color="2">
+                NO. 03 · PHENOMICS · NEW CROPS
+              </span>
+              <span class="home-card-body">
+                <span class="home-card-title">Phenomics for new crops</span>
+                <span class="home-muted">High-dimensional phenomics and automation to speed early-stage domestication of new crops.</span>
+              </span>
+            </a>
+          
+            
+            
+            <a class="home-card" href="/millerlab-website/research/">
+              
+                <img src="/millerlab-website/images/site/research.jpg" alt="" loading="lazy">
+              
+              <span class="home-card-label" data-color="3">
+                NO. 04 · RESTORATION · SOIL
+              </span>
+              <span class="home-card-body">
+                <span class="home-card-title">New Roots for Restoration</span>
+                <span class="home-muted">A Biology Integration Institute linking plant traits, communities, and the soil ecosphere to advance restoration.</span>
+              </span>
+            </a>
+          
+        </div>
+      </div>
 
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<h2 id="contact">Contact</h2>
-
-<p><strong>Contact Information:</strong> Allison Miller, Ph.D.; Member and Principal Investigator, Danforth Plant Science Center (amiller at danforthcenter.org), <a href="https://www.danforthcenter.org/our-work/principal-investigators/allison-miller/?gclid=Cj0KCQiAn4SeBhCwARIsANeF9DLVQNuw7-zVgdM21rjuPQ0crhJkvn6kKUxMQ9C353gnY2JcU373h5UaAmCSEALw_wcB">Donald Danforth Plant Science Center.</a>975 North Warson Road. St. Louis, MO 63132; Professor of Biology, Saint Louis University (allison.j.miller at slu.edu); <a href="https://www.slu.edu/arts-and-sciences/biology/faculty/miller-allison.php">Saint Louis University Department of Biology</a>. Macelwane Hall, 3507 LaClede Avenue, St. Louis, MO 63103.</p>
-  </section>
-
+      
+      <div class="home-band" data-style="tint">
+        <div class="home-wrap home-section">
+          <div class="home-heading-row">
+            <h2>Field notes</h2>
+            <a class="home-link" href="/millerlab-website/blog/">All news →</a>
+          </div>
+          <div class="home-cards">
+            
+              <a class="home-card" href="/millerlab-website/2018/02/11/nyu-abu-dhabi-genomics-symposium.html">
+                
+                <span class="home-card-body">
+                  <span class="home-chip" data-color="0">
+                    FEBRUARY 11, 2018
+                  </span>
+                  <span class="home-card-title">NYU Abu Dhabi Genomics Symposium</span>
+                  <span class="home-muted">Posted by Allison:
+</span>
+                </span>
+              </a>
+            
+              <a class="home-card" href="/millerlab-website/2018/02/02/news-allison-visited-new-york-university-abu.html">
+                
+                <span class="home-card-body">
+                  <span class="home-chip" data-color="1">
+                    FEBRUARY 2, 2018
+                  </span>
+                  <span class="home-card-title">Allison visited New York University - Abu Dhabi in the United Arab</span>
+                  <span class="home-muted">Allison visited New York University - Abu Dhabi in the United Arab Emirates to talk about grapes in the Genomics VIII symposium. Read more...</span>
+                </span>
+              </a>
+            
+              <a class="home-card" href="/millerlab-website/2018/01/03/news-a-new-vitis-phylogenomics-manuscript-a-c.html">
+                
+                <span class="home-card-body">
+                  <span class="home-chip" data-color="2">
+                    JANUARY 3, 2018
+                  </span>
+                  <span class="home-card-title">A new Vitis phylogenomics manuscript, a collaborative project with</span>
+                  <span class="home-muted">A new Vitis phylogenomics manuscript, a collaborative project with Jason Londo and many others, has been accepted for publication at the American Journal of...</span>
+                </span>
+              </a>
+            
+          </div>
+        </div>
+      </div>
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/millerlab-website/images/site/footer.jpg')" data-dark="true" data-size="wide">
-  <!--
+    <footer>
+  <div class="footer-columns">
     <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
-      
-      
-      
+      <div class="footer-title">Miller Lab</div>
+      <div>Allison Miller, Ph.D., Principal Investigator</div>
+      <div class="footer-links">
+        
+          
+          
+          
 
 
 
@@ -578,16 +916,23 @@ the root systems that help perennials thrive and survive. The lab is a joint par
   </div>
 
 
-    
+        
+      </div>
+    </div>
+    <div>
+      <div class="footer-label">DANFORTH CENTER</div>
+      <div>975 North Warson Road<br>St. Louis, MO 63132</div>
+    </div>
+    <div>
+      <div class="footer-label">SAINT LOUIS UNIVERSITY · BIOLOGY</div>
+      <div>Macelwane Hall, 3507 Laclede Avenue<br>St. Louis, MO 63103</div>
+    </div>
   </div>
 
-  <div>
-    © 2026
-    Miller Lab
-      |   Donald Danforth Plant Science Center &amp; Saint Louis University
+  <div class="footer-bottom">
+    <span>© 2026 Miller Lab</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>
