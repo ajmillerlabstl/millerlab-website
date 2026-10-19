@@ -68,6 +68,51 @@ content:
     label: "Page: Home"
     type: file
     path: index.md
+    fields:
+      - { name: layout, label: "Layout (leave as home)", type: string, hidden: true, default: home }
+      - { name: hero_title, label: "Headline (wrap a word in <em></em> to color it)", type: string }
+      - { name: hero_text, label: Text under the headline, type: text }
+      - name: institutions
+        label: Institution boxes in the About section
+        type: object
+        list: true
+        fields:
+          - { name: label, label: "Small label, e.g. Where the lab is based", type: string }
+          - { name: name, label: Institution name, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: link, label: Web address, type: string }
+          - { name: link_text, label: "Link text, e.g. danforthcenter.org", type: string }
+      - { name: body, label: "About the lab text (markdown)", type: text }
+
+  - name: gallery
+    label: Home page gallery
+    type: file
+    path: _data/gallery.yaml
+    format: yaml
+    list: true
+    fields:
+      - { name: image, label: "Photo (landscape, at least 1600 px wide)", type: image, options: { input: images/gallery, output: images/gallery } }
+      - { name: caption, label: Caption shown under the photo, type: string }
+      - { name: alt, label: "Description for screen readers (what's in the photo)", type: string }
+
+  - name: projects
+    label: Research projects
+    type: file
+    path: _data/projects.yaml
+    format: yaml
+    list: true
+    fields:
+      - { name: title, label: Project name, type: string }
+      - { name: label, label: "Keywords on the card, e.g. Vitis · grafting", type: string }
+      - { name: summary, label: One or two sentence summary, type: text }
+      - { name: image, label: Photo, type: image }
+      - { name: link, label: "Link (a page on this site like research/, or a full web address)", type: string }
+      - { name: current, label: Show on the home page as a current project, type: boolean }
+
+  - name: research
+    label: "Page: Research"
+    type: file
+    path: research/index.md
     fields: &page-fields
       - { name: title, label: Title, type: string }
       - { name: header, label: Banner photo, type: image }
@@ -77,9 +122,9 @@ content:
         fields:
           - { name: order, label: Position in menu, type: number }
           - { name: tooltip, label: Menu tooltip, type: string }
+          - { name: highlight, label: Show as a highlighted button, type: boolean }
       - { name: redirect_from, label: "Old-site address that should land here (leave as is)", type: string }
       - { name: body, label: "Page text (markdown)", type: text }
-  - { name: research, label: "Page: Research", type: file, path: research/index.md, fields: *page-fields }
   - { name: team-page, label: "Page: Team (intro text)", type: file, path: team/index.md, fields: *page-fields }
   - { name: publications-page, label: "Page: Publications", type: file, path: publications/index.md, fields: *page-fields }
   - { name: teaching, label: "Page: Teaching", type: file, path: teaching/index.md, fields: *page-fields }

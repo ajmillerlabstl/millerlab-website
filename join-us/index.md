@@ -4,6 +4,7 @@ title: Join Us
 nav:
   order: 9
   tooltip: Open positions and contact
+  highlight: true
 redirect_from: /join-us.html
 ---
 

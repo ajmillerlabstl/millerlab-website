@@ -1,0 +1,27 @@
+# Research projects. Projects with "current: true" appear as cards on the home page, in this order.
+# "label" is the short line of keywords on the card; "link" can be a page on this site or a full web address.
+
+- title: Grapevine rootstocks and climate
+  label: Vitis · grafting
+  summary: Graft-transmissible effects of rootstocks on grapevine shoots, to adapt perennial crops for climate change.
+  image: images/site/media.jpg
+  link: research/
+  current: true
+- title: Roots and domestication
+  label: Roots · genomics
+  summary: Root systems, comparative genomics, and domestication of North American grapevines.
+  image: images/site/footer.jpg
+  link: research/
+  current: true
+- title: Phenomics for new crops
+  label: Phenomics · new crops
+  summary: High-dimensional phenomics and automation to speed early-stage domestication of new crops.
+  image: images/site/publications.jpg
+  link: research/
+  current: true
+- title: New Roots for Restoration
+  label: Restoration · soil
+  summary: A Biology Integration Institute linking plant traits, communities, and the soil ecosphere to advance restoration.
+  image: images/site/research.jpg
+  link: research/
+  current: true

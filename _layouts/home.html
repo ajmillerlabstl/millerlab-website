@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="home-page">
+
+      {% comment %} headline panel and photo gallery (_data/gallery.yaml) {% endcomment %}
+      <div class="home-wrap home-hero">
+        <div class="home-hero-panel">
+          <h1>{{ page.hero_title }}</h1>
+          <p>{{ page.hero_text }}</p>
+          <div class="home-buttons">
+            <a class="home-button" data-style="accent" href="{{ "team/" | relative_url }}">Meet the team</a>
+            <a class="home-button" data-style="outline-light" href="#projects">Current projects</a>
+          </div>
+        </div>
+
+        {% assign photos = site.data.gallery %}
+        <figure class="gallery" aria-roledescription="carousel" aria-label="Lab photos">
+          <div class="gallery-frame">
+            {% for photo in photos %}
+              <img
+                src="{{ photo.image | relative_url | uri_escape }}"
+                alt="{{ photo.alt | default: photo.caption | xml_escape }}"
+                class="gallery-slide{% if forloop.first %} active{% endif %}"
+                data-caption="{{ photo.caption | xml_escape }}"
+                {% unless forloop.first %}loading="lazy" aria-hidden="true"{% endunless %}
+              >
+            {% endfor %}
+            {% if photos.size > 1 %}
+              <button class="gallery-arrow" data-dir="-1" aria-label="Previous photo" hidden>
+                <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <button class="gallery-arrow" data-dir="1" aria-label="Next photo" hidden>
+                <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+              </button>
+            {% endif %}
+          </div>
+          <figcaption>
+            <span class="gallery-caption" aria-live="polite">{{ photos.first.caption }}</span>
+            {% if photos.size > 1 %}
+              <span class="gallery-controls" hidden>
+                {% for photo in photos %}
+                  <button
+                    class="gallery-dot"
+                    data-index="{{ forloop.index0 }}"
+                    aria-label="Show photo {{ forloop.index }} of {{ photos.size }}"
+                    {% if forloop.first %}aria-current="true"{% endif %}
+                  ><span></span></button>
+                {% endfor %}
+                <button class="gallery-pause" aria-label="Pause slideshow">
+                  <i class="fa-solid fa-pause" aria-hidden="true"></i>
+                </button>
+              </span>
+            {% endif %}
+          </figcaption>
+        </figure>
+      </div>
+
+      {% comment %} about text (body of index.md) and institution boxes (front matter) {% endcomment %}
+      <div class="home-band" data-style="paper">
+        <div class="home-wrap home-about">
+          <div class="home-about-text">
+            <h2>About the lab</h2>
+            {{ content }}
+          </div>
+          <div class="home-institutions">
+            {% for place in page.institutions %}
+              <a href="{{ place.link }}" class="home-institution">
+                <span class="home-label">{{ place.label | upcase }}</span>
+                <span class="home-institution-name">{{ place.name }}</span>
+                <span class="home-muted">{{ place.text }}</span>
+                <span class="home-link">{{ place.link_text }} →</span>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      {% comment %} current members, in team page section order {% endcomment %}
+      {% assign current = site.members | where_exp: "m", "m.group != 'alum'" %}
+      {% assign alumni = site.members | where: "group", "alum" %}
+      <div class="home-band" data-style="deep" id="people">
+        <div class="home-wrap">
+          <div class="home-heading-row">
+            <div>
+              <span class="home-label">{{ current.size }} CURRENT MEMBERS</span>
+              <h2>The people</h2>
+            </div>
+            <div class="home-buttons">
+              <a class="home-button" data-style="accent" href="{{ "team/" | relative_url }}">Meet the team</a>
+              <a class="home-button" data-style="outline-light" href="{{ "join-us/" | relative_url }}">Join the lab</a>
+            </div>
+          </div>
+          <div class="home-people">
+            {% for section in site.data.team-sections.current %}
+              {% assign roles = section.roles | jsonify %}
+              {% assign filter = roles | append: ".include?(role) and group != 'alum'" %}
+              {% assign members = site.members | data_filter: filter %}
+              {% for member in members %}
+                {% assign type = site.data.types[member.role] %}
+                <a class="home-person" href="{{ "team/" | relative_url }}#{{ member.slug }}">
+                  <img
+                    src="{{ member.image | default: 'images/photo.jpg' | relative_url | uri_escape }}"
+                    alt="Photo of {{ member.name }}"
+                    loading="lazy"
+                    {% include fallback.html %}
+                  >
+                  <span class="home-label">{{ type.description | default: section.title | upcase }}</span>
+                  <span class="home-person-name">{{ member.name }}</span>
+                </a>
+              {% endfor %}
+            {% endfor %}
+          </div>
+          <p class="home-alumni">
+            Plus {{ alumni.size }} alumni in the
+            <a href="{{ "team/" | relative_url }}#miller-lab-hall-of-fame">Miller Lab Hall of Fame →</a>
+          </p>
+        </div>
+      </div>
+
+      {% comment %} current projects (_data/projects.yaml) {% endcomment %}
+      <div class="home-wrap home-section" id="projects">
+        <div class="home-heading-row">
+          <h2>Current projects</h2>
+          <a class="home-link" href="{{ "research/" | relative_url }}">All projects →</a>
+        </div>
+        <div class="home-cards">
+          {% assign projects = site.data.projects | where: "current", true %}
+          {% for project in projects %}
+            {% assign link = project.link | default: "research/" %}
+            {% unless link contains "://" %}{% assign link = link | relative_url %}{% endunless %}
+            <a class="home-card" href="{{ link }}">
+              {% if project.image %}
+                <img src="{{ project.image | relative_url | uri_escape }}" alt="" loading="lazy">
+              {% endif %}
+              <span class="home-card-label" data-color="{{ forloop.index0 | modulo: 4 }}">
+                NO. {{ forloop.index | prepend: "0" | slice: -2, 2 }} · {{ project.label | upcase }}
+              </span>
+              <span class="home-card-body">
+                <span class="home-card-title">{{ project.title }}</span>
+                <span class="home-muted">{{ project.summary }}</span>
+              </span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+
+      {% comment %} latest news posts {% endcomment %}
+      <div class="home-band" data-style="tint">
+        <div class="home-wrap home-section">
+          <div class="home-heading-row">
+            <h2>Field notes</h2>
+            <a class="home-link" href="{{ "blog/" | relative_url }}">All news →</a>
+          </div>
+          <div class="home-cards">
+            {% for post in site.posts limit: 3 %}
+              <a class="home-card" href="{{ post.url | relative_url }}">
+                {% if post.image %}
+                  <img src="{{ post.image | relative_url | uri_escape }}" alt="" loading="lazy">
+                {% endif %}
+                <span class="home-card-body">
+                  <span class="home-chip" data-color="{{ forloop.index0 | modulo: 3 }}">
+                    {{ post.date | date: "%B %-d, %Y" | upcase }}
+                  </span>
+                  <span class="home-card-title">{{ post.title }}</span>
+                  <span class="home-muted">{{ post.excerpt | strip_html | truncatewords: 24 }}</span>
+                </span>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

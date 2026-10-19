@@ -1,21 +1,11 @@
 {% assign image = page.header | default: site.header %}
-{% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
 {% assign svg = "images/logo.svg" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = svg | default: png | default: jpg | default: nil %}
 
-<header
-  class="background"
-  style="--image: url('{{ image | relative_url | uri_escape }}')"
-  {% if dark == true or dark == false %}
-    data-dark="{{ dark }}"
-  {% endif %}
-  {% if page.url == "/" %}
-    data-big
-  {% endif %}
->
+<header>
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
       <span class="logo">
@@ -27,7 +17,7 @@
       </span>
     {% endif %}
     {% if site.logo-text != false %}
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text">
         {% if site.title and site.show-title != false %}
           <span class="title">{{ site.title }}</span>
         {% endif %}
@@ -49,7 +39,7 @@
       {% if page.nav %}
         <a
           href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
+          {% if page.nav.highlight %}class="nav-highlight"{% endif %}
         >
           {{ page.title }}
         </a>
@@ -57,3 +47,15 @@
     {% endfor %}
   </nav>
 </header>
+
+{% comment %}
+  each page's banner photo (set with "header:" in its front matter), as a strip under the menu.
+  the home page has its own photo gallery instead.
+{% endcomment %}
+{% if image and page.layout != "home" %}
+  <div
+    class="page-banner"
+    style="--image: url('{{ image | relative_url | uri_escape }}')"
+    aria-hidden="true"
+  ></div>
+{% endif %}

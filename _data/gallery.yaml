@@ -1,0 +1,22 @@
+# Photos in the slideshow at the top of the home page, in order.
+# Put the photo files in images/gallery/ (landscape, at least 1600 px wide, under about 1 MB).
+# "caption" is shown under the photo; "alt" describes the photo for people using screen readers.
+
+- image: images/gallery/field-plot.jpg
+  caption: Perennial crop field plot
+  alt: Lab members working in a perennial crop field plot
+- image: images/gallery/vineyard.jpg
+  caption: Working in the vineyard
+  alt: Lab members in a vineyard
+- image: images/gallery/wildflowers.jpg
+  caption: Native wildflowers in bloom
+  alt: Native wildflowers in bloom
+- image: images/gallery/field-trip.jpg
+  caption: Field trip
+  alt: Lab members hiking along a creek bed
+- image: images/gallery/prairie-sunset.jpg
+  caption: Prairie at sunset
+  alt: Prairie at sunset
+- image: images/gallery/lab-group.jpg
+  caption: The Miller Lab
+  alt: Miller Lab group photo

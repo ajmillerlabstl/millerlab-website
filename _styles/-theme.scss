@@ -1,51 +1,74 @@
 ---
 ---
 
-// colors
+// colors: "vineyard" palette (plum and sage, with off-white instead of pure white)
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
-  --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
-  --overlay: #00000020;
+  --primary: #6a3160;
+  --secondary: #a7c795;
+  --text: #241b23;
+  --background: #f7f2f4;
+  --background-alt: #ece6ea;
+  --light-gray: #d3c7d0;
+  --gray: #8a7f88;
+  --dark-gray: #564b55;
+  --overlay: #4a274220;
+
+  // extra colors used by the home page, header, and footer
+  --deep: #4a2742;
+  --on-deep: #ede3ea;
+  --accent: #a7c795;
+  --on-accent: #1d2b17;
+  --second: #9a4f2a;
+  --on-second: #f7f2f4;
+  --tint: #e2d6df;
+  --card: #e6dce2;
+  --ink: #241b23;
+  --on-ink: #cfc3cc;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
-  --overlay: #ffffff10;
+  --primary: #d2acc9;
+  --secondary: #4a2742;
+  --text: #ede3ea;
+  --background: #1e161c;
+  --background-alt: #261c24;
+  --light-gray: #4a3d47;
+  --gray: #8a7f88;
+  --dark-gray: #c9bcc6;
+  --overlay: #00000040;
+
+  --deep: #3a1f34;
+  --on-deep: #ede3ea;
+  --accent: #a7c795;
+  --on-accent: #1d2b17;
+  --second: #c97a4d;
+  --on-second: #1e161c;
+  --tint: #33262f;
+  --card: #3a2d36;
+  --ink: #140e13;
+  --on-ink: #cfc3cc;
 }
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
-  --code: "Roboto Mono", monospace;
+  --title: "Libre Caslon Text", serif;
+  --heading: "Libre Caslon Text", serif;
+  --body: "IBM Plex Sans", sans-serif;
+  --code: "IBM Plex Mono", monospace;
 
   // font sizes
   --large: 1.2rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;
 
-  // font weights
-  --thin: 200;
+  // font weights (only 400 and 700, the weights all three fonts share)
+  --thin: 400;
   --regular: 400;
-  --semi-bold: 500;
-  --bold: 600;
+  --semi-bold: 700;
+  --bold: 700;
 
   // text line spacing
   --spacing: 2;
-  --compact: 1.5;
+  --compact: 1.6;
 
   // effects
   --rounded: 3px;
