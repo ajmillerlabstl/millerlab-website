@@ -1,50 +1,98 @@
 # Publications are cited automatically from these DOIs when the site builds.
 # To add a paper: add a line like  - id: doi:10.1002/ajb2.70198
+# Each "note" (year · first author · title) is filled in automatically on the next build, and the list is
+# kept newest first. Notes are only for reading this list; they don't appear on the site.
 # Tip: also add Allison's ORCID to _data/orcid.yaml so new papers appear on their own.
 
-- id: doi:10.21203/rs.3.rs-8753360/v1
-- id: doi:10.1101/2022.07.07.499216
-- id: doi:10.64898/2026.01.06.697986
-- id: doi:10.64898/2026.01.14.698671
-- id: doi:10.1101/2025.09.26.678844
 - id: doi:10.1002/ajb2.70198
-- id: doi:10.1002/ppp3.70096
+  note: 2026 · Zachary N. Harris et al. · A leaf phenomics approach for estimating belowground traits in North American licorice
+- id: doi:10.21203/rs.3.rs-8753360/v1
+  note: 2026 · David Van Tassel et al. · Haplotype-phased genomes elucidate genetic architecture of environmental adaptation and domestication traits in Silphium
+- id: doi:10.64898/2026.01.14.698671
+  note: '2026 · Joel F. Swift et al. · Conserved Rhizosphere Microbiomes and Metabolic Functions Across Diverse Grapevine Rootstocks: Implications for Plant Elemental Composition'
+- id: doi:10.64898/2026.01.06.697986
+  note: 2026 · Stella Woeltjen et al. · Smartphone image capture system and image analysis pipelines enable accurate and efficient phenotyping of spaced plant mapping populations
 - id: doi:10.1002/ppj2.70045
+  note: 2025 · William Keaggy et al. · Leveraging high‐dimensional seed colorspace in phenomic selection models for herbaceous perennial crops
+- id: doi:10.1101/2025.09.26.678844
+  note: 2025 · Tyler Thrash et al. · Watering regime affects aboveground and belowground trait covariation in a hybrid <i>Silphium</i> population
+- id: doi:10.1002/ppp3.70096
+  note: '2025 · Alicia J. Foxx et al. · New Roots for Restoration: Building a foundation for interdisciplinary work in plant organismal biology and ecology to advance restoration in natural and agricultural ecosystems'
 - id: doi:10.1002/ppp3.10620
-- id: doi:10.1111/1755-0998.13897
+  note: 2024 · Zoë Migicovsky et al. · Terroir and rootstock effects on leaf shape in California Central Valley vineyards
 - id: doi:10.1007/s12228-024-09798-8
+  note: 2024 · Matthew Rubin et al. · Evaluating trait variation and covariation in perennial, herbaceous crop candidate species using herbarium specimens
 - id: doi:10.20870/oeno-one.2024.58.2.7735
+  note: 2024 · Zoë Migicovsky et al. · Grapevine leaf size influences canopy temperature
 - id: doi:10.1186/s40793-023-00539-0
-- id: doi:10.46471/gigabyte.84
+  note: 2023 · Joel F. Swift et al. · Grapevine bacterial communities display compartment-specific dynamics over space and time within the Central Valley of California
+- id: doi:10.1111/1755-0998.13897
+  note: 2023 · Brigette R. Williams et al. · How do threatened plant species with low genetic diversity respond to environmental stress? Insights from comparative conservation epigenomics and phenotypic plasticity
 - id: doi:10.1016/j.scitotenv.2023.164975
+  note: '2023 · Lee R. DeHaan et al. · Discussion: Prioritize perennial grain development for sustainable food production and environmental benefits'
+- id: doi:10.46471/gigabyte.84
+  note: 2023 · Sagar Patel et al. · Genome assembly of the hybrid grapevine Vitis ‘Chambourcin’
 - id: doi:10.3389/fpls.2023.1177406
+  note: '2023 · Ebrar Karabulut et al. · Sainfoin (Onobrychis spp.) crop ontology: supporting germplasm characterization and international research collaborations'
 - id: doi:10.1002/pld3.493
+  note: '2023 · Inclusive collaboration across plant physiology and genomics: Now is the time!'
 - id: doi:10.1186/s12870-023-04223-w
+  note: 2023 · Zachary N. Harris et al. · Grapevine scion gene expression is driven by rootstock and environment interaction
 - id: doi:10.1002/pld3.440
-- id: doi:10.1101/2022.02.28.482393
-- id: doi:10.1111/nph.17733
+  note: 2022 · Zachary N. Harris et al. · Temporal and environmental factors interact with rootstock genotype to shape leaf elemental composition in grafted grapevines
+- id: doi:10.1101/2022.07.07.499216
+  note: 2022 · Zoë Migicovsky et al. · Grapevine leaf size influences vine canopy temperature
 - id: doi:10.1002/ajb2.16033
+  note: 2022 · Zoë Migicovsky et al. · Increases in vein length compensate for leaf area lost to lobing in grapevine
 - id: doi:10.1101/2022.03.15.484490
+  note: 2022 · Zoë Migicovsky et al. · Increases in vein length compensate for leaf area lost to lobing in grapevine
+- id: doi:10.1101/2022.02.28.482393
+  note: 2022 · Zachary N Harris et al. · Temporal and environmental factors interact with rootstock genotype to shape leaf elemental composition in grafted grapevines
 - id: doi:10.1016/j.pbi.2021.102150
-- id: doi:10.1093/gigascience/giab087
+  note: 2022 · David L. Van Tassel et al. · Re-imagining crop domestication in the era of high throughput phenomics
 - id: doi:10.1111/pce.14247
+  note: '2022 · Marcus Griffiths et al. · Optimisation of root traits to provide enhanced ecosystem services in agricultural systems: A focus on cover crops'
+- id: doi:10.1093/gigascience/giab087
+  note: 2021 · Zachary N Harris et al. · Multi-dimensional leaf phenotypes reflect root system genotype in grafted grapevine over the growing season
 - id: doi:10.1002/ajb2.1773
+  note: 2021 · Sterling A. Herron et al. · The role of genus and life span in predicting seed and vegetative trait variation and correlation in <i>Lathyrus, Phaseolus</i> , and <i>Vicia</i>
+- id: doi:10.1111/nph.17733
+  note: '2021 · Colin K. Khoury et al. · Crop genetic erosion: understanding and responding to loss of crop diversity'
 - id: doi:10.3390/microorganisms9010092
-- id: doi:10.3389/fpls.2020.00034
+  note: 2021 · Joel F. Swift et al. · Grapevine Microbiota Reflect Diversity among Compartments and Complex Interactions within and among Root and Shoot Systems
 - id: doi:10.1007/s12231-020-09494-0
-- id: doi:10.2135/cropsci2019.05.0353
-- id: doi:10.1093/jxb/erz394
+  note: 2020 · Emma S. Frawley et al. · An Ethnobotanical Study of the Genus Elymus1
+- id: doi:10.3389/fpls.2020.00034
+  note: 2020 · Sterling A. Herron et al. · Comparative Analysis of Early Life Stage Traits in Annual and Perennial Phaseolus Crops and Their Wild Relatives
 - id: doi:10.1146/annurev-genet-112618-043545
-- id: doi:10.1101/612010
+  note: '2019 · Brandon S. Gaut et al. · Living with Two Genomes: Grafting and Its Implications for Plant Genome-to-Genome Interactions, Phenotypic Variation, and Evolution'
+- id: doi:10.2135/cropsci2019.05.0353
+  note: 2019 · Zoë Migicovsky et al. · Using Living Germplasm Collections to Characterize, Improve, and Conserve Woody Perennials
+- id: doi:10.1093/jxb/erz394
+  note: '2019 · Mao Li et al. · Characterizing 3D inflorescence architecture in grapevine using X-ray imaging and advanced morphometrics: implications for understanding cluster density'
 - id: doi:10.1002/ppp3.37
-- id: doi:10.1101/283341
-- id: doi:10.3390/su10030730
-- id: doi:10.3389/fpls.2017.00373
-- id: doi:10.1111/pbr.12413​
-- id: doi:10.1016/j.tplants.2015.11.008
-- id: doi:10.14358/PERS.82.2.51
-- id: doi:10.1111/nph.13754
-- id: doi:10.5344/ajev.2015.15012
-- id: doi:10.1111/ddi.12341
-- id: doi:10.1002/9780470015902.a0003360.pub2
+  note: '2019 · Claudia Ciotir et al. · Building a botanical foundation for perennial agriculture: Global inventory of wild, perennial herbaceous Fabaceae species'
+- id: doi:10.1101/612010
+  note: 2019 · Heather E. Schier et al. · Comparative analysis of perennial and annual <i>Phaseolus</i> seed nutrient concentrations
 - id: doi:10.1101/557819
+  note: '2019 · Mao Li et al. · Characterizing grapevine ( <i>Vitis</i> spp.) inflorescence architecture using X-ray imaging: implications for understanding cluster density'
+- id: doi:10.1101/283341
+  note: '2018 · Brandon Monier et al. · IRIS-DGE: An integrated RNA-seq data analysis and interpretation system for differential gene expression'
+- id: doi:10.3390/su10030730
+  note: '2018 · Brandon Schlautman et al. · Perennial Grain Legume Domestication Phase I: Criteria for Candidate Species Selection'
+- id: doi:10.3389/fpls.2017.00373
+  note: '2017 · Laura L. Klein et al. · Digital Morphometrics of Two North American Grapevines (Vitis: Vitaceae) Quantifies Leaf Variation between Species, within Species, and among Individuals'
+- id: doi:10.1016/j.tplants.2015.11.008
+  note: '2016 · Emily J. Warschefsky et al. · Rootstocks: Diversity, Domestication, and Impacts on Shoot Phenotypes'
+- id: doi:10.14358/PERS.82.2.51
+  note: 2016 · Matthew Maimaitiyiming et al. · Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine Species
+- id: doi:10.1111/nph.13754
+  note: 2015 · Daniel H. Chitwood et al. · Latent developmental and evolutionary shapes embedded within the grapevine leaf
+- id: doi:10.5344/ajev.2015.15012
+  note: 2015 · Dániel Pap et al. · Population Structure of <i>Vitis rupestris</i>, an Important Resource for Viticulture
+- id: doi:10.1111/ddi.12341
+  note: 2015 · Steven T. Callen et al. · Signatures of niche conservatism and niche shift in the North American kudzu (<i>Pueraria montana</i>) invasion
+- id: doi:10.1002/9780470015902.a0003360.pub2
+  note: '2014 · James F Hancock et al. · Crop Plants: Evolution'
+- id: doi:10.1111/pbr.12413
+  note: 2016 · S. Alan Walters et al. · Pollination and sterility in horseradish

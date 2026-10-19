@@ -183,6 +183,13 @@ except Exception as e:
     log(e, level="ERROR")
     errors.append(e)
 
+# label hand-entered sources so the list is readable
+try:
+    label_sources("_data/sources.yaml", citations)
+except Exception as e:
+    log(e, level="WARNING")
+    warnings.append(e)
+
 
 log()
 

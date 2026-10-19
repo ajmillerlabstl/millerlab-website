@@ -60,14 +60,30 @@ content:
     list: true
     fields:
       - { name: id, label: "DOI, written as doi:10.xxxx/xxxxx", type: string }
+      - { name: note, label: "Year · first author · title (filled in automatically after saving; leave blank)", type: string }
 
-  - name: pages
-    label: Site Pages
-    type: collection
-    path: .
-    subfolders: true
-    filename: "{primary}/index.md"
-    exclude: [_members, _posts, _includes, _layouts, _plugins, _styles, _scripts, _cite, _data, images, .github]
-    fields:
+  # one entry per page. page text is plain markdown (not rich text) so the {% include %} codes in it survive.
+  # nav and redirect_from are listed so saving a page through the form keeps its menu entry and old-site link.
+  - name: home
+    label: "Page: Home"
+    type: file
+    path: index.md
+    fields: &page-fields
       - { name: title, label: Title, type: string }
-      - { name: body, label: Content, type: rich-text }
+      - { name: header, label: Banner photo, type: image }
+      - name: nav
+        label: Menu
+        type: object
+        fields:
+          - { name: order, label: Position in menu, type: number }
+          - { name: tooltip, label: Menu tooltip, type: string }
+      - { name: redirect_from, label: "Old-site address that should land here (leave as is)", type: string }
+      - { name: body, label: "Page text (markdown)", type: text }
+  - { name: research, label: "Page: Research", type: file, path: research/index.md, fields: *page-fields }
+  - { name: team-page, label: "Page: Team (intro text)", type: file, path: team/index.md, fields: *page-fields }
+  - { name: publications-page, label: "Page: Publications", type: file, path: publications/index.md, fields: *page-fields }
+  - { name: teaching, label: "Page: Teaching", type: file, path: teaching/index.md, fields: *page-fields }
+  - { name: outreach, label: "Page: Outreach", type: file, path: outreach/index.md, fields: *page-fields }
+  - { name: media, label: "Page: Media", type: file, path: media/index.md, fields: *page-fields }
+  - { name: photos, label: "Page: Photos", type: file, path: photos/index.md, fields: *page-fields }
+  - { name: join-us, label: "Page: Join Us", type: file, path: join-us/index.md, fields: *page-fields }

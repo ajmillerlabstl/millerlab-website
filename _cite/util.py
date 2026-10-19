@@ -183,6 +183,54 @@ def save_data(path, data):
         raise Exception("Can't write to file")
 
 
+def label_sources(path, citations):
+    """
+    give each entry in a hand-edited sources file a readable "note" (year, first
+    author, title) so people can see what each id is, sort the entries newest
+    first, and strip invisible characters pasted into ids. keeps the comment
+    header at the top of the file. the note is never shown on the site.
+    """
+
+    path = Path(path)
+    text = path.read_text(encoding="utf8")
+    header = []
+    for line in text.splitlines():
+        if line.startswith("#") or not line.strip():
+            header.append(line)
+        else:
+            break
+
+    entries = yaml.load(text, Loader=SafeLoader) or []
+    lookup = {get_safe(c, "id", ""): c for c in citations}
+
+    for entry in entries:
+        _id = str(get_safe(entry, "id", ""))
+        clean = "".join(ch for ch in _id if ch.isprintable() and ch not in "​‌‍﻿").strip()
+        if clean != _id:
+            entry["id"] = clean
+        if get_safe(entry, "note", ""):
+            continue
+        citation = lookup.get(_id) or lookup.get(clean) or {}
+        year = str(get_safe(citation, "date", ""))[:4]
+        authors = get_safe(citation, "authors", [])
+        author = authors[0] + (" et al." if len(authors) > 1 else "") if authors else ""
+        title = " ".join(str(get_safe(citation, "title", "")).split())
+        parts = [part for part in [year, author, title] if part]
+        if parts:
+            entry["note"] = " · ".join(parts)
+
+    def newest(entry):
+        citation = lookup.get(get_safe(entry, "id", "")) or {}
+        return str(get_safe(citation, "date", "")) or "0"
+
+    entries.sort(key=newest, reverse=True)
+
+    body = yaml.dump(entries, default_flow_style=False, sort_keys=False, allow_unicode=True, width=1000)
+    new = "\n".join(header).rstrip() + "\n\n" + body
+    if new != text:
+        path.write_text(new, encoding="utf8")
+
+
 @log_cache
 @cache.memoize(name="manubot", expire=90 * (60 * 60 * 24))
 def cite_with_manubot(_id):

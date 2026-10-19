@@ -63,6 +63,7 @@ jobs:
         with:
           files: |
             _data/citations.yaml
+            _data/sources.yaml
 
       - name: Stash updated citations
         if: |
@@ -95,7 +96,8 @@ jobs:
           github.event.number == ''
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          file_pattern: _data/citations.yaml
+          # sources.yaml too, for the readable notes cite.py adds
+          file_pattern: _data/citations.yaml _data/sources.yaml
           commit_message: "Update citations"
 
       - name: Open pull request with citations
