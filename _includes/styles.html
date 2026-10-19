@@ -5,6 +5,9 @@
   rel="stylesheet"
 />
 
+<!-- build time on each link, so browsers fetch fresh styles after every site update -->
+{% assign version = site.time | date: "%s" %}
+
 <!-- include all sass in styles folder -->
 {% assign styles = site.pages
   | where_exp: "file", "file.url contains '/_styles'"
@@ -12,7 +15,7 @@
 {% for style in styles %}
   {% unless style.url contains ".map" %}
     <link
-      href="{{ style.path | replace: ".scss", ".css" | relative_url }}"
+      href="{{ style.path | replace: ".scss", ".css" | relative_url }}?v={{ version }}"
       rel="stylesheet"
     />
   {% endunless %}
@@ -24,5 +27,5 @@
     "file.path contains '/_styles' and file.path contains '.css'"
 %}
 {% for style in styles %}
-  <link href="{{ style.path | relative_url }}" rel="stylesheet" />
+  <link href="{{ style.path | relative_url }}?v={{ version }}" rel="stylesheet" />
 {% endfor %}

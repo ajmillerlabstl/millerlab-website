@@ -3,8 +3,9 @@
 <script src="https://unpkg.com/tippy.js@6" defer></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
 
-<!-- include all js in scripts folder -->
+<!-- include all js in scripts folder, with build time so browsers fetch fresh copies after updates -->
+{% assign version = site.time | date: "%s" %}
 {% assign scripts = site.static_files | where_exp: "file", "file.path contains '/_scripts'" %}
 {% for script in scripts %}
-  <script src="{{ script.path | relative_url }}"></script>
+  <script src="{{ script.path | relative_url }}?v={{ version }}"></script>
 {% endfor %}
