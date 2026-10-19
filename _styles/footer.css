@@ -27,7 +27,7 @@ footer {
 
 .footer-label {
   margin-bottom: 6px;
-  font-family: var(--code);
+  font-family: var(--body);
   font-size: 0.75rem;
   color: var(--accent);
 }
@@ -45,7 +45,7 @@ footer {
   margin-top: 40px;
   padding-top: 20px;
   border-top: solid 1px rgba(255, 255, 255, 0.1254901961);
-  font-family: var(--code);
+  font-family: var(--body);
   font-size: 0.8rem;
 }
 

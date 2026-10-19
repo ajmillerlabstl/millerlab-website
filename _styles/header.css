@@ -56,7 +56,7 @@ header a {
 }
 
 .subtitle {
-  font-family: var(--code);
+  font-family: var(--body);
   font-size: 0.8rem;
   color: var(--dark-gray);
 }
@@ -95,7 +95,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   gap: 4px 22px;
-  font-family: var(--code);
+  font-family: var(--body);
   font-size: 0.9rem;
 }
 
