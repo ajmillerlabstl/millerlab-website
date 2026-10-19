@@ -1,0 +1,91 @@
+---
+---
+
+// research projects (_includes/project-list.html)
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px 36px;
+  margin: 36px 0;
+  padding-bottom: 36px;
+  border-bottom: solid 1px var(--light-gray);
+  text-align: left;
+  scroll-margin-top: 100px;
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.project-photo {
+  flex: 1 1 260px;
+  max-width: 360px;
+  margin: 0;
+
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border: solid 1px var(--light-gray);
+  }
+
+  figcaption {
+    margin-top: 6px;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--dark-gray);
+  }
+}
+
+.project-text {
+  flex: 2 1 420px;
+  min-width: 0;
+}
+
+.project-label {
+  display: inline-block;
+  padding: 3px 9px;
+  background: var(--tint);
+  color: var(--deep);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+}
+
+[data-dark="true"] .project-label {
+  color: var(--text);
+}
+
+.project-title {
+  margin: 10px 0 8px;
+  font-size: 1.4rem;
+}
+
+.project-people {
+  margin: 0 0 12px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+.project-description p {
+  margin: 0 0 12px;
+}
+
+.project-funding {
+  margin: 12px 0 0;
+  padding-top: 10px;
+  border-top: dashed 1px var(--light-gray);
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+
+  span {
+    font-weight: var(--bold);
+  }
+}
+
+.project-website {
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: var(--bold);
+}

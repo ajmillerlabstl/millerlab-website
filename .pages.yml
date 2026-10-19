@@ -103,11 +103,16 @@ content:
     list: true
     fields:
       - { name: title, label: Project name, type: string }
-      - { name: label, label: "Keywords on the card, e.g. Vitis · grafting", type: string }
-      - { name: summary, label: One or two sentence summary, type: text }
+      - { name: short_title, label: "Short name for the home page card (optional)", type: string }
+      - { name: label, label: "Keywords for the card, e.g. Vitis · grafting", type: string }
+      - { name: summary, label: One or two sentence summary for the home page card, type: text }
       - { name: image, label: Photo, type: image }
-      - { name: link, label: "Link (a page on this site like research/, or a full web address)", type: string }
-      - { name: current, label: Show on the home page as a current project, type: boolean }
+      - { name: image_caption, label: Photo caption, type: string }
+      - { name: people, label: "People, e.g. PI: Allison Miller. Co-PIs: …", type: text }
+      - { name: website, label: Project website (full web address), type: string }
+      - { name: description, label: "Full description for the Research page (markdown)", type: text }
+      - { name: funding, label: Funding, type: text }
+      - { name: current, label: "Current project (shown on the home page; untick to move it to Previous projects)", type: boolean }
 
   - name: research
     label: "Page: Research"

@@ -34,7 +34,7 @@
 }
 
 .home-label {
-  font-family: var(--code);
+  font-family: var(--body);
   font-size: 0.72rem;
   letter-spacing: 0.04em;
   color: var(--dark-gray);
@@ -46,7 +46,7 @@
 }
 
 .home-link {
-  font-family: var(--code);
+  font-family: var(--body);
   font-size: 0.95rem;
   color: var(--primary);
 }
@@ -238,7 +238,7 @@
 
 .gallery-caption {
   flex: 1 1 240px;
-  font-family: var(--code);
+  font-family: var(--body);
   font-size: 0.8rem;
   color: var(--dark-gray);
 }
@@ -390,7 +390,7 @@
 
 .home-alumni {
   margin: 32px 0 0;
-  font-family: var(--code);
+  font-family: var(--body);
   font-size: 0.9rem;
 }
 
@@ -437,7 +437,7 @@
 
 .home-card-label,
 .home-chip {
-  font-family: var(--code);
+  font-family: var(--body);
   font-size: 0.75rem;
 }
 

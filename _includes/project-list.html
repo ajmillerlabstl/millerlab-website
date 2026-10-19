@@ -1,0 +1,40 @@
+{%- comment -%}
+  research projects from _data/projects.yaml, as sections with photo, people, text, and funding
+  usage: {% include project-list.html current=true %} (or current=false for previous projects)
+  (wrapped in nomarkdown, on a fresh line, so the page's markdown leaves the html alone)
+{%- endcomment -%}
+
+{%- assign projects = site.data.projects | where: "current", include.current %}
+
+{::nomarkdown}
+{%- for project in projects %}
+<article class="project" id="{{ project.title | slugify }}">
+{%- if project.image %}
+<figure class="project-photo">
+<img src="{{ project.image | relative_url | uri_escape }}" alt="{{ project.image_caption | default: project.title | xml_escape }}" loading="lazy">
+{%- if project.image_caption %}
+<figcaption>{{ project.image_caption }}</figcaption>
+{%- endif %}
+</figure>
+{%- endif %}
+<div class="project-text">
+{%- if project.label %}
+<span class="project-label">{{ project.label | upcase }}</span>
+{%- endif %}
+<h3 class="project-title">{{ project.title }}</h3>
+{%- if project.people %}
+<p class="project-people">{{ project.people }}</p>
+{%- endif %}
+{%- if project.description %}
+<div class="project-description">{{ project.description | markdownify }}</div>
+{%- endif %}
+{%- if project.funding %}
+<p class="project-funding"><span>Funding:</span> {{ project.funding | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+{%- endif %}
+{%- if project.website %}
+<a class="project-website" href="{{ project.website }}">Project website →</a>
+{%- endif %}
+</div>
+</article>
+{%- endfor %}
+{:/nomarkdown}

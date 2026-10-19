@@ -129,8 +129,7 @@
         <div class="home-cards">
           {% assign projects = site.data.projects | where: "current", true %}
           {% for project in projects %}
-            {% assign link = project.link | default: "research/" %}
-            {% unless link contains "://" %}{% assign link = link | relative_url %}{% endunless %}
+            {% capture link %}{{ "research/" | relative_url }}#{{ project.title | slugify }}{% endcapture %}
             <a class="home-card" href="{{ link }}">
               {% if project.image %}
                 <img src="{{ project.image | relative_url | uri_escape }}" alt="" loading="lazy">
@@ -139,7 +138,7 @@
                 NO. {{ forloop.index | prepend: "0" | slice: -2, 2 }} · {{ project.label | upcase }}
               </span>
               <span class="home-card-body">
-                <span class="home-card-title">{{ project.title }}</span>
+                <span class="home-card-title">{{ project.short_title | default: project.title }}</span>
                 <span class="home-muted">{{ project.summary }}</span>
               </span>
             </a>
