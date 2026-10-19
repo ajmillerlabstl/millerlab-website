@@ -44,10 +44,6 @@
   note: 2022 · Zoë Migicovsky et al. · Grapevine leaf size influences vine canopy temperature
 - id: doi:10.1002/ajb2.16033
   note: 2022 · Zoë Migicovsky et al. · Increases in vein length compensate for leaf area lost to lobing in grapevine
-- id: doi:10.1101/2022.03.15.484490
-  note: 2022 · Zoë Migicovsky et al. · Increases in vein length compensate for leaf area lost to lobing in grapevine
-- id: doi:10.1101/2022.02.28.482393
-  note: 2022 · Zachary N Harris et al. · Temporal and environmental factors interact with rootstock genotype to shape leaf elemental composition in grafted grapevines
 - id: doi:10.1016/j.pbi.2021.102150
   note: 2022 · David L. Van Tassel et al. · Re-imagining crop domestication in the era of high throughput phenomics
 - id: doi:10.1111/pce.14247
@@ -72,8 +68,6 @@
   note: '2019 · Mao Li et al. · Characterizing 3D inflorescence architecture in grapevine using X-ray imaging and advanced morphometrics: implications for understanding cluster density'
 - id: doi:10.1002/ppp3.37
   note: '2019 · Claudia Ciotir et al. · Building a botanical foundation for perennial agriculture: Global inventory of wild, perennial herbaceous Fabaceae species'
-- id: doi:10.1101/612010
-  note: 2019 · Heather E. Schier et al. · Comparative analysis of perennial and annual <i>Phaseolus</i> seed nutrient concentrations
 - id: doi:10.1101/557819
   note: '2019 · Mao Li et al. · Characterizing grapevine ( <i>Vitis</i> spp.) inflorescence architecture using X-ray imaging: implications for understanding cluster density'
 - id: doi:10.1101/283341
@@ -86,8 +80,6 @@
   note: 2016 · S. Alan Walters et al. · Pollination and sterility in horseradish
 - id: doi:10.1016/j.tplants.2015.11.008
   note: '2016 · Emily J. Warschefsky et al. · Rootstocks: Diversity, Domestication, and Impacts on Shoot Phenotypes'
-- id: doi:10.14358/PERS.82.2.51
-  note: 2016 · Matthew Maimaitiyiming et al. · Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine Species
 - id: doi:10.1111/nph.13754
   note: 2015 · Daniel H. Chitwood et al. · Latent developmental and evolutionary shapes embedded within the grapevine leaf
 - id: doi:10.5344/ajev.2015.15012
@@ -96,3 +88,11 @@
   note: 2015 · Steven T. Callen et al. · Signatures of niche conservatism and niche shift in the North American kudzu (<i>Pueraria montana</i>) invasion
 - id: doi:10.1002/9780470015902.a0003360.pub2
   note: '2014 · James F Hancock et al. · Crop Plants: Evolution'
+- id: doi:10.1101/2022.03.15.484490
+  note: 2022 · Zoë Migicovsky et al. · Increases in vein length compensate for leaf area lost to lobing in grapevine
+- id: doi:10.1101/2022.02.28.482393
+  note: 2022 · Zachary N Harris et al. · Temporal and environmental factors interact with rootstock genotype to shape leaf elemental composition in grafted grapevines
+- id: doi:10.1101/612010
+  note: 2019 · Heather E. Schier et al. · Comparative analysis of perennial and annual <i>Phaseolus</i> seed nutrient concentrations
+- id: doi:10.14358/PERS.82.2.51
+  note: 2016 · Matthew Maimaitiyiming et al. · Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine Species

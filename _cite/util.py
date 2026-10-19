@@ -2,6 +2,7 @@
 utility functions for cite process and plugins
 """
 
+import re
 import subprocess
 import json
 import yaml
@@ -181,6 +182,44 @@ def save_data(path, data):
             file.write(f"{note}\n\n{data}")
     except Exception:
         raise Exception("Can't write to file")
+
+
+PREPRINT_PREFIXES = ("doi:10.1101/", "doi:10.64898/", "doi:10.21203/", "doi:10.31219/", "doi:10.20944/")
+
+
+def clean_citations(citations):
+    """
+    drop citations with no title (e.g. orcid works that only point to a journal),
+    and hide duplicates: the same doi in different letter case, or a preprint
+    whose published version is also in the list. returns (kept, dropped).
+    """
+
+    def is_preprint(citation):
+        return str(get_safe(citation, "id", "")).lower().startswith(PREPRINT_PREFIXES)
+
+    def title_key(citation):
+        title = re.sub(r"<[^>]+>", "", str(get_safe(citation, "title", ""))).lower()
+        # start of title only, since journals often tweak the end of a preprint's title
+        return re.sub(r"[^a-z0-9]", "", title)[:80]
+
+    kept, dropped, seen_ids = [], [], set()
+    for citation in citations:
+        _id = str(get_safe(citation, "id", "")).lower()
+        if not str(get_safe(citation, "title", "")).strip() or (_id and _id in seen_ids):
+            dropped.append(citation)
+            continue
+        seen_ids.add(_id)
+        kept.append(citation)
+
+    published = {title_key(c) for c in kept if not is_preprint(c)}
+    final = []
+    for citation in kept:
+        if is_preprint(citation) and title_key(citation) in published:
+            dropped.append(citation)
+        else:
+            final.append(citation)
+
+    return final, dropped
 
 
 def label_sources(path, citations):

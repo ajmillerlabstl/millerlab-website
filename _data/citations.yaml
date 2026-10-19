@@ -1,5 +1,1329 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1111/1755-0998.13897
+  title: How do threatened plant species with low genetic diversity respond to environmental
+    stress? Insights from comparative conservation epigenomics and phenotypic plasticity
+  authors:
+  - Brigette R. Williams
+  - Allison J. Miller
+  - Christine E. Edwards
+  publisher: Molecular Ecology Resources
+  date: '2023-11-21'
+  link: https://doi.org/hcn8w4
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2023 \xB7 Brigette R. Williams et al. \xB7 How do threatened plant species\
+    \ with low genetic diversity respond to environmental stress? Insights from comparative\
+    \ conservation epigenomics and phenotypic plasticity"
+- id: doi:10.1002/ppp3.10620
+  title: Terroir and rootstock effects on leaf shape in California Central Valley
+    vineyards
+  authors:
+  - "Zo\xEB Migicovsky"
+  - Joel F. Swift
+  - Mani Awale
+  - Zachary Helget
+  - Laura L. Klein
+  - Leah Pinkner
+  - Karoline Woodhouse
+  - Peter Cousins
+  - Anne Y. Fennell
+  - Allison J. Miller
+  - Daniel H. Chitwood
+  publisher: PLANTS, PEOPLE, PLANET
+  date: '2024-12-08'
+  link: https://doi.org/hcn8w3
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2024 \xB7 Zo\xEB Migicovsky et al. \xB7 Terroir and rootstock effects on\
+    \ leaf shape in California Central Valley vineyards"
+- id: doi:10.1007/s12228-024-09798-8
+  title: Evaluating trait variation and covariation in perennial, herbaceous crop
+    candidate species using herbarium specimens
+  authors:
+  - Matthew Rubin
+  - Anastasia M. Risano
+  - Emma Bergh
+  - Marissa Sandoval
+  - Samantha Mazumder
+  - Summer Sherrod
+  - Claudia Ciotir
+  - Sterling A. Herron
+  - Allison J. Miller
+  publisher: Brittonia
+  date: '2024-09-01'
+  link: https://doi.org/hcn8w5
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2024 \xB7 Matthew Rubin et al. \xB7 Evaluating trait variation and covariation\
+    \ in perennial, herbaceous crop candidate species using herbarium specimens"
+- id: doi:10.20870/oeno-one.2024.58.2.7735
+  title: Grapevine leaf size influences canopy temperature
+  authors:
+  - "Zo\xEB Migicovsky"
+  - Joel F. Swift
+  - Zachary Helget
+  - Laura L. Klein
+  - Anh Ly
+  - Matthew Maimaitiyiming
+  - Karoline Woodhouse
+  - Anne Fennell
+  - Misha Kwasniewski
+  - Allison J. Miller
+  - Daniel H. Chitwood
+  - Peter Cousins
+  publisher: OENO One
+  date: '2024-06-20'
+  link: https://doi.org/hcn8w6
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2024 \xB7 Zo\xEB Migicovsky et al. \xB7 Grapevine leaf size influences canopy\
+    \ temperature"
+- id: doi:10.1186/s40793-023-00539-0
+  title: Grapevine bacterial communities display compartment-specific dynamics over
+    space and time within the Central Valley of California
+  authors:
+  - Joel F. Swift
+  - "Zo\xEB Migicovsky"
+  - Grace E. Trello
+  - Allison J. Miller
+  publisher: Environmental Microbiome
+  date: '2023-11-23'
+  link: https://doi.org/gzj6p7
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2023 \xB7 Joel F. Swift et al. \xB7 Grapevine bacterial communities display\
+    \ compartment-specific dynamics over space and time within the Central Valley\
+    \ of California"
+- id: doi:10.1016/j.scitotenv.2023.164975
+  title: 'Discussion: Prioritize perennial grain development for sustainable food
+    production and environmental benefits'
+  authors:
+  - Lee R. DeHaan
+  - James A. Anderson
+  - Prabin Bajgain
+  - Andrea Basche
+  - Douglas J. Cattani
+  - Jared Crain
+  - Timothy E. Crews
+  - Christophe David
+  - Olivier Duchene
+  - Jessica Gutknecht
+  - Richard C. Hayes
+  - Fengyi Hu
+  - Jacob M. Jungers
+  - "S\xF8ren Knudsen"
+  - Wenqian Kong
+  - Steve Larson
+  - Per-Olof Lundquist
+  - Guangbin Luo
+  - Allison J. Miller
+  - Pheonah Nabukalu
+  - Matthew T. Newell
+  - Lennart Olsson
+  - Michael Palmgren
+  - Andrew H. Paterson
+  - Valentin D. Picasso
+  - Jesse A. Poland
+  - Erik J. Sacks
+  - Shuwen Wang
+  - Anna Westerbergh
+  publisher: Science of The Total Environment
+  date: '2023-10-01'
+  link: https://doi.org/gsmvn7
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2023 \xB7 Lee R. DeHaan et al. \xB7 Discussion: Prioritize perennial grain\
+    \ development for sustainable food production and environmental benefits"
+- id: doi:10.3389/fpls.2023.1177406
+  title: 'Sainfoin (Onobrychis spp.) crop ontology: supporting germplasm characterization
+    and international research collaborations'
+  authors:
+  - Ebrar Karabulut
+  - "K\xFCbra Erko\xE7"
+  - "Murat Ac\u0131"
+  - "Mahmut Ayd\u0131n"
+  - Spencer Barriball
+  - Jackson Braley
+  - Eric Cassetta
+  - Evan B. Craine
+  - Luis Diaz-Garcia
+  - Jenna Hershberger
+  - Bo Meyering
+  - Allison J. Miller
+  - Matthew J. Rubin
+  - Omar Tesdell
+  - Brandon Schlautman
+  - "Muhammet \u015Eakiro\u011Flu"
+  publisher: Frontiers in Plant Science
+  date: '2023-05-15'
+  link: https://doi.org/gsmsbh
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2023 \xB7 Ebrar Karabulut et al. \xB7 Sainfoin (Onobrychis spp.) crop ontology:\
+    \ supporting germplasm characterization and international research collaborations"
+- id: doi:10.1002/pld3.493
+  title: 'Inclusive collaboration across plant physiology and genomics: Now is the
+    time!'
+  authors: []
+  publisher: Plant Direct
+  date: '2023-05-01'
+  link: https://doi.org/hcn8w7
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2023 \xB7 Inclusive collaboration across plant physiology and genomics: Now\
+    \ is the time!"
+- id: doi:10.1186/s12870-023-04223-w
+  title: Grapevine scion gene expression is driven by rootstock and environment interaction
+  authors:
+  - Zachary N. Harris
+  - Julia E. Pratt
+  - Laszlo G. Kovacs
+  - Laura L. Klein
+  - Misha T. Kwasniewski
+  - Jason P. Londo
+  - Angela S. Wu
+  - Allison J. Miller
+  publisher: BMC Plant Biology
+  date: '2023-04-22'
+  link: https://doi.org/hcn8w8
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2023 \xB7 Zachary N. Harris et al. \xB7 Grapevine scion gene expression is\
+    \ driven by rootstock and environment interaction"
+- id: doi:10.1111/nph.18338
+  title: Root biology never sleeps
+  authors:
+  - Clayton N. Carley
+  - Guanying Chen
+  - Krishna K. Das
+  - Benjamin M. Delory
+  - Anastazija Dimitrova
+  - Yiyang Ding
+  - Abin P. George
+  - Laura A. Greeley
+  - Qingqing Han
+  - "Pieter\u2010Willem Hendriks"
+  - "Maria C. Hernandez\u2010Soriano"
+  - Meng Li
+  - Jason Liang Pin Ng
+  - Lisa Mau
+  - "Jennifer Mesa\u2010Mar\xEDn"
+  - Allison J. Miller
+  - Angus E. Rae
+  - Jennifer Schmidt
+  - August Thies
+  - Christopher N. Topp
+  - Tomke S. Wacker
+  - Pinhui Wang
+  - Xinyu Wang
+  - Limeng Xie
+  - Congcong Zheng
+  publisher: New Phytologist
+  date: '2022-08-18'
+  link: https://doi.org/hcn82k
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/pld3.440
+  title: Temporal and environmental factors interact with rootstock genotype to shape
+    leaf elemental composition in grafted grapevines
+  authors:
+  - Zachary N. Harris
+  - Julia E. Pratt
+  - Niyati Bhakta
+  - Emma Frawley
+  - Laura L. Klein
+  - Misha T. Kwasniewski
+  - "Zo\xEB Migicovsky"
+  - Allison J. Miller
+  publisher: Plant Direct
+  date: '2022-08-01'
+  link: https://doi.org/gsqfw9
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2022 \xB7 Zachary N. Harris et al. \xB7 Temporal and environmental factors\
+    \ interact with rootstock genotype to shape leaf elemental composition in grafted\
+    \ grapevines"
+- id: doi:10.1093/jhered/esac010
+  title: Interspecific Hybridization and Island Colonization History, not Rarity,
+    Most Strongly Affect the Genetic Diversity in<i>Diospyros</i>a Clade of Mascarene-Endemic
+    Trees
+  authors:
+  - Alexander G Linan
+  - Porter P Lowry
+  - Allison J Miller
+  - George E Schatz
+  - Jean Claude Sevathian
+  - Christine E Edwards
+  publisher: Journal of Heredity
+  date: '2022-02-22'
+  link: https://doi.org/hcn82m
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ajb2.16033
+  title: Increases in vein length compensate for leaf area lost to lobing in grapevine
+  authors:
+  - "Zo\xEB Migicovsky"
+  - Joel F. Swift
+  - Zachary Helget
+  - Laura L. Klein
+  - Anh Ly
+  - Matthew Maimaitiyiming
+  - Karoline Woodhouse
+  - Anne Fennell
+  - Misha Kwasniewski
+  - Allison J. Miller
+  - Peter Cousins
+  - Daniel H. Chitwood
+  publisher: American Journal of Botany
+  date: '2022-07-01'
+  link: https://doi.org/gsxw9h
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2022 \xB7 Zo\xEB Migicovsky et al. \xB7 Increases in vein length compensate\
+    \ for leaf area lost to lobing in grapevine"
+- id: doi:10.1111/pce.14247
+  title: 'Optimisation of root traits to provide enhanced ecosystem services in agricultural
+    systems: A focus on cover crops'
+  authors:
+  - Marcus Griffiths
+  - Benjamin M. Delory
+  - Vanessica Jawahir
+  - Kong M. Wong
+  - G. Cody Bagnall
+  - Tyler G. Dowd
+  - Dmitri A. Nusinow
+  - Allison J. Miller
+  - Christopher N. Topp
+  publisher: Plant, Cell &amp; Environment
+  date: '2022-01-24'
+  link: https://doi.org/hcn8xb
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2022 \xB7 Marcus Griffiths et al. \xB7 Optimisation of root traits to provide\
+    \ enhanced ecosystem services in agricultural systems: A focus on cover crops"
+- id: doi:10.1016/j.pbi.2021.102150
+  title: Re-imagining crop domestication in the era of high throughput phenomics
+  authors:
+  - David L. Van Tassel
+  - Lee R. DeHaan
+  - Luis Diaz-Garcia
+  - Jenna Hershberger
+  - Matthew J. Rubin
+  - Brandon Schlautman
+  - Kathryn Turner
+  - Allison J. Miller
+  publisher: Current Opinion in Plant Biology
+  date: '2022-02-01'
+  link: https://doi.org/gnzbd6
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2022 \xB7 David L. Van Tassel et al. \xB7 Re-imagining crop domestication\
+    \ in the era of high throughput phenomics"
+- id: doi:10.1111/nph.17733
+  title: 'Crop genetic erosion: understanding and responding to loss of crop diversity'
+  authors:
+  - Colin K. Khoury
+  - Stephen Brush
+  - Denise E. Costich
+  - Helen Anne Curry
+  - Stef de Haan
+  - Johannes M. M. Engels
+  - Luigi Guarino
+  - Sean Hoban
+  - Kristin L. Mercer
+  - Allison J. Miller
+  - Gary P. Nabhan
+  - Hugo R. Perales
+  - Chris Richards
+  - Chance Riggins
+  - Imke Thormann
+  publisher: New Phytologist
+  date: '2021-10-20'
+  link: https://doi.org/gn8bg4
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2021 \xB7 Colin K. Khoury et al. \xB7 Crop genetic erosion: understanding\
+    \ and responding to loss of crop diversity"
+- id: doi:10.1093/gigascience/giab087
+  title: Multi-dimensional leaf phenotypes reflect root system genotype in grafted
+    grapevine over the growing season
+  authors:
+  - Zachary N Harris
+  - Mani Awale
+  - Niyati Bhakta
+  - Daniel H Chitwood
+  - Anne Fennell
+  - Emma Frawley
+  - Laura L Klein
+  - Laszlo G Kovacs
+  - Misha Kwasniewski
+  - Jason P Londo
+  - Qin Ma
+  - "Zo\xEB Migicovsky"
+  - Joel F Swift
+  - Allison J Miller
+  publisher: GigaScience
+  date: '2021-12-01'
+  link: https://doi.org/g99knd
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2021 \xB7 Zachary N Harris et al. \xB7 Multi-dimensional leaf phenotypes\
+    \ reflect root system genotype in grafted grapevine over the growing season"
+- id: doi:10.1002/ajb2.1773
+  title: "The role of genus and life span in predicting seed and vegetative trait\
+    \ variation and correlation in\n                    <i>Lathyrus, Phaseolus</i>\n\
+    \                    , and\n                    <i>Vicia</i>"
+  authors:
+  - Sterling A. Herron
+  - Matthew J. Rubin
+  - Matthew A. Albrecht
+  - Quinn G. Long
+  - Marissa C. Sandoval
+  - Allison J. Miller
+  publisher: American Journal of Botany
+  date: '2021-12-01'
+  link: https://doi.org/hcn8xc
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2021 \xB7 Sterling A. Herron et al. \xB7 The role of genus and life span\
+    \ in predicting seed and vegetative trait variation and correlation in <i>Lathyrus,\
+    \ Phaseolus</i> , and <i>Vicia</i>"
+- id: doi:10.3390/microorganisms9010092
+  title: Grapevine Microbiota Reflect Diversity among Compartments and Complex Interactions
+    within and among Root and Shoot Systems
+  authors:
+  - Joel F. Swift
+  - Megan E. Hall
+  - Zachary N. Harris
+  - Misha T. Kwasniewski
+  - Allison J. Miller
+  publisher: Microorganisms
+  date: '2021-01-02'
+  link: https://doi.org/ghxjks
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2021 \xB7 Joel F. Swift et al. \xB7 Grapevine Microbiota Reflect Diversity\
+    \ among Compartments and Complex Interactions within and among Root and Shoot\
+    \ Systems"
+- id: doi:10.3390/rs12193216
+  title: Leveraging Very-High Spatial Resolution Hyperspectral and Thermal UAV Imageries
+    for Characterizing Diurnal Indicators of Grapevine Physiology
+  authors:
+  - Matthew Maimaitiyiming
+  - Vasit Sagan
+  - Paheding Sidike
+  - Maitiniyazi Maimaitijiang
+  - Allison J. Miller
+  - Misha Kwasniewski
+  publisher: Remote Sensing
+  date: '2020-10-02'
+  link: https://doi.org/hcn82n
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12231-020-09494-0
+  title: An Ethnobotanical Study of the Genus Elymus1
+  authors:
+  - Emma S. Frawley
+  - Claudia Ciotir
+  - Brooke Micke
+  - Matthew J. Rubin
+  - Allison J. Miller
+  publisher: Economic Botany
+  date: '2020-06-01'
+  link: https://doi.org/hcn8xd
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2020 \xB7 Emma S. Frawley et al. \xB7 An Ethnobotanical Study of the Genus\
+    \ Elymus1"
+- id: doi:10.3389/fpls.2020.00034
+  title: Comparative Analysis of Early Life Stage Traits in Annual and Perennial Phaseolus
+    Crops and Their Wild Relatives
+  authors:
+  - Sterling A. Herron
+  - Matthew J. Rubin
+  - Claudia Ciotir
+  - Timothy E. Crews
+  - David L. Van Tassel
+  - Allison J. Miller
+  publisher: Frontiers in Plant Science
+  date: '2020-03-10'
+  link: https://doi.org/ggnr5j
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2020 \xB7 Sterling A. Herron et al. \xB7 Comparative Analysis of Early Life\
+    \ Stage Traits in Annual and Perennial Phaseolus Crops and Their Wild Relatives"
+- id: doi:10.1101/2020.09.09.290072
+  title: "Epigenomic patterns reflect irrigation and grafting in the grapevine clone\
+    \ \u2018Chambourcin\u2019"
+  authors:
+  - Brigette R. Williams
+  - Christine E. Edwards
+  - Misha T. Kwasniewski
+  - Allison J. Miller
+  publisher: openRxiv
+  date: '2020-09-10'
+  link: https://doi.org/gsxsbw
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/mec.15736
+  title: "RAD\u2010sequencing reveals patterns of diversification and hybridization,\
+    \ and the accumulation of reproductive isolation in a clade of partially sympatric,\
+    \ tropical island trees"
+  authors:
+  - Alexander G. Linan
+  - Porter P. Lowry
+  - Allison J. Miller
+  - George E. Schatz
+  - "Jean\u2010Claude Sevathian"
+  - Christine E. Edwards
+  publisher: Molecular Ecology
+  date: '2020-12-02'
+  link: https://doi.org/hcn82p
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3375/043.040.0111
+  title: Toward Integrated Conservation of North America's Crop Wild Relatives
+  authors:
+  - Colin K. Khoury
+  - Stephanie L. Greene
+  - Sarada Krishnan
+  - Allison J. Miller
+  - Tara Moreau
+  - Karen A. Williams
+  - Lorraine Rodriguez-Bonilla
+  - Carol S. Spurrier
+  - Juan Zalapa
+  - Gary Paul Nabhan
+  publisher: Natural Areas Journal
+  date: '2020-01-14'
+  link: https://doi.org/gv538d
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2135/cropsci2019.05.0309
+  title: A Road Map for Conservation, Use, and Public Engagement around North America's
+    Crop Wild Relatives and Wild Utilized Plants
+  authors:
+  - Colin K. Khoury
+  - Stephanie L. Greene
+  - Sarada Krishnan
+  - Allison J. Miller
+  - Tara Moreau
+  publisher: Crop Science
+  date: '2019-11-01'
+  link: https://doi.org/gjpz5q
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/jxb/erz394
+  title: 'Characterizing 3D inflorescence architecture in grapevine using X-ray imaging
+    and advanced morphometrics: implications for understanding cluster density'
+  authors:
+  - Mao Li
+  - Laura L Klein
+  - Keith E Duncan
+  - Ni Jiang
+  - Daniel H Chitwood
+  - Jason P Londo
+  - Allison J Miller
+  - Christopher N Topp
+  publisher: Journal of Experimental Botany
+  date: '2019-08-31'
+  link: https://doi.org/ghdkh8
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2019 \xB7 Mao Li et al. \xB7 Characterizing 3D inflorescence architecture\
+    \ in grapevine using X-ray imaging and advanced morphometrics: implications for\
+    \ understanding cluster density"
+- id: doi:10.3390/su11102787
+  title: Comparative Analysis of Perennial and Annual Phaseolus Seed Nutrient Concentrations
+  authors:
+  - Heather E. Schier
+  - Kathrin A. Eliot
+  - Sterling A. Herron
+  - Lauren K. Landfried
+  - "Zo\xEB Migicovsky"
+  - Matthew J. Rubin
+  - Allison J. Miller
+  publisher: Sustainability
+  date: '2019-05-15'
+  link: https://doi.org/ggcnt4
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/botlinnean/boz034
+  title: 'Ebony and the Mascarenes: the evolutionary relationships and biogeography
+    of Diospyros (Ebenaceae) in the western Indian Ocean'
+  authors:
+  - Alexander G Linan
+  - George E Schatz
+  - Porter P Lowry
+  - Allison Miller
+  - Christine E Edwards
+  publisher: Botanical Journal of the Linnean Society
+  date: '2019-07-10'
+  link: https://doi.org/gjkg3p
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12231-019-09472-1
+  title: Book Reviews
+  authors:
+  - Wendy L. Applequist
+  publisher: Economic Botany
+  date: '2019-09-01'
+  link: https://doi.org/hcn82q
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pcbi.1006792
+  title: 'IRIS-EDA: An integrated RNA-Seq interpretation system for gene expression
+    data analysis'
+  authors:
+  - Brandon Monier
+  - Adam McDermaid
+  - Cankun Wang
+  - Jing Zhao
+  - Allison Miller
+  - Anne Fennell
+  - Qin Ma
+  publisher: PLOS Computational Biology
+  date: '2019-02-14'
+  link: https://doi.org/gg8tpp
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1146/annurev-genet-112618-043545
+  title: 'Living with Two Genomes: Grafting and Its Implications for Plant Genome-to-Genome
+    Interactions, Phenotypic Variation, and Evolution'
+  authors:
+  - Brandon S. Gaut
+  - Allison J. Miller
+  - Danelle K. Seymour
+  publisher: Annual Review of Genetics
+  date: '2019-12-03'
+  link: https://doi.org/g6cfgz
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2019 \xB7 Brandon S. Gaut et al. \xB7 Living with Two Genomes: Grafting and\
+    \ Its Implications for Plant Genome-to-Genome Interactions, Phenotypic Variation,\
+    \ and Evolution"
+- id: doi:10.1038/s41438-019-0146-2
+  title: "Rootstock effects on scion phenotypes in a \u2018Chambourcin\u2019 experimental\
+    \ vineyard"
+  authors:
+  - "Zo\xEB Migicovsky"
+  - Zachary N. Harris
+  - Laura L. Klein
+  - Mao Li
+  - Adam McDermaid
+  - Daniel H. Chitwood
+  - Anne Fennell
+  - Laszlo G. Kovacs
+  - Misha Kwasniewski
+  - Jason P. Londo
+  - Qin Ma
+  - Allison J. Miller
+  publisher: Horticulture Research
+  date: '2019-05-01'
+  link: https://doi.org/ghdrmz
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s42003-019-0516-1
+  title: "Science\u2013graphic art partnerships to increase research impact"
+  authors:
+  - Colin K. Khoury
+  - Yael Kisel
+  - Michael Kantar
+  - Ellie Barber
+  - Vincent Ricciardi
+  - Carni Klirs
+  - Leah Kucera
+  - Zia Mehrabi
+  - Nathanael Johnson
+  - Simone Klabin
+  - "\xC1lvaro Vali\xF1o"
+  - Kelsey Nowakowski
+  - Ignasi Bartomeus
+  - Navin Ramankutty
+  - Allison Miller
+  - Meagan Schipanski
+  - Michael A. Gore
+  - Ari Novy
+  publisher: Communications Biology
+  date: '2019-08-06'
+  link: https://doi.org/gh5hhw
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2135/cropsci2019.05.0353
+  title: Using Living Germplasm Collections to Characterize, Improve, and Conserve
+    Woody Perennials
+  authors:
+  - "Zo\xEB Migicovsky"
+  - Emily Warschefsky
+  - Laura L. Klein
+  - Allison J. Miller
+  publisher: Crop Science
+  date: '2019-11-01'
+  link: https://doi.org/grhg3m
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2019 \xB7 Zo\xEB Migicovsky et al. \xB7 Using Living Germplasm Collections\
+    \ to Characterize, Improve, and Conserve Woody Perennials"
+- id: doi:10.1002/ajb2.1033
+  title: "High\u2010throughput sequencing data clarify evolutionary relationships\
+    \ among North American <i>Vitis</i> species and improve identification in <scp>USDA\
+    \ </scp><i>Vitis</i> germplasm collections"
+  authors:
+  - Laura L. Klein
+  - Allison J. Miller
+  - Claudia Ciotir
+  - Katie Hyma
+  - "Simon Uribe\u2010Convers"
+  - Jason Londo
+  publisher: American Journal of Botany
+  date: '2018-02-01'
+  link: https://doi.org/gc77p2
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/su10030730
+  title: 'Perennial Grain Legume Domestication Phase I: Criteria for Candidate Species
+    Selection'
+  authors:
+  - Brandon Schlautman
+  - Spencer Barriball
+  - Claudia Ciotir
+  - Sterling Herron
+  - Allison Miller
+  publisher: Sustainability
+  date: '2018-03-07'
+  link: https://doi.org/gdf3dj
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2018 \xB7 Brandon Schlautman et al. \xB7 Perennial Grain Legume Domestication\
+    \ Phase I: Criteria for Candidate Species Selection"
+- id: doi:10.3389/fpls.2018.00553
+  title: 'Topological Data Analysis as a Morphometric Method: Using Persistent Homology
+    to Demarcate a Leaf Morphospace'
+  authors:
+  - Mao Li
+  - Hong An
+  - Ruthie Angelovici
+  - Clement Bagaza
+  - Albert Batushansky
+  - Lynn Clark
+  - Viktoriya Coneva
+  - Michael J. Donoghue
+  - Erika Edwards
+  - Diego Fajardo
+  - Hui Fang
+  - Margaret H. Frank
+  - Timothy Gallaher
+  - Sarah Gebken
+  - Theresa Hill
+  - Shelley Jansky
+  - Baljinder Kaur
+  - Phillip C. Klahs
+  - Laura L. Klein
+  - Vasu Kuraparthy
+  - Jason Londo
+  - "Zo\xEB Migicovsky"
+  - Allison Miller
+  - Rebekah Mohn
+  - Sean Myles
+  - Wagner C. Otoni
+  - J. C. Pires
+  - Edmond Rieffer
+  - Sam Schmerler
+  - Elizabeth Spriggs
+  - Christopher N. Topp
+  - Allen Van Deynze
+  - Kuang Zhang
+  - Linglong Zhu
+  - Braden M. Zink
+  - Daniel H. Chitwood
+  publisher: Frontiers in Plant Science
+  date: '2018-04-25'
+  link: https://doi.org/gdhrvj
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fpls.2017.00373
+  title: 'Digital Morphometrics of Two North American Grapevines (Vitis: Vitaceae)
+    Quantifies Leaf Variation between Species, within Species, and among Individuals'
+  authors:
+  - Laura L. Klein
+  - Madeleine Caito
+  - Chad Chapnick
+  - Cassandra Kitchen
+  - "Regan O\u2019Hanlon"
+  - Dan H. Chitwood
+  - Allison J. Miller
+  publisher: Frontiers in Plant Science
+  date: '2017-03-17'
+  link: https://doi.org/hcn8xf
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2017 \xB7 Laura L. Klein et al. \xB7 Digital Morphometrics of Two North American\
+    \ Grapevines (Vitis: Vitaceae) Quantifies Leaf Variation between Species, within\
+    \ Species, and among Individuals"
+- id: doi:10.2135/cropsci2015.06.0356
+  title: A Pipeline Strategy for Grain Crop Domestication
+  authors:
+  - Lee R. DeHaan
+  - David L. Van Tassel
+  - James A. Anderson
+  - Sean R. Asselin
+  - Richard Barnes
+  - Gregory J. Baute
+  - Douglas J. Cattani
+  - Steve W. Culman
+  - Kevin M. Dorn
+  - Brent S. Hulke
+  - Michael Kantar
+  - Steve Larson
+  - M. David Marks
+  - Allison J. Miller
+  - Jesse Poland
+  - Damian A. Ravetta
+  - Emily Rude
+  - Matthew R. Ryan
+  - Don Wyse
+  - Xiaofei Zhang
+  publisher: Crop Science
+  date: '2016-05-01'
+  link: https://doi.org/gf6v28
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5344/ajev.2016.15110
+  title: Climatic Niche Characterization of 13 North American<i>Vitis</i>Species
+  authors:
+  - Steven T. Callen
+  - Laura L. Klein
+  - Allison J. Miller
+  publisher: American Journal of Enology and Viticulture
+  date: '2016-05-27'
+  link: https://doi.org/f8tmpt
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.14358/pers.82.2.51
+  title: Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine
+    Species
+  authors:
+  - Matthew Maimaitiyiming
+  - Allison J. Miller
+  - Abduwasit Ghulam
+  publisher: Photogrammetric Engineering &amp; Remote Sensing
+  date: '2016-01-01'
+  link: https://doi.org/f8jt62
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s12864-016-2834-8
+  title: Genomic ancestry estimation quantifies use of wild species in grape breeding
+  authors:
+  - "Zo\xEB Migicovsky"
+  - Jason Sawler
+  - Daniel Money
+  - Rudolph Eibach
+  - Allison J. Miller
+  - James J. Luby
+  - Andrew R. Jamieson
+  - Dianne Velasco
+  - Sven von Kintzel
+  - John Warner
+  - "Walter W\xFChrer"
+  - Patrick J. Brown
+  - Sean Myles
+  publisher: BMC Genomics
+  date: '2016-06-30'
+  link: https://doi.org/hcn82r
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/nph.13754
+  title: Latent developmental and evolutionary shapes embedded within the grapevine
+    leaf
+  authors:
+  - Daniel H. Chitwood
+  - Laura L. Klein
+  - Regan O'Hanlon
+  - Steven Chacko
+  - Matthew Greg
+  - Cassandra Kitchen
+  - Allison J. Miller
+  - Jason P. Londo
+  publisher: New Phytologist
+  date: '2015-11-18'
+  link: https://doi.org/f8g83g
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2015 \xB7 Daniel H. Chitwood et al. \xB7 Latent developmental and evolutionary\
+    \ shapes embedded within the grapevine leaf"
+- id: doi:10.1111/pbr.12413
+  title: Pollination and sterility in horseradish
+  authors:
+  - S. Alan Walters
+  - Peter Bernhardt
+  - Michael Joseph
+  - Allison J. Miller
+  publisher: Plant Breeding
+  date: '2016-10-19'
+  link: https://doi.org/f9d9vg
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2016 \xB7 S. Alan Walters et al. \xB7 Pollination and sterility in horseradish"
+- id: doi:10.3732/ajb.1600143
+  title: Report from The International Plant and Animal Genome Meeting
+  authors:
+  - Allison J. Miller
+  - Briana L. Gross
+  publisher: American Journal of Botany
+  date: '2016-06-01'
+  link: https://doi.org/hcn82s
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.tplants.2015.11.008
+  title: 'Rootstocks: Diversity, Domestication, and Impacts on Shoot Phenotypes'
+  authors:
+  - Emily J. Warschefsky
+  - Laura L. Klein
+  - Margaret H. Frank
+  - Daniel H. Chitwood
+  - Jason P. Londo
+  - Eric J.B. von Wettberg
+  - Allison J. Miller
+  publisher: Trends in Plant Science
+  date: '2016-05-01'
+  link: https://doi.org/f8nfps
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2016 \xB7 Emily J. Warschefsky et al. \xB7 Rootstocks: Diversity, Domestication,\
+    \ and Impacts on Shoot Phenotypes"
+- id: doi:10.3732/ajb.1600146
+  title: Single nucleotide polymorphism discovery via genotyping by sequencing to
+    assess population genetic structure and recurrent polyploidization in <i>Andropogon
+    gerardii</i>
+  authors:
+  - Christine A. McAllister
+  - Allison J. Miller
+  publisher: American Journal of Botany
+  date: '2016-07-01'
+  link: https://doi.org/f8wz2p
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3732/ajb.1400296
+  title: Environmental correlates of cytotype distribution in <i>Andropogon gerardii</i>
+    (Poaceae)
+  authors:
+  - Christine McAllister
+  - Russell Blaine
+  - Paul Kron
+  - Brent Bennett
+  - Heidi Garrett
+  - Jennifer Kidson
+  - Blanda Matzenbacher
+  - Anna Glotzbach
+  - Allison J. Miller
+  publisher: American Journal of Botany
+  date: '2015-01-01'
+  link: https://doi.org/f6wn6t
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/nplants.2015.78
+  title: Expanding the role of botanical gardens in the future of food
+  authors:
+  - A. J. Miller
+  - A. Novy
+  - J. Glover
+  - E. A. Kellogg
+  - J. E. Maul
+  - P. Raven
+  - P. Wyse Jackson
+  publisher: Nature Plants
+  date: '2015-06-01'
+  link: https://doi.org/ghj9j5
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5344/ajev.2015.15012
+  title: Population Structure of <i>Vitis rupestris</i>, an Important Resource for
+    Viticulture
+  authors:
+  - "D\xE1niel Pap"
+  - Allison J. Miller
+  - Jason P. Londo
+  - "L\xE1szl\xF3 G. Kov\xE1cs"
+  publisher: American Journal of Enology and Viticulture
+  date: '2015-06-19'
+  link: https://doi.org/f7zz5c
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2015 \xB7 D\xE1niel Pap et al. \xB7 Population Structure of <i>Vitis rupestris</i>,\
+    \ an Important Resource for Viticulture"
+- id: doi:10.1111/ddi.12341
+  title: Signatures of niche conservatism and niche shift in the North American kudzu
+    (<i>Pueraria montana</i>) invasion
+  authors:
+  - Steven T. Callen
+  - Allison J. Miller
+  publisher: Diversity and Distributions
+  date: '2015-05-21'
+  link: https://doi.org/gfznr4
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2015 \xB7 Steven T. Callen et al. \xB7 Signatures of niche conservatism and\
+    \ niche shift in the North American kudzu (<i>Pueraria montana</i>) invasion"
+- id: doi:10.3159/torrey-d-13-00052.1
+  title: 'Conservation genetics of edaphic endemics in naturally isolated habitats:
+    a case study with<i>Geocarpon minimum</i>(Caryophyllaceae)'
+  authors:
+  - Matthew A. Albrecht
+  - Lauren A. Broecker
+  - Carolina Romero-Hernandez
+  - Allison J. Miller
+  publisher: The Journal of the Torrey Botanical Society
+  date: '2014-01-01'
+  link: https://doi.org/f6bf43
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/9780470015902.a0003360.pub2
+  title: 'Crop Plants: Evolution'
+  authors:
+  - James F Hancock
+  - Allison J Miller
+  publisher: Encyclopedia of Life Sciences
+  date: '2014-04-15'
+  link: https://doi.org/hcn8xg
+  orcid: 0000-0002-2722-9361
+  plugin: sources.py
+  file: sources.yaml
+  note: "2014 \xB7 James F Hancock et al. \xB7 Crop Plants: Evolution"
+- title: 'From field to table: perspectives and potential for for perennial fruit
+    domestication'
+  publisher: 'Perennial Crops for Food Security: Proceedings of the FAO Expert Workshop'
+  date: '2021-05-18'
+  link: http://www.fao.org/3/a-i3495e.pdf
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3732/ajb.1400409
+  title: 'Speaking of food: Connecting basic and applied plant science'
+  authors:
+  - Briana L. Gross
+  - Elizabeth A. Kellogg
+  - Allison J. Miller
+  publisher: American Journal of Botany
+  date: '2014-10-01'
+  link: https://doi.org/f6m397
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0078680
+  title: 'Vitis Phylogenomics: Hybridization Intensities from a SNP Array Outperform
+    Genotype Calls'
+  authors:
+  - Allison J. Miller
+  - Naim Matasci
+  - Heidi Schwaninger
+  - Mallikarjuna K. Aradhya
+  - Bernard Prins
+  - Gan-Yuan Zhong
+  - Charles Simon
+  - Edward S. Buckler
+  - Sean Myles
+  publisher: PLoS ONE
+  date: '2013-11-13'
+  link: https://doi.org/gntm2f
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/j.1365-294X.2012.05467.x
+  title: "Out in the cold \u2013 how big and how old? Genetic fingerprinting reveals\
+    \ long\u2010lived individuals withstand climatic oscillations in the arctic\u2010\
+    alpine"
+  authors:
+  - ALLISON MILLER
+  publisher: Molecular Ecology
+  date: '2012-02-23'
+  link: https://doi.org/hcn82t
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-642-14397-7_3
+  title: Anacardiaceae
+  authors:
+  - S. K. Pell
+  - J. D. Mitchell
+  - A. J. Miller
+  - T. A. Lobova
+  publisher: Flowering Plants. Eudicots
+  date: '2010-01-01'
+  link: https://doi.org/ds39vz
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3732/ajb.1000522
+  title: 'From forest to field: Perennial fruit crop domestication'
+  authors:
+  - Allison J. Miller
+  - Briana L. Gross
+  publisher: American Journal of Botany
+  date: '2011-09-01'
+  link: https://doi.org/bb7dqj
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11295-011-0384-4
+  title: Geographic patterns of genetic variation in native pecans
+  authors:
+  - L. J. Grauke
+  - Maria Azucena Mendoza-Herrera
+  - Allison J. Miller
+  - Bruce. W. Wood
+  publisher: Tree Genetics &amp; Genomes
+  date: '2011-03-25'
+  link: https://doi.org/b8k4pw
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-642-20447-0_10
+  title: Spondias
+  authors:
+  - Allison Miller
+  publisher: 'Wild Crop Relatives: Genomic and Breeding Resources'
+  date: '2011-01-01'
+  link: https://doi.org/fcg55s
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3732/ajb.0900114
+  title: "Genetic variation in walnuts (\n                    <i>Juglans regia</i>\n\
+    \                    and\n                    <i>J. sigillata</i>\n          \
+    \          ; Juglandaceae): Species distinctions, human impacts, and the conservation\
+    \ of agrobiodiversity in Yunnan, China"
+  authors:
+  - Bee F. Gunn
+  - Mallikarjuna Aradhya
+  - Jan M. Salick
+  - Allison J. Miller
+  - Yang Yongping
+  - Liu Lin
+  - Hai Xian
+  publisher: American Journal of Botany
+  date: '2010-04-01'
+  link: https://doi.org/dd6b35
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.1188800
+  title: "Genomic Analysis of Organismal Complexity in the Multicellular Green Alga\n\
+    \                    <i>Volvox carteri</i>"
+  authors:
+  - Simon E. Prochnik
+  - James Umen
+  - Aurora M. Nedelcu
+  - Armin Hallmann
+  - Stephen M. Miller
+  - Ichiro Nishii
+  - Patrick Ferris
+  - Alan Kuo
+  - Therese Mitros
+  - Lillian K. Fritz-Laylin
+  - Uffe Hellsten
+  - Jarrod Chapman
+  - Oleg Simakov
+  - Stefan A. Rensing
+  - Astrid Terry
+  - Jasmyn Pangilinan
+  - Vladimir Kapitonov
+  - Jerzy Jurka
+  - Asaf Salamov
+  - Harris Shapiro
+  - Jeremy Schmutz
+  - Jane Grimwood
+  - Erika Lindquist
+  - Susan Lucas
+  - Igor V. Grigoriev
+  - "R\xFCdiger Schmitt"
+  - David Kirk
+  - Daniel S. Rokhsar
+  publisher: Science
+  date: '2010-07-09'
+  link: https://doi.org/cswxn6
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12231-009-9088-1
+  title: 'Ethnobotany of Horseradish (Armoracia rusticana, Brassicaceae) and Its Wild
+    Relatives (Armoracia spp.): Reproductive Biology and Local Uses in Their Native
+    Ranges'
+  authors:
+  - Danielle Sampliner
+  - Allison Miller
+  publisher: Economic Botany
+  date: '2009-07-25'
+  link: https://doi.org/ccm6xx
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3159/08-ra-020r.1
+  title: Characterization of a Domesticated Tree Lineage (Spondias purpurea, Anacardiaceae)
+    Based on Nuclear and Chloroplast Sequence Data<sup>1</sup>
+  authors:
+  - Allison J. Miller
+  publisher: The Journal of the Torrey Botanical Society
+  date: '2008-10-01'
+  link: https://doi.org/d2cb6j
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1600/036364407781179635
+  title: Phylogeny of &lt;I&gt;Rhus&lt;/I&gt; (Anacardiaceae) Based on Sequences of
+    Nuclear &lt;I&gt;Nia-i3&lt;/I&gt; Intron and Chloroplast &lt;I&gt;trnC-trnD&lt;/I&gt;
+  authors:
+  - Tingshuang Yi
+  - Allison J. Miller
+  - Jun Wen
+  publisher: Systematic Botany
+  date: '2007-04-01'
+  link: https://doi.org/ccrrpq
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/j.1365-294X.2006.02834.x
+  title: Domestication and the distribution of genetic variation in wild and cultivated
+    populations of the Mesoamerican fruit tree <i>Spondias purpurea</i> L. (Anacardiaceae)
+  authors:
+  - ALLISON J. MILLER
+  - BARBARA A. SCHAAL
+  publisher: Molecular Ecology
+  date: '2006-04-13'
+  link: https://doi.org/fh4vn8
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3732/ajb.93.12.1757
+  title: "GIS\u2010based characterization of the geographic distributions of wild\
+    \ and cultivated populations of the Mesoamerican fruit tree <i>Spondias purpurea</i>\
+    \ (Anacardiaceae)"
+  authors:
+  - Allison J. Miller
+  - Jason H. Knouft
+  publisher: American Journal of Botany
+  date: '2006-12-01'
+  link: https://doi.org/dbjqv3
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.0505447102
+  title: "Domestication of a Mesoamerican cultivated fruit tree,\n               \
+    \     <i>Spondias purpurea</i>"
+  authors:
+  - Allison Miller
+  - Barbara Schaal
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2005-08-26'
+  link: https://doi.org/fgjpqm
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ympev.2004.07.006
+  title: Phylogenetic and biogeographic diversification of Rhus (Anacardiaceae) in
+    the Northern Hemisphere
+  authors:
+  - Tingshuang Yi
+  - Allison J. Miller
+  - Jun Wen
+  publisher: Molecular Phylogenetics and Evolution
+  date: '2004-12-01'
+  link: https://doi.org/fgvv9b
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1086/322948
+  title: Phylogeny and Biogeography of<i>Rhus</i>(Anacardiaceae) Based on ITS Sequence
+    Data
+  authors:
+  - "Allison\_J. Miller"
+  - "David\_A. Young"
+  - Jun Wen
+  publisher: International Journal of Plant Sciences
+  date: '2001-11-01'
+  link: https://doi.org/ftqq9t
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/s0273-1177(97)00635-2
+  title: What is the threshold amount of starch necessary for full gravitropic sensitivity
+    ?
+  authors:
+  - John Z. Kiss
+  - Mary M. Guisinger
+  - Allison J. Miller
+  publisher: Advances in Space Research
+  date: '1998-01-01'
+  link: https://doi.org/dsf7k3
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/oxfordjournals.pcp.a029199
+  title: Reduced Gravitropism in Hypocotyls of Starch-Deficient Mutants of Arabidopsis
+  authors:
+  - J. Z. Kiss
+  - M. M. Guisinger
+  - A. J. Miller
+  - K. S. Stackhouse
+  publisher: Plant and Cell Physiology
+  date: '1997-01-01'
+  link: https://doi.org/hcn82v
+  orcid: 0000-0002-2722-9361
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/ajb2.70198
   title: A leaf phenomics approach for estimating belowground traits in North American
     licorice
@@ -188,141 +1512,6 @@
     \ to advance restoration in natural and agricultural ecosystems"
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1002/ppp3.10620
-  title: Terroir and rootstock effects on leaf shape in California Central Valley
-    vineyards
-  authors:
-  - "Zo\xEB Migicovsky"
-  - Joel F. Swift
-  - Mani Awale
-  - Zachary Helget
-  - Laura L. Klein
-  - Leah Pinkner
-  - Karoline Woodhouse
-  - Peter Cousins
-  - Anne Y. Fennell
-  - Allison J. Miller
-  - Daniel H. Chitwood
-  publisher: PLANTS, PEOPLE, PLANET
-  date: '2024-12-08'
-  link: https://doi.org/hcn8w3
-  note: "2024 \xB7 Zo\xEB Migicovsky et al. \xB7 Terroir and rootstock effects on\
-    \ leaf shape in California Central Valley vineyards"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/s12228-024-09798-8
-  title: Evaluating trait variation and covariation in perennial, herbaceous crop
-    candidate species using herbarium specimens
-  authors:
-  - Matthew Rubin
-  - Anastasia M. Risano
-  - Emma Bergh
-  - Marissa Sandoval
-  - Samantha Mazumder
-  - Summer Sherrod
-  - Claudia Ciotir
-  - Sterling A. Herron
-  - Allison J. Miller
-  publisher: Brittonia
-  date: '2024-09-01'
-  link: https://doi.org/hcn8w5
-  note: "2024 \xB7 Matthew Rubin et al. \xB7 Evaluating trait variation and covariation\
-    \ in perennial, herbaceous crop candidate species using herbarium specimens"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.20870/oeno-one.2024.58.2.7735
-  title: Grapevine leaf size influences canopy temperature
-  authors:
-  - "Zo\xEB Migicovsky"
-  - Joel F. Swift
-  - Zachary Helget
-  - Laura L. Klein
-  - Anh Ly
-  - Matthew Maimaitiyiming
-  - Karoline Woodhouse
-  - Anne Fennell
-  - Misha Kwasniewski
-  - Allison J. Miller
-  - Daniel H. Chitwood
-  - Peter Cousins
-  publisher: OENO One
-  date: '2024-06-20'
-  link: https://doi.org/hcn8w6
-  note: "2024 \xB7 Zo\xEB Migicovsky et al. \xB7 Grapevine leaf size influences canopy\
-    \ temperature"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1186/s40793-023-00539-0
-  title: Grapevine bacterial communities display compartment-specific dynamics over
-    space and time within the Central Valley of California
-  authors:
-  - Joel F. Swift
-  - "Zo\xEB Migicovsky"
-  - Grace E. Trello
-  - Allison J. Miller
-  publisher: Environmental Microbiome
-  date: '2023-11-23'
-  link: https://doi.org/gzj6p7
-  note: "2023 \xB7 Joel F. Swift et al. \xB7 Grapevine bacterial communities display\
-    \ compartment-specific dynamics over space and time within the Central Valley\
-    \ of California"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/1755-0998.13897
-  title: How do threatened plant species with low genetic diversity respond to environmental
-    stress? Insights from comparative conservation epigenomics and phenotypic plasticity
-  authors:
-  - Brigette R. Williams
-  - Allison J. Miller
-  - Christine E. Edwards
-  publisher: Molecular Ecology Resources
-  date: '2023-11-21'
-  link: https://doi.org/hcn8w4
-  note: "2023 \xB7 Brigette R. Williams et al. \xB7 How do threatened plant species\
-    \ with low genetic diversity respond to environmental stress? Insights from comparative\
-    \ conservation epigenomics and phenotypic plasticity"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.scitotenv.2023.164975
-  title: 'Discussion: Prioritize perennial grain development for sustainable food
-    production and environmental benefits'
-  authors:
-  - Lee R. DeHaan
-  - James A. Anderson
-  - Prabin Bajgain
-  - Andrea Basche
-  - Douglas J. Cattani
-  - Jared Crain
-  - Timothy E. Crews
-  - Christophe David
-  - Olivier Duchene
-  - Jessica Gutknecht
-  - Richard C. Hayes
-  - Fengyi Hu
-  - Jacob M. Jungers
-  - "S\xF8ren Knudsen"
-  - Wenqian Kong
-  - Steve Larson
-  - Per-Olof Lundquist
-  - Guangbin Luo
-  - Allison J. Miller
-  - Pheonah Nabukalu
-  - Matthew T. Newell
-  - Lennart Olsson
-  - Michael Palmgren
-  - Andrew H. Paterson
-  - Valentin D. Picasso
-  - Jesse A. Poland
-  - Erik J. Sacks
-  - Shuwen Wang
-  - Anna Westerbergh
-  publisher: Science of The Total Environment
-  date: '2023-10-01'
-  link: https://doi.org/gsmvn7
-  note: "2023 \xB7 Lee R. DeHaan et al. \xB7 Discussion: Prioritize perennial grain\
-    \ development for sustainable food production and environmental benefits"
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.46471/gigabyte.84
   title: "Genome assembly of the hybrid grapevine Vitis \u2018Chambourcin\u2019"
   authors:
@@ -336,82 +1525,6 @@
   link: https://doi.org/g99km7
   note: "2023 \xB7 Sagar Patel et al. \xB7 Genome assembly of the hybrid grapevine\
     \ Vitis \u2018Chambourcin\u2019"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.3389/fpls.2023.1177406
-  title: 'Sainfoin (Onobrychis spp.) crop ontology: supporting germplasm characterization
-    and international research collaborations'
-  authors:
-  - Ebrar Karabulut
-  - "K\xFCbra Erko\xE7"
-  - "Murat Ac\u0131"
-  - "Mahmut Ayd\u0131n"
-  - Spencer Barriball
-  - Jackson Braley
-  - Eric Cassetta
-  - Evan B. Craine
-  - Luis Diaz-Garcia
-  - Jenna Hershberger
-  - Bo Meyering
-  - Allison J. Miller
-  - Matthew J. Rubin
-  - Omar Tesdell
-  - Brandon Schlautman
-  - "Muhammet \u015Eakiro\u011Flu"
-  publisher: Frontiers in Plant Science
-  date: '2023-05-15'
-  link: https://doi.org/gsmsbh
-  note: "2023 \xB7 Ebrar Karabulut et al. \xB7 Sainfoin (Onobrychis spp.) crop ontology:\
-    \ supporting germplasm characterization and international research collaborations"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/pld3.493
-  title: 'Inclusive collaboration across plant physiology and genomics: Now is the
-    time!'
-  authors: []
-  publisher: Plant Direct
-  date: '2023-05-01'
-  link: https://doi.org/hcn8w7
-  note: "2023 \xB7 Inclusive collaboration across plant physiology and genomics: Now\
-    \ is the time!"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1186/s12870-023-04223-w
-  title: Grapevine scion gene expression is driven by rootstock and environment interaction
-  authors:
-  - Zachary N. Harris
-  - Julia E. Pratt
-  - Laszlo G. Kovacs
-  - Laura L. Klein
-  - Misha T. Kwasniewski
-  - Jason P. Londo
-  - Angela S. Wu
-  - Allison J. Miller
-  publisher: BMC Plant Biology
-  date: '2023-04-22'
-  link: https://doi.org/hcn8w8
-  note: "2023 \xB7 Zachary N. Harris et al. \xB7 Grapevine scion gene expression is\
-    \ driven by rootstock and environment interaction"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/pld3.440
-  title: Temporal and environmental factors interact with rootstock genotype to shape
-    leaf elemental composition in grafted grapevines
-  authors:
-  - Zachary N. Harris
-  - Julia E. Pratt
-  - Niyati Bhakta
-  - Emma Frawley
-  - Laura L. Klein
-  - Misha T. Kwasniewski
-  - "Zo\xEB Migicovsky"
-  - Allison J. Miller
-  publisher: Plant Direct
-  date: '2022-08-01'
-  link: https://doi.org/gsqfw9
-  note: "2022 \xB7 Zachary N. Harris et al. \xB7 Temporal and environmental factors\
-    \ interact with rootstock genotype to shape leaf elemental composition in grafted\
-    \ grapevines"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2022.07.07.499216
@@ -434,276 +1547,6 @@
   link: https://doi.org/g7nh7f
   note: "2022 \xB7 Zo\xEB Migicovsky et al. \xB7 Grapevine leaf size influences vine\
     \ canopy temperature"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/ajb2.16033
-  title: Increases in vein length compensate for leaf area lost to lobing in grapevine
-  authors:
-  - "Zo\xEB Migicovsky"
-  - Joel F. Swift
-  - Zachary Helget
-  - Laura L. Klein
-  - Anh Ly
-  - Matthew Maimaitiyiming
-  - Karoline Woodhouse
-  - Anne Fennell
-  - Misha Kwasniewski
-  - Allison J. Miller
-  - Peter Cousins
-  - Daniel H. Chitwood
-  publisher: American Journal of Botany
-  date: '2022-07-01'
-  link: https://doi.org/gsxw9h
-  note: "2022 \xB7 Zo\xEB Migicovsky et al. \xB7 Increases in vein length compensate\
-    \ for leaf area lost to lobing in grapevine"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/2022.03.15.484490
-  title: Increases in vein length compensate for leaf area lost to lobing in grapevine
-  authors:
-  - "Zo\xEB Migicovsky"
-  - Joel F. Swift
-  - Zachary Helget
-  - Laura L. Klein
-  - Anh Ly
-  - Matthew Maimaitiyiming
-  - Karoline Woodhouse
-  - Anne Fennell
-  - Misha Kwasniewski
-  - Allison J. Miller
-  - Peter Cousins
-  - Daniel H. Chitwood
-  publisher: openRxiv
-  date: '2022-03-16'
-  link: https://doi.org/hcn8w9
-  note: "2022 \xB7 Zo\xEB Migicovsky et al. \xB7 Increases in vein length compensate\
-    \ for leaf area lost to lobing in grapevine"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/2022.02.28.482393
-  title: Temporal and environmental factors interact with rootstock genotype to shape
-    leaf elemental composition in grafted grapevines
-  authors:
-  - Zachary N Harris
-  - Julia E Pratt
-  - Niyati Bhakta
-  - Emma Frawley
-  - Laura L. Klein
-  - Misha T Kwasniewski
-  - "Zo\xEB Migicovsky"
-  - Allison J Miller
-  publisher: openRxiv
-  date: '2022-03-02'
-  link: https://doi.org/gszgdc
-  note: "2022 \xB7 Zachary N Harris et al. \xB7 Temporal and environmental factors\
-    \ interact with rootstock genotype to shape leaf elemental composition in grafted\
-    \ grapevines"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.pbi.2021.102150
-  title: Re-imagining crop domestication in the era of high throughput phenomics
-  authors:
-  - David L. Van Tassel
-  - Lee R. DeHaan
-  - Luis Diaz-Garcia
-  - Jenna Hershberger
-  - Matthew J. Rubin
-  - Brandon Schlautman
-  - Kathryn Turner
-  - Allison J. Miller
-  publisher: Current Opinion in Plant Biology
-  date: '2022-02-01'
-  link: https://doi.org/gnzbd6
-  note: "2022 \xB7 David L. Van Tassel et al. \xB7 Re-imagining crop domestication\
-    \ in the era of high throughput phenomics"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/pce.14247
-  title: 'Optimisation of root traits to provide enhanced ecosystem services in agricultural
-    systems: A focus on cover crops'
-  authors:
-  - Marcus Griffiths
-  - Benjamin M. Delory
-  - Vanessica Jawahir
-  - Kong M. Wong
-  - G. Cody Bagnall
-  - Tyler G. Dowd
-  - Dmitri A. Nusinow
-  - Allison J. Miller
-  - Christopher N. Topp
-  publisher: Plant, Cell &amp; Environment
-  date: '2022-01-24'
-  link: https://doi.org/hcn8xb
-  note: "2022 \xB7 Marcus Griffiths et al. \xB7 Optimisation of root traits to provide\
-    \ enhanced ecosystem services in agricultural systems: A focus on cover crops"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1093/gigascience/giab087
-  title: Multi-dimensional leaf phenotypes reflect root system genotype in grafted
-    grapevine over the growing season
-  authors:
-  - Zachary N Harris
-  - Mani Awale
-  - Niyati Bhakta
-  - Daniel H Chitwood
-  - Anne Fennell
-  - Emma Frawley
-  - Laura L Klein
-  - Laszlo G Kovacs
-  - Misha Kwasniewski
-  - Jason P Londo
-  - Qin Ma
-  - "Zo\xEB Migicovsky"
-  - Joel F Swift
-  - Allison J Miller
-  publisher: GigaScience
-  date: '2021-12-01'
-  link: https://doi.org/g99knd
-  note: "2021 \xB7 Zachary N Harris et al. \xB7 Multi-dimensional leaf phenotypes\
-    \ reflect root system genotype in grafted grapevine over the growing season"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/ajb2.1773
-  title: "The role of genus and life span in predicting seed and vegetative trait\
-    \ variation and correlation in\n                    <i>Lathyrus, Phaseolus</i>\n\
-    \                    , and\n                    <i>Vicia</i>"
-  authors:
-  - Sterling A. Herron
-  - Matthew J. Rubin
-  - Matthew A. Albrecht
-  - Quinn G. Long
-  - Marissa C. Sandoval
-  - Allison J. Miller
-  publisher: American Journal of Botany
-  date: '2021-12-01'
-  link: https://doi.org/hcn8xc
-  note: "2021 \xB7 Sterling A. Herron et al. \xB7 The role of genus and life span\
-    \ in predicting seed and vegetative trait variation and correlation in <i>Lathyrus,\
-    \ Phaseolus</i> , and <i>Vicia</i>"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/nph.17733
-  title: 'Crop genetic erosion: understanding and responding to loss of crop diversity'
-  authors:
-  - Colin K. Khoury
-  - Stephen Brush
-  - Denise E. Costich
-  - Helen Anne Curry
-  - Stef de Haan
-  - Johannes M. M. Engels
-  - Luigi Guarino
-  - Sean Hoban
-  - Kristin L. Mercer
-  - Allison J. Miller
-  - Gary P. Nabhan
-  - Hugo R. Perales
-  - Chris Richards
-  - Chance Riggins
-  - Imke Thormann
-  publisher: New Phytologist
-  date: '2021-10-20'
-  link: https://doi.org/gn8bg4
-  note: "2021 \xB7 Colin K. Khoury et al. \xB7 Crop genetic erosion: understanding\
-    \ and responding to loss of crop diversity"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.3390/microorganisms9010092
-  title: Grapevine Microbiota Reflect Diversity among Compartments and Complex Interactions
-    within and among Root and Shoot Systems
-  authors:
-  - Joel F. Swift
-  - Megan E. Hall
-  - Zachary N. Harris
-  - Misha T. Kwasniewski
-  - Allison J. Miller
-  publisher: Microorganisms
-  date: '2021-01-02'
-  link: https://doi.org/ghxjks
-  note: "2021 \xB7 Joel F. Swift et al. \xB7 Grapevine Microbiota Reflect Diversity\
-    \ among Compartments and Complex Interactions within and among Root and Shoot\
-    \ Systems"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/s12231-020-09494-0
-  title: An Ethnobotanical Study of the Genus Elymus1
-  authors:
-  - Emma S. Frawley
-  - Claudia Ciotir
-  - Brooke Micke
-  - Matthew J. Rubin
-  - Allison J. Miller
-  publisher: Economic Botany
-  date: '2020-06-01'
-  link: https://doi.org/hcn8xd
-  note: "2020 \xB7 Emma S. Frawley et al. \xB7 An Ethnobotanical Study of the Genus\
-    \ Elymus1"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.3389/fpls.2020.00034
-  title: Comparative Analysis of Early Life Stage Traits in Annual and Perennial Phaseolus
-    Crops and Their Wild Relatives
-  authors:
-  - Sterling A. Herron
-  - Matthew J. Rubin
-  - Claudia Ciotir
-  - Timothy E. Crews
-  - David L. Van Tassel
-  - Allison J. Miller
-  publisher: Frontiers in Plant Science
-  date: '2020-03-10'
-  link: https://doi.org/ggnr5j
-  note: "2020 \xB7 Sterling A. Herron et al. \xB7 Comparative Analysis of Early Life\
-    \ Stage Traits in Annual and Perennial Phaseolus Crops and Their Wild Relatives"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1146/annurev-genet-112618-043545
-  title: 'Living with Two Genomes: Grafting and Its Implications for Plant Genome-to-Genome
-    Interactions, Phenotypic Variation, and Evolution'
-  authors:
-  - Brandon S. Gaut
-  - Allison J. Miller
-  - Danelle K. Seymour
-  publisher: Annual Review of Genetics
-  date: '2019-12-03'
-  link: https://doi.org/g6cfgz
-  note: "2019 \xB7 Brandon S. Gaut et al. \xB7 Living with Two Genomes: Grafting and\
-    \ Its Implications for Plant Genome-to-Genome Interactions, Phenotypic Variation,\
-    \ and Evolution"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.2135/cropsci2019.05.0353
-  title: Using Living Germplasm Collections to Characterize, Improve, and Conserve
-    Woody Perennials
-  authors:
-  - "Zo\xEB Migicovsky"
-  - Emily Warschefsky
-  - Laura L. Klein
-  - Allison J. Miller
-  publisher: Crop Science
-  date: '2019-11-01'
-  link: https://doi.org/grhg3m
-  note: "2019 \xB7 Zo\xEB Migicovsky et al. \xB7 Using Living Germplasm Collections\
-    \ to Characterize, Improve, and Conserve Woody Perennials"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1093/jxb/erz394
-  title: 'Characterizing 3D inflorescence architecture in grapevine using X-ray imaging
-    and advanced morphometrics: implications for understanding cluster density'
-  authors:
-  - Mao Li
-  - Laura L Klein
-  - Keith E Duncan
-  - Ni Jiang
-  - Daniel H Chitwood
-  - Jason P Londo
-  - Allison J Miller
-  - Christopher N Topp
-  publisher: Journal of Experimental Botany
-  date: '2019-08-31'
-  link: https://doi.org/ghdkh8
-  note: "2019 \xB7 Mao Li et al. \xB7 Characterizing 3D inflorescence architecture\
-    \ in grapevine using X-ray imaging and advanced morphometrics: implications for\
-    \ understanding cluster density"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/ppp3.37
@@ -732,24 +1575,6 @@
   note: "2019 \xB7 Claudia Ciotir et al. \xB7 Building a botanical foundation for\
     \ perennial agriculture: Global inventory of wild, perennial herbaceous Fabaceae\
     \ species"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/612010
-  title: "Comparative analysis of perennial and annual\n                  <i>Phaseolus</i>\n\
-    \                  seed nutrient concentrations"
-  authors:
-  - Heather E. Schier
-  - Kathrin A. Eliot
-  - Sterling A. Herron
-  - Lauren K. Landfried
-  - "Zo\xEB Migicovsky"
-  - Matthew J. Rubin
-  - Allison J. Miller
-  publisher: openRxiv
-  date: '2019-04-17'
-  link: https://doi.org/gk2g9j
-  note: "2019 \xB7 Heather E. Schier et al. \xB7 Comparative analysis of perennial\
-    \ and annual <i>Phaseolus</i> seed nutrient concentrations"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/557819
@@ -786,142 +1611,5 @@
   link: https://doi.org/gdqcq3
   note: "2018 \xB7 Brandon Monier et al. \xB7 IRIS-DGE: An integrated RNA-seq data\
     \ analysis and interpretation system for differential gene expression"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.3390/su10030730
-  title: 'Perennial Grain Legume Domestication Phase I: Criteria for Candidate Species
-    Selection'
-  authors:
-  - Brandon Schlautman
-  - Spencer Barriball
-  - Claudia Ciotir
-  - Sterling Herron
-  - Allison Miller
-  publisher: Sustainability
-  date: '2018-03-07'
-  link: https://doi.org/gdf3dj
-  note: "2018 \xB7 Brandon Schlautman et al. \xB7 Perennial Grain Legume Domestication\
-    \ Phase I: Criteria for Candidate Species Selection"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.3389/fpls.2017.00373
-  title: 'Digital Morphometrics of Two North American Grapevines (Vitis: Vitaceae)
-    Quantifies Leaf Variation between Species, within Species, and among Individuals'
-  authors:
-  - Laura L. Klein
-  - Madeleine Caito
-  - Chad Chapnick
-  - Cassandra Kitchen
-  - "Regan O\u2019Hanlon"
-  - Dan H. Chitwood
-  - Allison J. Miller
-  publisher: Frontiers in Plant Science
-  date: '2017-03-17'
-  link: https://doi.org/hcn8xf
-  note: "2017 \xB7 Laura L. Klein et al. \xB7 Digital Morphometrics of Two North American\
-    \ Grapevines (Vitis: Vitaceae) Quantifies Leaf Variation between Species, within\
-    \ Species, and among Individuals"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.tplants.2015.11.008
-  title: 'Rootstocks: Diversity, Domestication, and Impacts on Shoot Phenotypes'
-  authors:
-  - Emily J. Warschefsky
-  - Laura L. Klein
-  - Margaret H. Frank
-  - Daniel H. Chitwood
-  - Jason P. Londo
-  - Eric J.B. von Wettberg
-  - Allison J. Miller
-  publisher: Trends in Plant Science
-  date: '2016-05-01'
-  link: https://doi.org/f8nfps
-  note: "2016 \xB7 Emily J. Warschefsky et al. \xB7 Rootstocks: Diversity, Domestication,\
-    \ and Impacts on Shoot Phenotypes"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.14358/PERS.82.2.51
-  title: Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine
-    Species
-  authors:
-  - Matthew Maimaitiyiming
-  - Allison J. Miller
-  - Abduwasit Ghulam
-  publisher: Photogrammetric Engineering &amp; Remote Sensing
-  date: '2016-01-01'
-  link: https://doi.org/f8jt62
-  note: "2016 \xB7 Matthew Maimaitiyiming et al. \xB7 Discriminating Spectral Signatures\
-    \ Among and Within Two Closely Related Grapevine Species"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/nph.13754
-  title: Latent developmental and evolutionary shapes embedded within the grapevine
-    leaf
-  authors:
-  - Daniel H. Chitwood
-  - Laura L. Klein
-  - Regan O'Hanlon
-  - Steven Chacko
-  - Matthew Greg
-  - Cassandra Kitchen
-  - Allison J. Miller
-  - Jason P. Londo
-  publisher: New Phytologist
-  date: '2015-11-18'
-  link: https://doi.org/f8g83g
-  note: "2015 \xB7 Daniel H. Chitwood et al. \xB7 Latent developmental and evolutionary\
-    \ shapes embedded within the grapevine leaf"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.5344/ajev.2015.15012
-  title: Population Structure of <i>Vitis rupestris</i>, an Important Resource for
-    Viticulture
-  authors:
-  - "D\xE1niel Pap"
-  - Allison J. Miller
-  - Jason P. Londo
-  - "L\xE1szl\xF3 G. Kov\xE1cs"
-  publisher: American Journal of Enology and Viticulture
-  date: '2015-06-19'
-  link: https://doi.org/f7zz5c
-  note: "2015 \xB7 D\xE1niel Pap et al. \xB7 Population Structure of <i>Vitis rupestris</i>,\
-    \ an Important Resource for Viticulture"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/ddi.12341
-  title: Signatures of niche conservatism and niche shift in the North American kudzu
-    (<i>Pueraria montana</i>) invasion
-  authors:
-  - Steven T. Callen
-  - Allison J. Miller
-  publisher: Diversity and Distributions
-  date: '2015-05-21'
-  link: https://doi.org/gfznr4
-  note: "2015 \xB7 Steven T. Callen et al. \xB7 Signatures of niche conservatism and\
-    \ niche shift in the North American kudzu (<i>Pueraria montana</i>) invasion"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/9780470015902.a0003360.pub2
-  title: 'Crop Plants: Evolution'
-  authors:
-  - James F Hancock
-  - Allison J Miller
-  publisher: Encyclopedia of Life Sciences
-  date: '2014-04-15'
-  link: https://doi.org/hcn8xg
-  note: "2014 \xB7 James F Hancock et al. \xB7 Crop Plants: Evolution"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/pbr.12413
-  title: Pollination and sterility in horseradish
-  authors:
-  - S. Alan Walters
-  - Peter Bernhardt
-  - Michael Joseph
-  - Allison J. Miller
-  publisher: Plant Breeding
-  date: '2016-10-19'
-  link: https://doi.org/f9d9vg
-  note: "2016 \xB7 S. Alan Walters et al. \xB7 Pollination and sterility in horseradish"
   plugin: sources.py
   file: sources.yaml

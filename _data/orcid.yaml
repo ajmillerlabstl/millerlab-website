@@ -1,4 +1,3 @@
-# Add the PI's ORCID here to pull in her full publication record automatically.
-# Replace the [] below with a line like:
-# - orcid: 0000-0000-0000-0000
-[]
+# ORCID records to pull publications from automatically (refreshed every Monday and on every change).
+# Add another person with a line like:  - orcid: 0000-0000-0000-0000
+- orcid: 0000-0002-2722-9361

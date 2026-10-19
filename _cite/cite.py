@@ -173,6 +173,14 @@ for index, source in enumerate(sources):
 
 log()
 
+log("Removing blank and duplicate citations")
+
+citations, dropped = clean_citations(citations)
+for citation in dropped:
+    log(f"Hid {get_safe(citation, 'id', '')} {get_safe(citation, 'title', '(no title)')[:60]}", indent=1)
+
+log()
+
 log("Saving updated citations")
 
 
