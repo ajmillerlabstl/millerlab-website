@@ -5,11 +5,16 @@ on:
   # called by on-push, before the site is built
   workflow_call:
 
-  # run manually by user (checks every image)
+  # run manually by user
   workflow_dispatch:
 
 permissions:
   contents: write
+
+# one at a time, so two quick saves don't both try to commit
+concurrency:
+  group: shrink-images
+  cancel-in-progress: false
 
 jobs:
   shrink-images:
@@ -21,41 +26,29 @@ jobs:
         uses: actions/checkout@v7
         with:
           ref: ${{ github.event.repository.default_branch || github.ref_name }}
-          fetch-depth: 0
-
-      - name: List images changed by this push
-        id: changed
-        if: github.event_name == 'push'
-        run: |
-          # first push to a branch has no "before" commit; fall back to the last commit
-          before="${{ github.event.before }}"
-          if ! git cat-file -e "$before" 2> /dev/null; then before="${{ github.sha }}~1"; fi
-          git -c core.quotePath=false diff --name-only --diff-filter=AM "$before" "${{ github.sha }}" -- images > "$RUNNER_TEMP/changed.txt" || true
-          cat "$RUNNER_TEMP/changed.txt"
-          echo "count=$(grep -c . "$RUNNER_TEMP/changed.txt" || true)" >> "$GITHUB_OUTPUT"
 
       - name: Set up Python
-        if: github.event_name != 'push' || steps.changed.outputs.count != '0'
         uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
       - name: Install Python packages
-        if: github.event_name != 'push' || steps.changed.outputs.count != '0'
         run: python -m pip install pillow
 
+      # checks every image (takes seconds), so a photo missed by an earlier run is caught by the next
       - name: Shrink images
-        if: github.event_name != 'push' || steps.changed.outputs.count != '0'
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            xargs -d '\n' -a "$RUNNER_TEMP/changed.txt" python _scripts/shrink_images.py
-          else
-            python _scripts/shrink_images.py
-          fi
+        run: python _scripts/shrink_images.py
 
       - name: Commit shrunk images to main branch
-        if: github.event_name != 'push' || steps.changed.outputs.count != '0'
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          file_pattern: images/
-          commit_message: "Shrink uploaded images"
+        run: |
+          git add images
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --message "Shrink uploaded images"
+          # someone may have saved in Pages CMS meanwhile; catch up and retry
+          for attempt in 1 2 3; do
+            git pull --rebase origin "${{ github.event.repository.default_branch || github.ref_name }}" && git push && exit 0
+            sleep 5
+          done
+          exit 1

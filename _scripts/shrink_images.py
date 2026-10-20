@@ -47,8 +47,9 @@ def shrink(path):
         temp = path.with_name(path.name + ".tmp")
         image.save(temp, format=Image.registered_extensions()[path.suffix.lower()], **options)
 
-    # keep the original if shrinking didn't actually help
-    if temp.stat().st_size >= size_before and not too_big:
+    # keep the original if recompressing didn't clearly help (also stops a photo
+    # that's already been recompressed from being recompressed again on every run)
+    if temp.stat().st_size > size_before * 0.9 and not too_big:
         temp.unlink()
         return False
 
