@@ -7,7 +7,7 @@ nav:
 redirect_from: /people.html
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# Team
 
 {% include figure.html image="images/team/miller-lab-group.jpg" caption="From left to right: back row - Tyler Thrash, Judy Mitchell, CJ Williams, Paige Bostic, Danielle Hopkins, Rachel Tavares, Molly Hanlon, Kenneth Okonkwo front row: Karen Schmiedeler, Gillian Doty, Autumn Brown, Emma Vagelos, Allison Miller, Shayla Gunn, Zenga Stroff, Meredith Rau, Nia Worth." width="100%" %}
 

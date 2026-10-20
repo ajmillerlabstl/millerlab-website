@@ -7,7 +7,7 @@ nav:
 redirect_from: /photos.html
 ---
 
-# {% include icon.html icon="fa-solid fa-camera" %}Photos
+# Photos
 
 {% capture content %}
 

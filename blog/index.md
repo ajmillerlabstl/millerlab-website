@@ -5,7 +5,7 @@ nav:
   tooltip: News and announcements
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+# Blog
 
 News, announcements, and stories from the Miller Lab.
 

@@ -7,7 +7,7 @@ nav:
 redirect_from: /publications.html
 ---
 
-# {% include icon.html icon="fa-solid fa-book" %}Publications
+# Publications
 
 See also [Allison's Google Scholar page](https://scholar.google.com/citations?user=gI8SGrcAAAAJ&hl=en).
 

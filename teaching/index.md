@@ -7,7 +7,7 @@ nav:
 redirect_from: /teaching.html
 ---
 
-# {% include icon.html icon="fa-solid fa-chalkboard-user" %}Teaching
+# Teaching
 
 ![]({{ 'images/teaching/img-2685.jpg' | relative_url }})
 

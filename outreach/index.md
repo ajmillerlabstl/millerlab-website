@@ -6,7 +6,7 @@ nav:
 redirect_from: /outreach.html
 ---
 
-# {% include icon.html icon="fa-solid fa-people-group" %}Outreach
+# Outreach
 
 ## **outreach**
 

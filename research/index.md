@@ -7,7 +7,7 @@ nav:
 redirect_from: /research.html
 ---
 
-# {% include icon.html icon="fa-solid fa-seedling" %}Research
+# Research
 
 ## Perennial plant diversity and evolution
 

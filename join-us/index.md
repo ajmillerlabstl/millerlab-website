@@ -8,7 +8,7 @@ nav:
 redirect_from: /join-us.html
 ---
 
-# {% include icon.html icon="fa-solid fa-seedling" %}Join the Miller Lab
+# Join the Miller Lab
 
 The Miller Lab is a collaborative, interdisciplinary research group bridging the [Donald Danforth Plant Science Center](https://www.danforthcenter.org/) and [Saint Louis University](https://www.slu.edu/). We work across evolutionary biology, root architecture, perennial crop development, bioinformatics, and genomics.
 
