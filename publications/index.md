@@ -1,15 +1,13 @@
 ---
-header: images/site/publications.jpg
 title: Publications
+header: /images/site/publications.jpg
 nav:
   order: 3
   tooltip: Published works
+  highlight: false
 redirect_from: /publications.html
 ---
-
 # Publications
-
-See also [Allison's Google Scholar page](https://scholar.google.com/citations?user=gI8SGrcAAAAJ&hl=en).
 
 {% include section.html %}
 
