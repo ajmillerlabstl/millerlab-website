@@ -1,18 +1,14 @@
 ---
-name: "Allison Miller"
-image: images/team/allison-miller.jpg
+name: Allison Miller
+image: /images/team/allison-miller.jpg
 role: principal-investigator
-description: "Lab Principal Investigator (2006 - present)"
-pronouns: she/her
-aliases:
-  - A. J. Miller
-  - A. Miller
-  - Allison J. Miller
+description: Lab Principal Investigator (2006 - present)
 links:
   email: amiller@danforthcenter.org
-  home-page: https://www.danforthcenter.org/
+  orcid: 0000-0002-2722-9361
+  google-scholar: gI8SGrcAAAAJ&hl=en
+  home-page: https://www.danforthcenter.org/our-work/principal-investigators/allison-miller/
 ---
-
 *Pronouns: she/her*
 
 Allison is a Professor in the Department of Biology at Saint Louis University ([faculty website](https://www.slu.edu/arts-and-sciences/biology/faculty/miller-allison.php)) and a Member and Principal Investigator at the Danforth Plant Science Center ([investigator website](https://www.danforthcenter.org/scientists-research/principal-investigators/allison-miller)). She is a Research Associate at the Missouri Botanical Garden.  Allison is currently serving as the Vice President of Research for the Danforth Center and the Director of the NSF Funded [New Roots for Restoration Biology Integration Institute](http://www.newrootsforrestoration.org/).
