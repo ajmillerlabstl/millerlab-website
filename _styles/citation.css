@@ -68,6 +68,40 @@
   color: var(--gray);
 }
 
+.citation-abstract {
+  width: 100%;
+  margin: 8px 0;
+  padding: 0 16px;
+  background: var(--background-alt);
+  border: solid 1px var(--light-gray);
+  border-radius: var(--rounded);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+.citation-abstract summary {
+  font-weight: var(--semi-bold);
+  color: var(--primary);
+  padding: 8px 0;
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+}
+.citation-abstract summary:hover {
+  color: var(--deep);
+  background: none;
+}
+.citation-abstract .citation-abstract-text {
+  padding: 10px 0 14px;
+  color: var(--text);
+  border-top: solid 1px var(--light-gray);
+}
+.citation-abstract .citation-abstract-text p {
+  margin: 0 0 8px;
+}
+.citation-abstract .citation-abstract-text p:last-child {
+  margin-bottom: 0;
+}
+
 .citation-buttons {
   display: flex;
   flex-wrap: wrap;
