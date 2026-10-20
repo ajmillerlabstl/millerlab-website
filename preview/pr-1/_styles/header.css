@@ -1,0 +1,147 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px 20px;
+  padding: 16px max(24px, (100% - 1240px) / 2);
+  background: var(--background);
+  border-bottom: solid 1px var(--light-gray);
+  position: sticky !important;
+  top: 0;
+  z-index: 10 !important;
+}
+
+header a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+}
+
+.logo {
+  height: 40px;
+}
+
+.logo > * {
+  width: unset;
+  height: 100%;
+}
+
+.title-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  min-width: 0;
+  text-align: left;
+}
+
+.title {
+  font-family: var(--title);
+  font-weight: var(--bold);
+  font-size: 1.6rem;
+  color: var(--deep);
+}
+
+[data-dark=true] .title {
+  color: var(--text);
+}
+
+.subtitle {
+  font-family: var(--body);
+  font-size: 0.8rem;
+  color: var(--dark-gray);
+}
+
+.nav-toggle {
+  display: none;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  color: var(--text);
+  appearance: none;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+.nav-toggle:after {
+  content: "\f0c9";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: var(--text);
+  font-size: 18px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+}
+
+.nav-toggle:checked:after {
+  content: "\f00d";
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 22px;
+  font-family: var(--body);
+  font-size: 0.9rem;
+}
+
+nav > a {
+  padding: 10px 0;
+}
+
+nav > a:hover {
+  color: var(--primary);
+}
+
+nav > a.nav-highlight {
+  padding: 10px 16px;
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+nav > a.nav-highlight:hover {
+  background: var(--deep);
+  color: var(--on-deep);
+}
+
+@media (max-width: 900px) {
+  .nav-toggle {
+    display: flex;
+  }
+  .nav-toggle:not(:checked) + nav {
+    display: none;
+  }
+  nav {
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.page-banner {
+  height: 240px;
+  background-image: var(--image);
+  background-size: cover;
+  background-position: 50% 50%;
+  border-bottom: solid 1px var(--light-gray);
+}
+@media (max-width: 600px) {
+  .page-banner {
+    height: 140px;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */
