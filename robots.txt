@@ -1,1 +1,1 @@
-Sitemap: http://mollyhanlon.com/millerlab-website/sitemap.xml
+Sitemap: http://ajmillerlabstl.github.io/millerlab-website/sitemap.xml
