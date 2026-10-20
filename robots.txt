@@ -1,1 +1,1 @@
-Sitemap: http://ajmillerlabstl.github.io/millerlab-website/sitemap.xml
+Sitemap: https://ajmillerlabstl.github.io/millerlab-website/sitemap.xml
