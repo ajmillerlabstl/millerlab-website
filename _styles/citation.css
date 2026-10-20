@@ -85,10 +85,18 @@
   margin: 0;
   cursor: pointer;
   user-select: none;
+  outline: none;
+  transition: color var(--transition);
 }
-.citation-abstract summary:hover {
+.citation-abstract summary::-webkit-details-marker {
+  color: var(--primary);
+}
+.citation-abstract summary:hover,
+.citation-abstract summary:focus-visible {
   color: var(--deep);
-  background: none;
+}
+.citation-abstract[open] summary {
+  color: var(--deep);
 }
 .citation-abstract .citation-abstract-text {
   padding: 10px 0 14px;
