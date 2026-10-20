@@ -31,9 +31,14 @@
 {%- if project.funding %}
 <p class="project-funding"><span>Funding:</span> {{ project.funding | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
 {%- endif %}
+<div class="project-actions">
 {%- if project.website %}
 <a class="project-website" href="{{ project.website }}">Project website →</a>
+{%- else %}
+<span></span>
 {%- endif %}
+<a class="project-back-to-top" href="#table-of-contents"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i> Back to index</a>
+</div>
 </div>
 </article>
 {%- endfor %}

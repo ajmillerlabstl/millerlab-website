@@ -1,0 +1,45 @@
+<div id="table-of-contents"></div>
+<nav class="project-toc" aria-label="Table of Contents">
+  <div class="project-toc-header">
+    <span class="project-toc-title">
+      <i class="fa-solid fa-list-ul" aria-hidden="true"></i> Projects index
+    </span>
+    <span class="project-toc-subtitle">Jump directly to a project</span>
+  </div>
+
+  <div class="project-toc-columns">
+    <div class="project-toc-section">
+      <h4><a href="#current-projects">Current projects</a></h4>
+      <ul>
+        {% assign current_projects = site.data.projects | where: "current", true %}
+        {% for project in current_projects %}
+          <li>
+            <a href="#{{ project.title | slugify }}">
+              <span class="project-toc-text">{{ project.short_title | default: project.title }}</span>
+              {% if project.label %}
+                <span class="project-toc-badge">{{ project.label }}</span>
+              {% endif %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="project-toc-section">
+      <h4><a href="#previous-projects">Previous projects</a></h4>
+      <ul>
+        {% assign previous_projects = site.data.projects | where: "current", false %}
+        {% for project in previous_projects %}
+          <li>
+            <a href="#{{ project.title | slugify }}">
+              <span class="project-toc-text">{{ project.short_title | default: project.title }}</span>
+              {% if project.label %}
+                <span class="project-toc-badge">{{ project.label }}</span>
+              {% endif %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
