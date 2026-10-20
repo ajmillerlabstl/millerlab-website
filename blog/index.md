@@ -1,11 +1,10 @@
 ---
+header: images/site/team.jpg
 title: Blog
 nav:
   order: 4
   tooltip: News and announcements
 ---
-
-# Blog
 
 News, announcements, and stories from the Miller Lab.
 

@@ -1,13 +1,11 @@
 ---
-header: images/site/team.jpg
+header: images/site/banner-kernza-silphium-clouds.jpg
 title: Team
 nav:
   order: 2
   tooltip: About our team
 redirect_from: /people.html
 ---
-
-# Team
 
 {% include figure.html image="images/team/miller-lab-group.jpg" caption="From left to right: back row - Tyler Thrash, Judy Mitchell, CJ Williams, Paige Bostic, Danielle Hopkins, Rachel Tavares, Molly Hanlon, Kenneth Okonkwo front row: Karen Schmiedeler, Gillian Doty, Autumn Brown, Emma Vagelos, Allison Miller, Shayla Gunn, Zenga Stroff, Meredith Rau, Nia Worth." width="100%" %}
 

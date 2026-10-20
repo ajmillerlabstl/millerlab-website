@@ -1,13 +1,11 @@
 ---
-header: images/site/research.jpg
+header: images/site/banner-roots-in-soil.jpg
 title: Research
 nav:
   order: 1
   tooltip: Our research
 redirect_from: /research.html
 ---
-
-# Research
 
 ## Perennial plant diversity and evolution
 

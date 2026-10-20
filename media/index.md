@@ -1,13 +1,11 @@
 ---
-header: images/site/media.jpg
+header: images/site/banner-kernza-sunrise.jpg
 title: Media
 nav:
   order: 7
   tooltip: In the news
 redirect_from: /media.html
 ---
-
-# {% include icon.html icon="fa-solid fa-newspaper" %}Media
 
 **December 2025:**  [From Grapevine to Glass: Plant Science of Terroir in Wine](https://www.danforthcenter.org/news/from-grapevine-to-glass-the-plant-science-of-terroir-in-wine/). How a grape's environment affect their taste.
 

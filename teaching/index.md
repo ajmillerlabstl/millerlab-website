@@ -1,13 +1,11 @@
 ---
-header: images/site/teaching.jpg
+header: images/site/banner-silphium-morning.jpg
 title: Teaching
 nav:
   order: 5
   tooltip: Courses
 redirect_from: /teaching.html
 ---
-
-# Teaching
 
 ![]({{ 'images/teaching/img-2685.jpg' | relative_url }})
 

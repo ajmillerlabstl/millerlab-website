@@ -49,13 +49,25 @@
 </header>
 
 {% comment %}
-  each page's banner photo (set with "header:" in its front matter), as a strip under the menu.
+  each page's banner photo (set with "header:" in its front matter), under the menu.
+  pages that set their own photo show their title over it ("header-title:" overrides the
+  text, "header-position:" moves the crop, e.g. "50% 70%" to show more of the bottom).
+  other pages (member pages, posts) get the site photo as a plain strip.
   the home page has its own photo gallery instead.
 {% endcomment %}
 {% if image and page.layout != "home" %}
-  <div
-    class="page-banner"
-    style="--image: url('{{ image | relative_url | uri_escape }}')"
-    aria-hidden="true"
-  ></div>
+  {% if page.header %}
+    <div
+      class="page-banner page-banner-titled"
+      style="--image: url('{{ image | relative_url | uri_escape }}'); --position: {{ page.header-position | default: "50% 50%" }}"
+    >
+      <h1 class="page-banner-title">{{ page.header-title | default: page.title }}</h1>
+    </div>
+  {% else %}
+    <div
+      class="page-banner"
+      style="--image: url('{{ image | relative_url | uri_escape }}')"
+      aria-hidden="true"
+    ></div>
+  {% endif %}
 {% endif %}

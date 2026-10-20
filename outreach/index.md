@@ -1,12 +1,11 @@
 ---
+header: images/site/team.jpg
 title: Outreach
 nav:
   order: 6
   tooltip: Community engagement
 redirect_from: /outreach.html
 ---
-
-# Outreach
 
 ## **outreach**
 

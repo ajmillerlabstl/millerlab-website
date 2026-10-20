@@ -1,13 +1,11 @@
 ---
-header: images/site/photos.jpg
+header: images/site/banner-silphium-flowers.jpg
 title: Photos
 nav:
   order: 8
   tooltip: Lab photos
 redirect_from: /photos.html
 ---
-
-# Photos
 
 {% capture content %}
 

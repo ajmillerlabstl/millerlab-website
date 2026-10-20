@@ -1,14 +1,12 @@
 ---
 title: Publications
-header: /images/site/publications.jpg
+header: images/site/banner-kernza-blue-sky.jpg
 nav:
   order: 3
   tooltip: Published works
   highlight: false
 redirect_from: /publications.html
 ---
-# Publications
-
 {% include section.html %}
 
 {% include search-box.html %}

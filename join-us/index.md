@@ -1,14 +1,14 @@
 ---
-header: images/site/join-us.jpg
+header: images/site/banner-gamagrass-flowering.jpg
 title: Join Us
 nav:
   order: 9
   tooltip: Open positions and contact
   highlight: true
 redirect_from: /join-us.html
+header-title: Join the Miller Lab
+header-position: "50% 25%"
 ---
-
-# Join the Miller Lab
 
 The Miller Lab is a collaborative, interdisciplinary research group bridging the [Donald Danforth Plant Science Center](https://www.danforthcenter.org/) and [Saint Louis University](https://www.slu.edu/). We work across evolutionary biology, root architecture, perennial crop development, bioinformatics, and genomics.
 
