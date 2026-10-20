@@ -18,7 +18,7 @@ it means in a few words.
 
 ## Making edits
 
-- Work on `main`. Never commit to the `drafts` branch from here; it belongs to Pages CMS editors.
+- Work on `main`.
 - After editing, summarize what changed in plain language (which pages, what text, which images) before publishing.
 - **Only commit and push when the user clearly asks** ("publish it", "push it", "go ahead"). Pushing to `main`
   publishes the live site within 2 to 5 minutes.
@@ -42,21 +42,14 @@ it means in a few words.
 
 In member files, keep `description` to a title and years; the bio goes below the second `---`.
 
-## Drafts and approvals
+## History and undoing changes
 
-Lab members without GitHub accounts edit in Pages CMS on the `drafts` branch. `main` is protected: only owners and
-repository admins can change it directly. When `drafts` has changes, a workflow opens a pull request titled
-"Drafts waiting for approval", and a bot comments a preview link.
+Lab members edit through Pages CMS and save straight to `main`. Every save is a commit, so any change can be seen and
+undone.
 
-When asked whether there are drafts waiting:
-
-1. `gh pr list --head drafts --base main`
-2. For an open one, summarize who changed what in plain language (`gh pr view <n>`, `gh pr diff <n>`), and give the
-   preview link from the bot's comment (`gh pr view <n> --comments`).
-3. Merge only when the user clearly approves: `gh pr merge <n> --merge`. Always use `--merge`; squash or rebase
-   breaks the automatic reset of `drafts` afterwards.
-4. If the user wants something fixed first, explain that the editor can fix it in Pages CMS (still on `drafts`), or
-   Molly can fix it. Don't edit `drafts` yourself unless the user insists.
-
-Approvers get one reminder email per weekday morning while drafts are waiting, from `.github/workflows/drafts-reminder.yaml`.
-Add new admins to `APPROVERS` there (GitHub usernames).
+- **What changed recently:** `git log --since="2 weeks ago" --format="%h %ad %an | %s" --date=short`, then
+  `git show <hash>` for the details. Summarize in plain language.
+- **Who:** saves by people invited to Pages CMS by email show as `pages-cms[bot]`, not by name. People who sign in to
+  Pages CMS with GitHub show under their own name.
+- **Undo a change:** `git revert <hash>`, then publish as usual once the user agrees. Never use `git reset` or
+  force-push to undo published changes.
