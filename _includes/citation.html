@@ -21,9 +21,16 @@
   {% assign pub_abstract = citation.description %}
 {% endif %}
 
+{% assign pub_image = citation.image %}
+{% if pub_image == nil or pub_image == "" %}
+  {% if citation.id and matched_pub and matched_pub.image %}
+    {% assign pub_image = matched_pub.image %}
+  {% endif %}
+{% endif %}
+
 <div class="citation-container">
   <div class="citation">
-    {% if include.style == "rich" %}
+    {% if include.style == "rich" and pub_image and pub_image != "" %}
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url | uri_escape }}"
@@ -32,7 +39,7 @@
         aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
       >
         <img
-          src="{{ citation.image | relative_url | uri_escape }}"
+          src="{{ pub_image | relative_url | uri_escape }}"
           alt="{{ citation.title | default: "citation image" | regex_strip }}"
           loading="lazy"
           {% include fallback.html %}

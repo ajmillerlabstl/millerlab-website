@@ -36,6 +36,8 @@ $wrap: 800px;
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
+  flex-grow: 1;
+  width: 100%;
   gap: 10px;
   max-width: 100%;
   height: min-content;
