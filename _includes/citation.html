@@ -74,15 +74,20 @@
       </div>
 
       {% if include.style == "rich" %}
-        {% if citation.description %}
-          <div class="citation-description">
-            {{
-              citation.description
-              | markdownify
-              | remove: "<p>"
-              | remove: "</p>"
-            }}
-          </div>
+        {% if citation.abstract and citation.abstract != "" %}
+          <details class="citation-abstract">
+            <summary>View abstract</summary>
+            <div class="citation-abstract-text">
+              {{ citation.abstract | markdownify }}
+            </div>
+          </details>
+        {% elsif citation.description and citation.description != "" %}
+          <details class="citation-abstract">
+            <summary>View abstract</summary>
+            <div class="citation-abstract-text">
+              {{ citation.description | markdownify }}
+            </div>
+          </details>
         {% endif %}
 
         {% if citation.buttons.size > 0 %}
