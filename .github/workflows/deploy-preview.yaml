@@ -2,9 +2,9 @@ name: deploy-preview
 run-name: Deploy pull request preview
 
 on:
-  # run after on-pull-request/on-drafts completes
+  # run after on-pull-request completes
   workflow_run:
-    workflows: [on-pull-request, on-drafts]
+    workflows: [on-pull-request]
     types:
       - completed
 
@@ -48,9 +48,6 @@ jobs:
 
       # safely load limited artifact to write to repo
       - name: Download preview artifact
-        id: download
-        # on-drafts only builds a preview when it opens the pull request
-        continue-on-error: true
         uses: actions/download-artifact@v8
         with:
           github-token: ${{ github.token }}
@@ -59,7 +56,6 @@ jobs:
           path: artifacts
 
       - name: Load preview artifact metadata
-        if: steps.download.outcome == 'success'
         run: |
           NUMBER=$(cat artifacts/number.txt)
           ACTION=$(cat artifacts/action.txt)
@@ -68,7 +64,7 @@ jobs:
           echo "PREVIEW_ACTION=$ACTION" >> "$GITHUB_ENV"
 
       - name: Deploy preview to Pages branch
-        if: env.PREVIEW_NUMBER != '' && env.PREVIEW_ACTION != 'closed'
+        if: env.PREVIEW_ACTION != 'closed'
         uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
           folder: artifacts/preview
@@ -77,12 +73,12 @@ jobs:
           force: false
 
       - name: Get Pages URL
-        if: env.PREVIEW_NUMBER != '' && env.PREVIEW_ACTION != 'closed'
+        if: env.PREVIEW_ACTION != 'closed'
         id: pages
         uses: actions/configure-pages@v6
 
       - name: Comment preview link on PR
-        if: env.PREVIEW_NUMBER != '' && env.PREVIEW_ACTION != 'closed'
+        if: env.PREVIEW_ACTION != 'closed'
         uses: marocchino/sticky-pull-request-comment@v3
         with:
           number: ${{ env.PREVIEW_NUMBER }}
@@ -91,7 +87,7 @@ jobs:
             🚦 Status: https://github.com/${{ github.repository }}/actions
 
       - name: Comment removed preview on PR
-        if: env.PREVIEW_NUMBER != '' && env.PREVIEW_ACTION == 'closed'
+        if: env.PREVIEW_ACTION == 'closed'
         uses: marocchino/sticky-pull-request-comment@v3
         with:
           number: ${{ env.PREVIEW_NUMBER }}
