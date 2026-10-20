@@ -1,5 +1,15 @@
 # Pages CMS configuration — gives lab members simple forms for editing the site.
 # Sign in at https://app.pagescms.org with GitHub and open this repository.
+settings:
+  # record who saved each change: email-invited editors otherwise show only as pages-cms[bot]
+  commit:
+    identity: user
+    templates:
+      create: "Create {path} (via Pages CMS, by {userEmail})"
+      update: "Update {path} (via Pages CMS, by {userEmail})"
+      delete: "Delete {path} (via Pages CMS, by {userEmail})"
+      rename: "Rename {oldPath} to {newPath} (via Pages CMS, by {userEmail})"
+
 media:
   input: images
   output: /images
