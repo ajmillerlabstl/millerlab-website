@@ -5,6 +5,7 @@ cite process to convert sources and metasources into full citations
 import traceback
 from importlib import import_module
 from pathlib import Path
+from datetime import date
 from dotenv import load_dotenv
 from util import *
 
@@ -156,6 +157,17 @@ for index, source in enumerate(sources):
             if key not in ["tags", "buttons", "description", "image", "repo", "note"]
         }
 
+        # fill in an abstract the publisher has sent to crossref since the paper was added
+        # (recent papers only: older ones won't gain one, and each lookup slows the build)
+        recent = str(get_safe(citation, "date", "")) >= str(date.today().replace(year=date.today().year - 1))
+        if recent and not get_safe(citation, "abstract", "") and not get_safe(source, "abstract", ""):
+            try:
+                abstract = get_safe(cite_with_manubot(_id), "abstract", "")
+                if abstract:
+                    citation["abstract"] = abstract
+            except Exception:
+                pass
+
     # manubot doesn't work without an id
     elif _id:
         log("Using Manubot to generate citation", indent=1)
@@ -186,7 +198,8 @@ for index, source in enumerate(sources):
         citation["publisher"] = "bioRxiv"
 
     # preserve fields from input source, overriding existing fields
-    citation.update(source)
+    # (blank fields saved by the Pages CMS form, like an empty abstract, don't wipe real ones)
+    citation.update({key: value for key, value in source.items() if value not in ["", None]})
 
     # ensure date in proper format for correct date sorting
     if get_safe(citation, "date", ""):

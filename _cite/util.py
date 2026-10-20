@@ -270,8 +270,25 @@ def label_sources(path, citations):
         path.write_text(new, encoding="utf8")
 
 
+def clean_abstract(text):
+    """
+    turn a publisher's abstract (often marked up as jats xml) into plain text
+    """
+
+    text = str(text or "")
+    # drop a leading "Abstract" or "Summary" heading, then any remaining tags
+    text = re.sub(r"^\s*<(jats:)?title>\s*(Abstract|Summary)\s*</(jats:)?title>", "", text, flags=re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    # collapse whitespace and tidy spaces left before punctuation
+    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+([.,;:)])", r"\1", text)
+    text = re.sub(r"\(\s+", "(", text)
+    return text
+
+
 @log_cache
-@cache.memoize(name="manubot", expire=90 * (60 * 60 * 24))
+# renamed when abstracts were added, so older cached lookups (without abstracts) are ignored
+@cache.memoize(name="manubot-abstracts", expire=90 * (60 * 60 * 24))
 def cite_with_manubot(_id):
     """
     generate citation data for source id with Manubot
@@ -313,6 +330,11 @@ def cite_with_manubot(_id):
     collection = get_safe(manubot, "collection-title", "").strip()
     publisher = get_safe(manubot, "publisher", "").strip()
     citation["publisher"] = container or publisher or collection or ""
+
+    # abstract, if the publisher sent one to crossref
+    abstract = clean_abstract(get_safe(manubot, "abstract", ""))
+    if abstract:
+        citation["abstract"] = abstract
 
     # extract date part
     def date_part(citation, index):

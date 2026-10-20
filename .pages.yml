@@ -98,6 +98,7 @@ content:
                 - { name: website, label: "Other link" }
           - { name: text, label: "Button text, e.g. Data on Zenodo (optional)", type: string }
           - { name: link, label: Web address (full link), type: string }
+      - { name: abstract, label: "Abstract (only needed if one doesn't appear on the site by itself)", type: text }
       - { name: remove, label: "Hide this paper from the site", type: boolean }
 
   # one entry per page. page text is plain markdown (not rich text) so the {% include %} codes in it survive.

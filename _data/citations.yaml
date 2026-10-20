@@ -22,6 +22,32 @@
   tags:
   - Perennial Crops
   - Phenomics
+  abstract: "Perennial grains represent a promising frontier for sustainable agriculture,\
+    \ but breeding progress is constrained by the accessibility of genotyping and\
+    \ the difficulty of evaluating complex traits expressed for multiple years after\
+    \ establishment across heterogeneous environments. Phenomic selection may help\
+    \ address these challenges by using scalable, high\u2010dimensional phenotypes\
+    \ collected early in development, although the robustness of such predictions\
+    \ across breeding cycles remains uncertain. Here, we compared genomic and phenomic\
+    \ selection across two breeding cycles of Thinopyrum intermedium (intermediate\
+    \ wheatgrass; Kernza), comprising approximately 2280 individuals from maternal\
+    \ half\u2010sib families evaluated across multiple field sites and years. We constructed\
+    \ relationship matrices from genomic markers and early\u2010life stage phenomic\
+    \ data, including seed and leaf color (hue, saturation, value [HSV]), CropReporter\
+    \ multispectral reflectance, and hyperspectral reflectance sensors. Genomic models\
+    \ provided the strongest predictions on average across all field traits in both\
+    \ cycles. Among phenomic predictors, leaf HSV was consistently the most informative,\
+    \ whereas CropReporter and hyperspectral data showed lower and more trait\u2010\
+    dependent performance. Seed HSV provided little predictive value. Genomic, leaf\
+    \ HSV, and CropReporter models transferred across breeding cycles with little\
+    \ loss of predictive ability relative to within\u2010cycle validation, demonstrating\
+    \ that their predictive signals were not restricted to a single breeding cycle.\
+    \ Despite limited similarity among relationship matrices, multi\u2010relationship\u2010\
+    matrix models rarely improved prediction beyond the stronger constituent single\u2010\
+    relationship\u2010matrix model. Together, these results show that early\u2010\
+    life stage phenomic data provide reproducible information about agronomic performance\
+    \ expressed years later, but that predictor complexity and data integration do\
+    \ not guarantee improved prediction."
 - id: doi:10.1002/ppp3.70265
   title: Enhance food plant diversity conservation and use through greater coordination
     between genebanks and botanic gardens
@@ -405,6 +431,24 @@
   note: "2026 \xB7 David Van Tassel et al. \xB7 Haplotype-phased genomes elucidate\
     \ genetic architecture of environmental adaptation and domestication traits in\
     \ Silphium"
+  abstract: Developing native perennial crops is vital for climate-resilient agriculture,
+    yet their domestication is often hindered by a lack of cost-effective genomic
+    resources. To build a framework for genomics-accelerated domestication of perennials
+    with large, complex genomes, we generated chromosome-scale, haplotype-phased assemblies
+    for Silphium integrifolium Michx. and Silphium perfoliatum L., two deep-rooted
+    native North American prairie species valued for drought tolerance and oil production.
+    The genomes are characterized by the presence of a putative helical structure
+    preserved during interphase with a loop circumference of 43 Mb. Using targeted
+    sequencing of 14 Silphium species, we first refined the phylogeny of the genus,
+    recovering the Composita and Silphium subgenera while identifying taxonomic discrepancies.
+    We used a combination of low-coverage short-read sequencing and target-sequencing
+    to characterize a 258-accession diversity panel to define ancestral populations
+    and perform genome-wide association studies (GWAS) on several traits. We identified
+    81 loci associated with environmental adaptation and domestication traits; notably,
+    variants in a MATE transporter, Alpha-Beta hydrolase and a ACR4 -related protein
+    explained significant variance in seed number and floral architecture. These findings
+    establish the genomic framework necessary to accelerate the domestication of Silphium
+    and provide a model for unlocking the potential of other complex wild genomes.
 - id: doi:10.64898/2026.01.06.697986
   title: Smartphone image capture system and image analysis pipelines enable accurate
     and efficient phenotyping of spaced plant mapping populations
@@ -1039,6 +1083,31 @@
   file: sources.yaml
   note: "2023 \xB7 Inclusive collaboration across plant physiology and genomics: Now\
     \ is the time!"
+  abstract: "Within the broad field of plant sciences, what are the most pressing\
+    \ challenges and opportunities to advance? Answers to this question usually include\
+    \ food and nutritional security, climate change mitigation, adaptation of plants\
+    \ to changing climates, preservation of biodiversity and ecosystem services, production\
+    \ of plant\u2010based proteins and products, and growth of the bioeconomy. Genes\
+    \ and the processes their products carry out create differences in how plants\
+    \ grow, develop, and behave, and thus, the key solutions to these challenges lie\
+    \ squarely in the space where plant genomics and physiology intersect. Advancements\
+    \ in genomics, phenomics, and analysis tools have generated massive datasets,\
+    \ but these data are complex and have not always generated scientific insights\
+    \ at the anticipated pace. Further, new tools may need to be created or adapted,\
+    \ and field\u2010relevant applications tested, to advance scientific discovery\
+    \ derived from such datasets. Meaningful, relevant conclusions and connections\
+    \ from genomics and plant physiological and biochemical data require both subject\
+    \ matter expertise and the collaborative skills needed to work together outside\
+    \ of specific disciplines. Bringing the best expertise to bear on complex problems\
+    \ in plant sciences requires enhanced, inclusive, and sustained collaboration\
+    \ across disciplines. However, despite significant efforts to enable and sustain\
+    \ collaborative research, a variety of challenges persist. Here, we present the\
+    \ outcomes and conclusions of two workshops convened to address the need for collaboration\
+    \ between scientists engaged in plant physiology, genetics, and genomics and to\
+    \ discuss the approaches that will create the necessary environments to support\
+    \ successful collaboration. We conclude with approaches to share and reward collaboration\
+    \ and the need to train inclusive scientists that will have the skills to thrive\
+    \ in interdisciplinary contexts."
 - id: doi:10.1186/s12870-023-04223-w
   title: Grapevine scion gene expression is driven by rootstock and environment interaction
   authors:
@@ -2233,6 +2302,26 @@
   note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
     \ inflorescence architecture using X-ray imaging: implications for understanding\
     \ cluster density"
+  abstract: "We characterized grapevine inflorescence architecture (the rachis and\
+    \ all branches without berries) to describe variation among 10 wild Vitis species,\
+    \ assess phylogenetic signals underlying inflorescence architecture traits, and\
+    \ interpret this variation in the context of breeding objectives. Three-dimensional\
+    \ X-ray tomography scans of grapevine inflorescences were used to measure geometric\
+    \ traits and inflorescence topology using persistent homology, a mathematical\
+    \ approach that can comprehensively measure and compare shapes. We simulated potential\
+    \ space available for berry growth within a given inflorescence architecture by\
+    \ evaluating expanding spheres attached to pedicels, referred to as \u201Cberry\
+    \ potential.\u201D Lastly, we performed phylogenetic analysis and mapped trait\
+    \ variation. We detected wide variation in inflorescence architecture features\
+    \ among Vitis species. Hierarchical clustering and correlation analyses revealed\
+    \ relationships among traits. Multivariate analyses identify traits contributing\
+    \ the most to variation and distinguish between species with high accuracy. Phylogenetic\
+    \ analyses revealed 12 morphological traits with strong phylogenetic signal. Morphometric\
+    \ analysis uncovered novel differences in inflorescence architecture among clades\
+    \ and between Vitis species. Cluster density is an important trait for assessing\
+    \ crop quality and forecasting yield; analyses presented here can be used to tease\
+    \ apart subtle, heritable features and environmental influences on this major\
+    \ agronomic trait."
 - id: doi:10.1371/journal.pcbi.1006792
   title: 'IRIS-EDA: An integrated RNA-Seq interpretation system for gene expression
     data analysis'
@@ -3308,6 +3397,33 @@
   tags:
   - Domestication
   - Genomics
+  abstract: 'Agriculture arose independently in several locations across the world,
+    beginning approximately 13 000 years ago in the Near East. All crop plants originated
+    from wild plant populations. At the beginning of the domestication process, a
+    number of changes began to appear in the genetic and physiological makeup of many
+    crop species. Some of these changes were due to conscious selection such as increases
+    in palatability and colour, but many of the others were the unconscious byproduct
+    of planting and harvesting. Changes in crop species during domestication were
+    gradual, likely taking thousands of years. Many of the traits associated with
+    plant domestication are regulated by only a few genes, and in many cases these
+    genes have pleiotropic effects, where they affect a number of traits simultaneously.
+    Many of the genes associated with domestication are also clustered close together
+    on the same chromosome. The process of domestication severely limited the amount
+    of genetic variation in crop species. Key Concepts: The most potent force influencing
+    variation in cultivated populations is artificial selection, a specialised case
+    of directional selection with humans acting as the agents of selection. The morphology
+    and physiology of crop species were gradually changed through both conscious and
+    unconscious selection by humans. Many of the traits associated with plant domestication
+    are regulated by only a few genes that are close together on chromosomes. A high
+    percentage of crop species are polyploid, with more than one set of chromosomes.
+    Agriculture probably first emerged in the hills above the Tigris River on the
+    western edge of what is now called Iran approximately 13 000 years ago, but it
+    also appeared independently in Mesoamerica, South America, China, Africa, Asia
+    and Eastern North America. Until recently, it was thought that once humans began
+    cultivation, selection for the domestication genes would be rapid; however, new
+    archaeological evidence indicates that predomestication cultivation may have actually
+    taken 1000 years. During the process of crop domestication, genetic variability
+    was greatly restricted by the selection of a limited number of desirable individuals.'
 - id: doi:10.3159/torrey-d-13-00052.1
   title: 'Conservation genetics of edaphic endemics in naturally isolated habitats:
     a case study with<i>Geocarpon minimum</i>(Caryophyllaceae)'
