@@ -8,33 +8,91 @@ nav:
 redirect_from: /join-us.html
 ---
 
-# {% include icon.html icon="fa-solid fa-envelope" %}Join Us
+# {% include icon.html icon="fa-solid fa-seedling" %}Join the Miller Lab
 
-If you are interested in joining the lab please email Allison (allison.j.miller at slu dot edu or amiller at danforthcenter dot org).  I am always interested in speaking with potential postdoctoral research associates, graduate students, and undergraduate researchers.
-**Seasonal research assistant**
+The Miller Lab is a collaborative, interdisciplinary research group bridging the [Donald Danforth Plant Science Center](https://www.danforthcenter.org/) and [Saint Louis University](https://www.slu.edu/). We work across evolutionary biology, root architecture, perennial crop development, bioinformatics, and genomics.
 
-All seasonal research assistant positions have been filled.
+We are always eager to connect with curious, enthusiastic researchers at all career stages who are excited about perennial plants and agricultural sustainability.
 
----
+<div class="join-grid">
 
-**Opportunities for Postdoctoral Researchers**
+  <div class="join-card featured">
+    <span class="join-badge">Upcoming Opportunity</span>
+    <h3>Graduate Students (Ph.D. & M.S.)</h3>
+    <p>
+      Graduate researchers join the lab through the Department of Biology at Saint Louis University and conduct research across SLU and the Danforth Center.
+    </p>
+    <p>
+      <strong>We anticipate recruiting a new graduate student to join the lab soon!</strong> An official advertisement with project details will be posted here in the near future. In the meantime, prospective students are warmly invited to reach out to Allison to introduce themselves and discuss shared research interests.
+    </p>
+    <div class="join-card-footer">
+      <a class="button" href="https://www.slu.edu/arts-and-sciences/academics/degrees/graduate/biology-phd.php" target="_blank" rel="noopener noreferrer">
+        {% include icon.html icon="fa-solid fa-graduation-cap" %}
+        <span>SLU Biology Graduate Programs</span>
+      </a>
+    </div>
+  </div>
 
-All open postdoctoral researcher positions have been filled. I welcome the opportunity to develop new research projects with potential postdoctoral scholars and to support interested candidates in applying for NSF or USDA fellowships. Please contact Allison (amiller at danforthcenter dot org) to talk more about this!
+  <div class="join-card">
+    <span class="join-badge careers">Careers & Staff</span>
+    <h3>Danforth Center Careers & Staff Openings</h3>
+    <p>
+      Official full-time and part-time positions—including research technicians, laboratory managers, and funded postdoctoral appointments—are posted directly on the Danforth Center careers portal.
+    </p>
+    <p>
+      Check the portal regularly for current job listings, detailed job descriptions, and online application submission.
+    </p>
+    <div class="join-card-footer">
+      <a class="button" href="https://www.danforthcenter.org/careers/" target="_blank" rel="noopener noreferrer">
+        {% include icon.html icon="fa-solid fa-briefcase" %}
+        <span>Browse Danforth Careers</span>
+      </a>
+    </div>
+  </div>
 
----
+  <div class="join-card">
+    <span class="join-badge">Postdocs</span>
+    <h3>Postdoctoral Researchers</h3>
+    <p>
+      We welcome inquiries from prospective postdoctoral scholars whose research interests align with perennial plant evolution, grapevine rootstocks, root phenomics, or breeding genetics.
+    </p>
+    <p>
+      Allison is glad to work with potential postdocs to co-develop new research initiatives and support applications for independent fellowships (such as the NSF Postdoctoral Research Fellowship in Biology, USDA NIFA fellowships, and institutional programs).
+    </p>
+    <div class="join-card-footer">
+      <a class="button" href="mailto:amiller@danforthcenter.org?subject=Postdoctoral%20Inquiry%20-%20Miller%20Lab" data-style="bare">
+        <span>Email Allison to discuss fellowships →</span>
+      </a>
+    </div>
+  </div>
 
-**Graduate Student ResearchersIt is unlikely that we will be recruiting new graduate students to join the lab starting in 2024.** One possible exception: if you hold or are applying for an independent fellowship  please contact Allison Miller (allison.j.miller at slu.edu) to discuss opportunities.  For more information on the application process to the MS or PhD degree programs in Biology at Saint Louis University please see [here](https://www.slu.edu/arts-and-sciences/academics/degrees/graduate/biology-phd.php).
+  <div class="join-card">
+    <span class="join-badge">Students</span>
+    <h3>Undergraduate & Summer Researchers</h3>
+    <p>
+      Undergraduate students from Saint Louis University can gain hands-on laboratory, greenhouse, and field experience for academic credit or through work-study positions.
+    </p>
+    <p>
+      We also regularly mentor summer students through the Danforth Center's NSF-funded <strong>Research Experiences for Undergraduates (REU)</strong> program and regional student internship initiatives.
+    </p>
+    <div class="join-card-footer">
+      <a class="button" href="https://www.danforthcenter.org/careers/internships-and-fellowships/" target="_blank" rel="noopener noreferrer" data-style="bare">
+        <span>Danforth REU & Internships →</span>
+      </a>
+    </div>
+  </div>
 
----
+</div>
 
-**Undergraduate Researchers**
-
-All open undergraduate research opportunities have been filled for the 2022 - 2023 school year and for summer 2023. If you are interested in potentially joining the lab in Fall 2023 please contact allison.j.miller at slu.edu or sselby at danforthcenter.org.
-
----
-
-**Internships**
-
-The Gallo Winery internship application link is now live and applications are being received: [https://careers.gallo.com/job/Modesto-Winegrowing-Internship-Program-2020-%286-months%29-CA-95354/610604200/](https://urldefense.com/v3/__https://careers.gallo.com/job/Modesto-Winegrowing-Internship-Program-2020-*286-months*29-CA-95354/610604200/__;JSU!!K543PA!esRhg8_1NhYGv0_X8iZzbJ8Bjp0eh0yg_PPPaulNpKytDgjNO2Lx3uZK1zCnLPqIviTRXw$)
-
-**Internship in Plant Science (BIOL 4912) –**If you are interested in setting up an internship in plant science please contact Allison Miller.
+<div class="join-guide">
+  <h3>{% include icon.html icon="fa-solid fa-envelope-open-text" %} How to Reach Out</h3>
+  <p>
+    If you are interested in joining the lab, please send an email to Allison Miller (<a href="mailto:amiller@danforthcenter.org">amiller@danforthcenter.org</a> or <a href="mailto:allison.j.miller@slu.edu">allison.j.miller@slu.edu</a>) with:
+  </p>
+  <ul>
+    <li>Your current <strong>CV or résumé</strong>.</li>
+    <li>A brief summary (1–2 paragraphs) describing your research background, academic path, and scientific interests.</li>
+    <li>A short note on why you are drawn to the Miller Lab's research in perennial plant biology, root systems, or crop evolution.</li>
+    <li>For graduate applicants: mention whether you hold or plan to apply for external fellowships (e.g., NSF GRFP).</li>
+  </ul>
+</div>

@@ -1,0 +1,96 @@
+---
+---
+
+// styles for join us page
+
+.join-hero {
+  margin-bottom: 32px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.join-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+  margin: 36px 0;
+}
+
+.join-card {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  background: var(--background);
+  border: solid 1px var(--light-gray);
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+  text-align: left;
+  transition: transform var(--transition);
+
+  h3 {
+    margin: 0 0 12px;
+    font-size: 1.35rem;
+    color: var(--deep);
+  }
+
+  p {
+    margin: 0 0 16px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text);
+  }
+
+  .join-card-footer {
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: solid 1px var(--light-gray);
+  }
+}
+
+[data-dark="true"] .join-card h3 {
+  color: var(--text);
+}
+
+.join-card.featured {
+  border: solid 2px var(--accent);
+  background: var(--background-alt);
+}
+
+.join-badge {
+  display: inline-block;
+  align-self: flex-start;
+  margin-bottom: 12px;
+  padding: 4px 10px;
+  font-size: 0.72rem;
+  font-weight: var(--bold);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--accent);
+  color: var(--on-accent);
+  border-radius: 2px;
+}
+
+.join-badge.careers {
+  background: var(--second);
+  color: var(--on-second);
+}
+
+.join-guide {
+  margin: 40px 0;
+  padding: 30px;
+  background: var(--background-alt);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 var(--rounded) var(--rounded) 0;
+  text-align: left;
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+
+  ul {
+    margin: 12px 0 0;
+    padding-left: 20px;
+    line-height: 1.7;
+  }
+}

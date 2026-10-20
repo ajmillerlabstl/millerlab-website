@@ -146,11 +146,41 @@
         </div>
       </div>
 
+      {% comment %} recent publications (_data/citations.yaml) {% endcomment %}
+      <div class="home-band" data-style="paper">
+        <div class="home-wrap home-section">
+          <div class="home-heading-row">
+            <div>
+              <span class="home-label">PEER-REVIEWED RESEARCH</span>
+              <h2>Recent publications</h2>
+            </div>
+            <a class="home-link" href="{{ "publications/" | relative_url }}">All publications →</a>
+          </div>
+          <div class="home-cards">
+            {% for pub in site.data.citations limit: 3 %}
+              <a class="home-card" href="{{ pub.link | default: '#' }}" target="_blank" rel="noopener noreferrer">
+                <span class="home-card-body">
+                  <span class="home-chip" data-color="{{ forloop.index0 | modulo: 3 }}">
+                    {{ pub.publisher | default: "JOURNAL" | upcase }} · {{ pub.date | date: "%Y" }}
+                  </span>
+                  <span class="home-card-title" style="font-size: 1.15rem;">{{ pub.title }}</span>
+                  <span class="home-muted" style="font-size: 0.88rem;">{{ pub.authors | slice: 0, 3 | join: ", " }}{% if pub.authors.size > 3 %}, et al.{% endif %}</span>
+                  <span class="home-link" style="margin-top: auto; padding-top: 8px; font-size: 0.88rem;">Read paper (DOI) →</span>
+                </span>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
       {% comment %} latest news posts {% endcomment %}
       <div class="home-band" data-style="tint">
         <div class="home-wrap home-section">
           <div class="home-heading-row">
-            <h2>Field notes</h2>
+            <div>
+              <span class="home-label">LAB UPDATES & IN THE NEWS</span>
+              <h2>Recent news &amp; field notes</h2>
+            </div>
             <a class="home-link" href="{{ "blog/" | relative_url }}">All news →</a>
           </div>
           <div class="home-cards">
@@ -165,6 +195,7 @@
                   </span>
                   <span class="home-card-title">{{ post.title }}</span>
                   <span class="home-muted">{{ post.excerpt | strip_html | truncatewords: 24 }}</span>
+                  <span class="home-link" style="margin-top: auto; padding-top: 8px; font-size: 0.88rem;">Read story →</span>
                 </span>
               </a>
             {% endfor %}
