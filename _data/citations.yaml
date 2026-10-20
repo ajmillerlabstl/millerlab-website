@@ -232,8 +232,9 @@
   date: '2022-08-18'
   link: https://doi.org/hcn82k
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2022 \xB7 Clayton N. Carley et al. \xB7 Root biology never sleeps"
 - id: doi:10.1002/pld3.440
   title: Temporal and environmental factors interact with rootstock genotype to shape
     leaf elemental composition in grafted grapevines
@@ -270,8 +271,11 @@
   date: '2022-02-22'
   link: https://doi.org/hcn82m
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2022 \xB7 Alexander G. Linan et al. \xB7 Interspecific Hybridization and\
+    \ Island Colonization History, not Rarity, Most Strongly Affect the Genetic Diversity\
+    \ inDiospyrosa Clade of Mascarene-Endemic Trees"
 - id: doi:10.1002/ajb2.16033
   title: Increases in vein length compensate for leaf area lost to lobing in grapevine
   authors:
@@ -439,8 +443,11 @@
   date: '2020-10-02'
   link: https://doi.org/hcn82n
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2020 \xB7 Matthew Maimaitiyiming et al. \xB7 Leveraging Very-High Spatial\
+    \ Resolution Hyperspectral and Thermal UAV Imageries for Characterizing Diurnal\
+    \ Indicators of Grapevine Physiology"
 - id: doi:10.1007/s12231-020-09494-0
   title: An Ethnobotanical Study of the Genus Elymus1
   authors:
@@ -504,8 +511,11 @@
   date: '2020-12-02'
   link: https://doi.org/hcn82p
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2020 \xB7 Alexander G. Linan et al. \xB7 RAD\u2010sequencing reveals patterns\
+    \ of diversification and hybridization, and the accumulation of reproductive isolation\
+    \ in a clade of partially sympatric, tropical island trees"
 - id: doi:10.3375/043.040.0111
   title: Toward Integrated Conservation of North America's Crop Wild Relatives
   authors:
@@ -523,8 +533,10 @@
   date: '2020-01-14'
   link: https://doi.org/gv538d
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2020 \xB7 Colin K. Khoury et al. \xB7 Toward Integrated Conservation of North\
+    \ Americas Crop Wild Relatives"
 - id: doi:10.2135/cropsci2019.05.0309
   title: A Road Map for Conservation, Use, and Public Engagement around North America's
     Crop Wild Relatives and Wild Utilized Plants
@@ -538,8 +550,11 @@
   date: '2019-11-01'
   link: https://doi.org/gjpz5q
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2019 \xB7 Colin K. Khoury et al. \xB7 A Road Map for Conservation, Use, and\
+    \ Public Engagement around North Americas Crop Wild Relatives and Wild Utilized\
+    \ Plants"
 - id: doi:10.1093/jxb/erz394
   title: 'Characterizing 3D inflorescence architecture in grapevine using X-ray imaging
     and advanced morphometrics: implications for understanding cluster density'
@@ -575,8 +590,10 @@
   date: '2019-05-15'
   link: https://doi.org/ggcnt4
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2019 \xB7 Heather E. Schier et al. \xB7 Comparative Analysis of Perennial\
+    \ and Annual Phaseolus Seed Nutrient Concentrations"
 - id: doi:10.1093/botlinnean/boz034
   title: 'Ebony and the Mascarenes: the evolutionary relationships and biogeography
     of Diospyros (Ebenaceae) in the western Indian Ocean'
@@ -590,8 +607,11 @@
   date: '2019-07-10'
   link: https://doi.org/gjkg3p
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2019 \xB7 Alexander G. Linan et al. \xB7 Ebony and the Mascarenes: the evolutionary\
+    \ relationships and biogeography of Diospyros (Ebenaceae) in the western Indian\
+    \ Ocean"
 - id: doi:10.1007/s12231-019-09472-1
   title: Book Reviews
   authors:
@@ -617,8 +637,10 @@
   date: '2019-02-14'
   link: https://doi.org/gg8tpp
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2019 \xB7 Brandon Monier et al. \xB7 IRIS-EDA: An integrated RNA-Seq interpretation\
+    \ system for gene expression data analysis"
 - id: doi:10.1146/annurev-genet-112618-043545
   title: 'Living with Two Genomes: Grafting and Its Implications for Plant Genome-to-Genome
     Interactions, Phenotypic Variation, and Evolution'
@@ -655,8 +677,10 @@
   date: '2019-05-01'
   link: https://doi.org/ghdrmz
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2019 \xB7 Zo\xEB Migicovsky et al. \xB7 Rootstock effects on scion phenotypes\
+    \ in a \u2018Chambourcin\u2019 experimental vineyard"
 - id: doi:10.1038/s42003-019-0516-1
   title: "Science\u2013graphic art partnerships to increase research impact"
   authors:
@@ -682,8 +706,10 @@
   date: '2019-08-06'
   link: https://doi.org/gh5hhw
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2019 \xB7 Colin K. Khoury et al. \xB7 Science\u2013graphic art partnerships\
+    \ to increase research impact"
 - id: doi:10.2135/cropsci2019.05.0353
   title: Using Living Germplasm Collections to Characterize, Improve, and Conserve
     Woody Perennials
@@ -715,8 +741,11 @@
   date: '2018-02-01'
   link: https://doi.org/gc77p2
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2018 \xB7 Laura L. Klein et al. \xB7 High\u2010throughput sequencing data\
+    \ clarify evolutionary relationships among North American Vitis species and improve\
+    \ identification in USDA Vitis germplasm collections"
 - id: doi:10.3390/su10030730
   title: 'Perennial Grain Legume Domestication Phase I: Criteria for Candidate Species
     Selection'
@@ -778,8 +807,10 @@
   date: '2018-04-25'
   link: https://doi.org/gdhrvj
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2018 \xB7 Mao Li et al. \xB7 Topological Data Analysis as a Morphometric\
+    \ Method: Using Persistent Homology to Demarcate a Leaf Morphospace"
 - id: doi:10.3389/fpls.2017.00373
   title: 'Digital Morphometrics of Two North American Grapevines (Vitis: Vitaceae)
     Quantifies Leaf Variation between Species, within Species, and among Individuals'
@@ -827,8 +858,9 @@
   date: '2016-05-01'
   link: https://doi.org/gf6v28
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2016 \xB7 Lee R. DeHaan et al. \xB7 A Pipeline Strategy for Grain Crop Domestication"
 - id: doi:10.5344/ajev.2016.15110
   title: Climatic Niche Characterization of 13 North American<i>Vitis</i>Species
   authors:
@@ -839,8 +871,10 @@
   date: '2016-05-27'
   link: https://doi.org/f8tmpt
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2016 \xB7 Steven T. Callen et al. \xB7 Climatic Niche Characterization of\
+    \ 13 North AmericanVitisSpecies"
 - id: doi:10.14358/pers.82.2.51
   title: Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine
     Species
@@ -874,8 +908,10 @@
   date: '2016-06-30'
   link: https://doi.org/hcn82r
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2016 \xB7 Zo\xEB Migicovsky et al. \xB7 Genomic ancestry estimation quantifies\
+    \ use of wild species in grape breeding"
 - id: doi:10.1111/nph.13754
   title: Latent developmental and evolutionary shapes embedded within the grapevine
     leaf
@@ -919,8 +955,10 @@
   date: '2016-06-01'
   link: https://doi.org/hcn82s
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2016 \xB7 Allison J. Miller et al. \xB7 Report from The International Plant\
+    \ and Animal Genome Meeting"
 - id: doi:10.1016/j.tplants.2015.11.008
   title: 'Rootstocks: Diversity, Domestication, and Impacts on Shoot Phenotypes'
   authors:
@@ -950,8 +988,11 @@
   date: '2016-07-01'
   link: https://doi.org/f8wz2p
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2016 \xB7 Christine A. McAllister et al. \xB7 Single nucleotide polymorphism\
+    \ discovery via genotyping by sequencing to assess population genetic structure\
+    \ and recurrent polyploidization in Andropogon gerardii"
 - id: doi:10.3732/ajb.1400296
   title: Environmental correlates of cytotype distribution in <i>Andropogon gerardii</i>
     (Poaceae)
@@ -969,8 +1010,10 @@
   date: '2015-01-01'
   link: https://doi.org/f6wn6t
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2014 \xB7 Christine A. McAllister et al. \xB7 Environmental correlates of\
+    \ cytotype distribution in Andropogon gerardii (Poaceae)"
 - id: doi:10.1038/nplants.2015.78
   title: Expanding the role of botanical gardens in the future of food
   authors:
@@ -985,8 +1028,10 @@
   date: '2015-06-01'
   link: https://doi.org/ghj9j5
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2015 \xB7 Allison J. Miller et al. \xB7 Expanding the role of botanical gardens\
+    \ in the future of food"
 - id: doi:10.5344/ajev.2015.15012
   title: Population Structure of <i>Vitis rupestris</i>, an Important Resource for
     Viticulture
@@ -1029,8 +1074,10 @@
   date: '2014-01-01'
   link: https://doi.org/f6bf43
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2014 \xB7 Matthew A. Albrecht et al. \xB7 Conservation genetics of edaphic\
+    \ endemics in naturally isolated habitats: a case study withGeocarpon minimum(Caryophyllaceae)"
 - id: doi:10.1002/9780470015902.a0003360.pub2
   title: 'Crop Plants: Evolution'
   authors:
@@ -1061,8 +1108,10 @@
   date: '2014-10-01'
   link: https://doi.org/f6m397
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2014 \xB7 Briana L. Gross et al. \xB7 Speaking of food: Connecting basic\
+    \ and applied plant science"
 - id: doi:10.1371/journal.pone.0078680
   title: 'Vitis Phylogenomics: Hybridization Intensities from a SNP Array Outperform
     Genotype Calls'
@@ -1080,8 +1129,10 @@
   date: '2013-11-13'
   link: https://doi.org/gntm2f
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2013 \xB7 Allison J. Miller et al. \xB7 Vitis Phylogenomics: Hybridization\
+    \ Intensities from a SNP Array Outperform Genotype Calls"
 - id: doi:10.1111/j.1365-294X.2012.05467.x
   title: "Out in the cold \u2013 how big and how old? Genetic fingerprinting reveals\
     \ long\u2010lived individuals withstand climatic oscillations in the arctic\u2010\
@@ -1116,8 +1167,10 @@
   date: '2011-09-01'
   link: https://doi.org/bb7dqj
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2011 \xB7 Allison J. Miller et al. \xB7 From forest to field: Perennial fruit\
+    \ crop domestication"
 - id: doi:10.1007/s11295-011-0384-4
   title: Geographic patterns of genetic variation in native pecans
   authors:
@@ -1129,8 +1182,10 @@
   date: '2011-03-25'
   link: https://doi.org/b8k4pw
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2011 \xB7 Larry J. Grauke et al. \xB7 Geographic patterns of genetic variation\
+    \ in native pecans"
 - id: doi:10.1007/978-3-642-20447-0_10
   title: Spondias
   authors:
@@ -1158,8 +1213,11 @@
   date: '2010-04-01'
   link: https://doi.org/dd6b35
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2010 \xB7 Bee F. Gunn et al. \xB7 Genetic variation in walnuts ( Juglans\
+    \ regia and J. sigillata ; Juglandaceae): Species distinctions, human impacts,\
+    \ and the conservation of agrobiodiversity in Yunnan, China"
 - id: doi:10.1126/science.1188800
   title: "Genomic Analysis of Organismal Complexity in the Multicellular Green Alga\n\
     \                    <i>Volvox carteri</i>"
@@ -1209,8 +1267,11 @@
   date: '2009-07-25'
   link: https://doi.org/ccm6xx
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2009 \xB7 Danielle Sampliner et al. \xB7 Ethnobotany of Horseradish (Armoracia\
+    \ rusticana, Brassicaceae) and Its Wild Relatives (Armoracia spp.): Reproductive\
+    \ Biology and Local Uses in Their Native Ranges"
 - id: doi:10.3159/08-ra-020r.1
   title: Characterization of a Domesticated Tree Lineage (Spondias purpurea, Anacardiaceae)
     Based on Nuclear and Chloroplast Sequence Data<sup>1</sup>
@@ -1220,8 +1281,11 @@
   date: '2008-10-01'
   link: https://doi.org/d2cb6j
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2008 \xB7 Allison J. Miller \xB7 Characterization of a Domesticated Tree\
+    \ Lineage (Spondias purpurea, Anacardiaceae) Based on Nuclear and Chloroplast\
+    \ Sequence Data1"
 - id: doi:10.1600/036364407781179635
   title: Phylogeny of &lt;I&gt;Rhus&lt;/I&gt; (Anacardiaceae) Based on Sequences of
     Nuclear &lt;I&gt;Nia-i3&lt;/I&gt; Intron and Chloroplast &lt;I&gt;trnC-trnD&lt;/I&gt;
@@ -1233,8 +1297,10 @@
   date: '2007-04-01'
   link: https://doi.org/ccrrpq
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2007 \xB7 Ting\u2010Shuang Yi et al. \xB7 Phylogeny of Rhus (Anacardiaceae)\
+    \ Based on Sequences of Nuclear Nia-i3 Intron and Chloroplast trnC-trnD"
 - id: doi:10.1111/j.1365-294X.2006.02834.x
   title: Domestication and the distribution of genetic variation in wild and cultivated
     populations of the Mesoamerican fruit tree <i>Spondias purpurea</i> L. (Anacardiaceae)
@@ -1258,8 +1324,11 @@
   date: '2006-12-01'
   link: https://doi.org/dbjqv3
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2006 \xB7 Allison J. Miller et al. \xB7 GIS\u2010based characterization of\
+    \ the geographic distributions of wild and cultivated populations of the Mesoamerican\
+    \ fruit tree Spondias purpurea (Anacardiaceae)"
 - id: doi:10.1073/pnas.0505447102
   title: "Domestication of a Mesoamerican cultivated fruit tree,\n               \
     \     <i>Spondias purpurea</i>"
@@ -1270,8 +1339,10 @@
   date: '2005-08-26'
   link: https://doi.org/fgjpqm
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2005 \xB7 Allison J. Miller et al. \xB7 Domestication of a Mesoamerican cultivated\
+    \ fruit tree, Spondias purpurea"
 - id: doi:10.1016/j.ympev.2004.07.006
   title: Phylogenetic and biogeographic diversification of Rhus (Anacardiaceae) in
     the Northern Hemisphere
@@ -1283,8 +1354,10 @@
   date: '2004-12-01'
   link: https://doi.org/fgvv9b
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2004 \xB7 Ting\u2010Shuang Yi et al. \xB7 Phylogenetic and biogeographic\
+    \ diversification of Rhus (Anacardiaceae) in the Northern Hemisphere"
 - id: doi:10.1086/322948
   title: Phylogeny and Biogeography of<i>Rhus</i>(Anacardiaceae) Based on ITS Sequence
     Data
@@ -1296,8 +1369,10 @@
   date: '2001-11-01'
   link: https://doi.org/ftqq9t
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2001 \xB7 Allison J. Miller et al. \xB7 Phylogeny and Biogeography ofRhus(Anacardiaceae)\
+    \ Based on ITS Sequence Data"
 - id: doi:10.1016/s0273-1177(97)00635-2
   title: What is the threshold amount of starch necessary for full gravitropic sensitivity
     ?
@@ -1309,8 +1384,10 @@
   date: '1998-01-01'
   link: https://doi.org/dsf7k3
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "1998 \xB7 John Z. Kiss et al. \xB7 What is the threshold amount of starch\
+    \ necessary for full gravitropic sensitivity ?"
 - id: doi:10.1093/oxfordjournals.pcp.a029199
   title: Reduced Gravitropism in Hypocotyls of Starch-Deficient Mutants of Arabidopsis
   authors:
@@ -1322,8 +1399,10 @@
   date: '1997-01-01'
   link: https://doi.org/hcn82v
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "1997 \xB7 John Z. Kiss et al. \xB7 Reduced Gravitropism in Hypocotyls of\
+    \ Starch-Deficient Mutants of Arabidopsis"
 - id: doi:10.1002/ajb2.70198
   title: A leaf phenomics approach for estimating belowground traits in North American
     licorice
@@ -1339,6 +1418,97 @@
   link: https://doi.org/hcn8wz
   note: "2026 \xB7 Zachary N. Harris et al. \xB7 A leaf phenomics approach for estimating\
     \ belowground traits in North American licorice"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fsufs.2026.1816743
+  title: Alfalfa intercrop rarely limits productivity of intermediate wheatgrass across
+    diverse edaphic and climate conditions
+  authors:
+  - Thomas P. McKenna
+  - Laura K. van der Pol
+  - Madeline DuBois
+  - Ranjith P. Udawatta
+  - Kenneth C. Okonkwo
+  - Nyree J. C. Zerega
+  - Liz Vogel
+  - Eric J. von Wettberg
+  - Kevin Haggerty
+  - Allison J. Miller
+  - Timothy E. Crews
+  publisher: Frontiers in Sustainable Food Systems
+  date: '2026-08-27'
+  link: https://doi.org/hcn86n
+  note: "2026 \xB7 Thomas P. McKenna et al. \xB7 Alfalfa intercrop rarely limits productivity\
+    \ of intermediate wheatgrass across diverse edaphic and climate conditions"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.64898/2026.01.06.697986
+  title: Smartphone image capture system and image analysis pipelines enable accurate
+    and efficient phenotyping of spaced plant mapping populations
+  authors:
+  - Stella Woeltjen
+  - Molly Hanlon
+  - Keely Brown
+  - Haley Schuhl
+  - Ivan Baxter
+  - Allison Miller
+  publisher: openRxiv
+  date: '2026-01-07'
+  link: https://doi.org/hcn8wv
+  note: "2026 \xB7 Stella Woeltjen et al. \xB7 Smartphone image capture system and\
+    \ image analysis pipelines enable accurate and efficient phenotyping of spaced\
+    \ plant mapping populations"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41467-026-75205-3
+  title: Assembly of Silphium interspecific hybrid genomes opens the genus to phylogenomics,
+    ecogenomics, and molecular breeding
+  authors:
+  - Renan S. Souza
+  - Josh P. Clevenger
+  - Jerry Jenkins
+  - Walid Korani
+  - Jeremy Schmutz
+  - Jane Grimwood
+  - Christopher Plott
+  - Yaniv Brandvain
+  - Kathryn Turner
+  - Allison J. Miller
+  - Brent S. Hulke
+  - Louis F. Nastasi
+  - Ebony G. Murrell
+  - Lori H. Handley
+  - Jenell Webber
+  - Lori Beth Boston
+  - Stella Woeltjen
+  - Matthew J. Rubin
+  - Betsy Trana
+  - Erin Howard
+  - Ashlyn Bazzel
+  - Alex Harkess
+  - David L. Van Tassel
+  publisher: Nature Communications
+  date: '2026-07-09'
+  link: https://doi.org/hcgntc
+  note: "2026 \xB7 Renan S. Souza et al. \xB7 Assembly of Silphium interspecific hybrid\
+    \ genomes opens the genus to phylogenomics, ecogenomics, and molecular breeding"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s40793-026-00933-4
+  title: 'Conserved rhizosphere microbiomes and metabolic functions across diverse
+    grapevine rootstocks: implications for plant elemental composition'
+  authors:
+  - Joel F. Swift
+  - Grace E. Trello
+  - Zachary N. Harris
+  - "Zo\xEB Migicovsky"
+  - Allison J. Miller
+  publisher: Environmental Microbiome
+  date: '2026-07-26'
+  link: https://doi.org/hcn86p
+  note: "2026 \xB7 Joel F. Swift et al. \xB7 Conserved rhizosphere microbiomes and\
+    \ metabolic functions across diverse grapevine rootstocks: implications for plant\
+    \ elemental composition"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.21203/rs.3.rs-8753360/v1
@@ -1376,39 +1546,94 @@
     \ Silphium"
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.64898/2026.01.14.698671
-  title: 'Conserved Rhizosphere Microbiomes and Metabolic Functions Across Diverse
-    Grapevine Rootstocks: Implications for Plant Elemental Composition'
+- id: doi:10.1002/ppp3.70246
+  title: "Conservation gap analysis for wild grapevines (\n                    <i>Vitis</i>\n\
+    \                    L.) of the Americas"
   authors:
-  - Joel F. Swift
-  - Grace E. Trello
-  - Zachary N. Harris
-  - "Zo\xEB Migicovsky"
-  - Allison J. Miller
-  publisher: openRxiv
-  date: '2026-01-15'
-  link: https://doi.org/hcn8ww
-  note: "2026 \xB7 Joel F. Swift et al. \xB7 Conserved Rhizosphere Microbiomes and\
-    \ Metabolic Functions Across Diverse Grapevine Rootstocks: Implications for Plant\
-    \ Elemental Composition"
+  - Daniel Carver
+  - Colin K. Khoury
+  - Anne Frances
+  - Nan McCarry
+  - "Luis Diaz\u2010Garcia"
+  - Erin R. Galarneau
+  - Sarah Gora
+  - Megan Haidet
+  - Claire Heinitz
+  - Wesley Knapp
+  - Abby Meyer
+  - Allison Miller
+  - Ray Mims
+  - Surya Sapkota
+  - Carol Spurrier
+  - Jun Wen
+  publisher: PLANTS, PEOPLE, PLANET
+  date: '2026-07-28'
+  link: https://doi.org/hcn86q
+  note: "2026 \xB7 Daniel Carver et al. \xB7 Conservation gap analysis for wild grapevines\
+    \ ( Vitis L.) of the Americas"
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.64898/2026.01.06.697986
-  title: Smartphone image capture system and image analysis pipelines enable accurate
-    and efficient phenotyping of spaced plant mapping populations
+- id: doi:10.1002/ppp3.70244
+  title: "Grape (\n                    <i>Vitis</i>\n                    L.) biodiversity:\
+    \ Historical uses, current status, and future potential"
   authors:
-  - Stella Woeltjen
-  - Molly Hanlon
-  - Keely Brown
-  - Haley Schuhl
-  - Ivan Baxter
+  - Colin K. Khoury
+  - Anne Y. Fennell
+  - "Zo\xEB Migicovsky"
+  - Allison J. Miller
+  - Jun Wen
+  publisher: PLANTS, PEOPLE, PLANET
+  date: '2026-07-28'
+  link: https://doi.org/hcn86r
+  note: "2026 \xB7 Colin K. Khoury et al. \xB7 Grape ( Vitis L.) biodiversity: Historical\
+    \ uses, current status, and future potential"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/ppp3.70265
+  title: Enhance food plant diversity conservation and use through greater coordination
+    between genebanks and botanic gardens
+  authors:
+  - Colin K. Khoury
+  - Sarah Gora
+  - Hannes Dempewolf
+  - Mauricio Diazgranados
+  - Alex C. McAlvay
+  - Vania Azevedo
+  - Sam Brockington
+  - "\xC1ngela Cano"
+  - Daniel Carver
+  - Carly Cowell
+  - Peter Crane
+  - Cary Fowler
+  - Peter Giovannini
+  - Luigi Guarino
+  - Robbie Hart
+  - Geoff Hawtin
+  - Sarada Krishnan
+  - Charlotte Lusty
+  - Patricia Malcolm
+  - Nan McCarry
+  - Abby Meyer
   - Allison Miller
-  publisher: openRxiv
-  date: '2026-01-07'
-  link: https://doi.org/hcn8wv
-  note: "2026 \xB7 Stella Woeltjen et al. \xB7 Smartphone image capture system and\
-    \ image analysis pipelines enable accurate and efficient phenotyping of spaced\
-    \ plant mapping populations"
+  - Ray Mims
+  - Tara Moreau
+  - Arshiya Noorani
+  - Susan K. Pell
+  - Juan Lucas Restrepo
+  - Erin C. Riordan
+  - Stefan Schmitz
+  - Paul Smith
+  - Charles Spillane
+  - Alvaro Toledo
+  - Raakel Toppila
+  - Maarten van Zonneveld
+  - Emily Warschefsky
+  - Peter Wenzl
+  publisher: PLANTS, PEOPLE, PLANET
+  date: '2026-09-24'
+  link: https://doi.org/hcn86s
+  note: "2026 \xB7 Colin K. Khoury et al. \xB7 Enhance food plant diversity conservation\
+    \ and use through greater coordination between genebanks and botanic gardens"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/ppj2.70045
@@ -1549,6 +1774,53 @@
     \ canopy temperature"
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1101/557819
+  title: "Characterizing grapevine (\n                  <i>Vitis</i>\n           \
+    \       spp.) inflorescence architecture using X-ray imaging: implications for\
+    \ understanding cluster density"
+  authors:
+  - Mao Li
+  - Laura L. Klein
+  - Keith E. Duncan
+  - Ni Jiang
+  - Jason P. Londo
+  - Allison J. Miller
+  - Christopher N. Topp
+  publisher: openRxiv
+  date: '2019-02-22'
+  link: https://doi.org/gkwnvf
+  note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
+    \ inflorescence architecture using X-ray imaging: implications for understanding\
+    \ cluster density"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.5061/dryad.7j5d5t0/4
+  title: Grafting and hybridization of grapevines
+  authors:
+  - Colin Khoury
+  - Yael Kisel
+  - Michael Kantar
+  - Ellie Barber
+  - Vincent Ricciardi
+  - Carni Klirs
+  - Leah Kucera
+  - Zia Mehrabi
+  - Nathanael Johnson
+  - Simone Klabin
+  - "\xC1lvaro Vali\xF1o"
+  - Kelsey Nowakowski
+  - Ignasi Bartomeus
+  - Navin Ramankutty
+  - Allison Miller
+  - Meagan Schipanski
+  - Michael Gore
+  - Ari Novy
+  publisher: Dryad Digital Repository
+  date: '2019-01-01'
+  link: https://doi.org/hcn86t
+  note: "2019 \xB7 Colin K. Khoury et al. \xB7 Grafting and hybridization of grapevines"
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1002/ppp3.37
   title: 'Building a botanical foundation for perennial agriculture: Global inventory
     of wild, perennial herbaceous Fabaceae species'
@@ -1577,26 +1849,6 @@
     \ species"
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/557819
-  title: "Characterizing grapevine (\n                  <i>Vitis</i>\n           \
-    \       spp.) inflorescence architecture using X-ray imaging: implications for\
-    \ understanding cluster density"
-  authors:
-  - Mao Li
-  - Laura L. Klein
-  - Keith E. Duncan
-  - Ni Jiang
-  - Jason P. Londo
-  - Allison J. Miller
-  - Christopher N. Topp
-  publisher: openRxiv
-  date: '2019-02-22'
-  link: https://doi.org/gkwnvf
-  note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
-    \ inflorescence architecture using X-ray imaging: implications for understanding\
-    \ cluster density"
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1101/283341
   title: 'IRIS-DGE: An integrated RNA-seq data analysis and interpretation system
     for differential gene expression'
@@ -1611,5 +1863,44 @@
   link: https://doi.org/gdqcq3
   note: "2018 \xB7 Brandon Monier et al. \xB7 IRIS-DGE: An integrated RNA-seq data\
     \ analysis and interpretation system for differential gene expression"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.60692/4jbts-31s97
+  title: Leaves as composites of latent developmental and evolutionary shapes
+  authors:
+  - ' Daniel H. Chitwood'
+  - ' Laura L. Klein'
+  - ' Allison J. Miller'
+  - ' Jason P. Londo'
+  publisher: OpenAlex
+  date: '2015-04-21'
+  link: https://doi.org/hcn86v
+  note: "2015 \xB7 Daniel H. Chitwood et al. \xB7 Leaves as composites of latent developmental\
+    \ and evolutionary shapes"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1663/0007-196x(2007)59[102:dhnatt]2.0.co;2
+  title: Darwin's Harvest. New Approaches to the Origins, Evolution, and Conservation
+    of Crops
+  authors:
+  - Allison Miller
+  publisher: Brittonia
+  date: '2007-01-01'
+  link: https://doi.org/dmqc6k
+  note: "2007 \xB7 Allison J. Miller \xB7 Darwins Harvest. New Approaches to the Origins,\
+    \ Evolution, and Conservation of Crops"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1105/tpc.5.9.1125
+  title: Jordan, an active Volvox transposable element similar to higher plant transposons.
+  authors:
+  - S M Miller
+  - R Schmitt
+  - D L Kirk
+  publisher: The Plant Cell
+  date: '1993-09-01'
+  link: https://doi.org/cqkxp3
+  note: "1993 \xB7 Allison J. Miller et al. \xB7 Jordan, an Active Volvox Transposable\
+    \ Element Similar to Higher Plant Transposons"
   plugin: sources.py
   file: sources.yaml
