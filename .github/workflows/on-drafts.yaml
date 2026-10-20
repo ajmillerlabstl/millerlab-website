@@ -1,0 +1,60 @@
+name: on-drafts
+run-name: On push to drafts
+
+on:
+  # run on commit to drafts branch (e.g. Pages CMS saves from lab members)
+  push:
+    branches:
+      - drafts
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: write
+
+env:
+  # GitHub usernames asked to approve drafts
+  APPROVERS: hanlonmt
+
+jobs:
+  open-pr:
+    runs-on: ubuntu-latest
+    outputs:
+      number: ${{ steps.pr.outputs.number }}
+      opened: ${{ steps.pr.outputs.opened }}
+
+    steps:
+      - name: Open approval pull request if none is open
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          # nothing to approve when drafts has no commits main lacks
+          ahead=$(gh api "repos/$GH_REPO/compare/main...drafts" --jq .ahead_by)
+          open=$(gh pr list --head drafts --base main --state open --json number --jq '.[0].number')
+          if [ "$ahead" = "0" ] || [ -n "$open" ]; then
+            echo "opened=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          url=$(gh pr create --head drafts --base main \
+            --title "Drafts waiting for approval" \
+            --body "Changes saved as drafts in Pages CMS. Check the preview link the bot posts below, then click **Merge pull request** to publish them to the live site. More saves to drafts are added to this pull request automatically.")
+          echo "number=${url##*/}" >> "$GITHUB_OUTPUT"
+          echo "opened=true" >> "$GITHUB_OUTPUT"
+
+          # request review so approvers are emailed; skip anyone not yet a collaborator
+          for user in $APPROVERS; do
+            gh pr edit "$url" --add-reviewer "$user" || echo "::warning::Could not request review from $user"
+          done
+
+  # pull requests opened with the workflow token don't trigger on-pull-request,
+  # so build the first preview here (deploy-preview picks it up)
+  build-preview:
+    needs: open-pr
+    if: needs.open-pr.outputs.opened == 'true'
+    uses: ./.github/workflows/build-preview.yaml
+    with:
+      number: ${{ needs.open-pr.outputs.number }}
+      ref: drafts

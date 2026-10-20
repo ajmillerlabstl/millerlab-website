@@ -1,4 +1,4 @@
-Visit **[mollyhanlon.com/millerlab-website](http://mollyhanlon.com/millerlab-website)** 🚀
+Visit **[ajmillerlabstl.github.io/millerlab-website](https://ajmillerlabstl.github.io/millerlab-website/)** 🚀
 
 # Miller Lab website
 
@@ -127,7 +127,7 @@ You need [Ruby](https://www.ruby-lang.org/) (on Windows, [RubyInstaller](https:/
 DevKit), [Python 3](https://www.python.org/), and [Git](https://git-scm.com/).
 
 ```bash
-git clone https://github.com/hanlonmt/millerlab-website.git
+git clone https://github.com/ajmillerlabstl/millerlab-website.git
 cd millerlab-website
 
 # one time

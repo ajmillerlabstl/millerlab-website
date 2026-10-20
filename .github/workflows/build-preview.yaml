@@ -2,8 +2,16 @@ name: build-preview
 run-name: Build pull request preview
 
 on:
-  # called from on-pull-request
+  # called from on-pull-request/on-drafts
   workflow_call:
+    inputs:
+      # set by on-drafts, which runs on push rather than pull request events
+      number:
+        type: string
+        default: ""
+      ref:
+        type: string
+        default: ""
 
 permissions:
   contents: read
@@ -18,8 +26,8 @@ jobs:
         # checks out potentially untrusted code
         uses: actions/checkout@v7
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.head_ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ inputs.ref || github.head_ref }}
 
       - name: Install Ruby packages
         if: github.event.action != 'closed'
@@ -38,14 +46,14 @@ jobs:
         if: github.event.action != 'closed'
         # runs potentially untrusted code
         run: |
-          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}/preview/pr-${{ github.event.number }}"
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}/preview/pr-${{ inputs.number || github.event.number }}"
 
       - name: Save preview artifact
         run: |
           mkdir -p artifacts
           # save metadata about preview
-          printf "%s" "${{ github.event.number }}" > artifacts/number.txt
-          printf "%s" "${{ github.event.action }}" > artifacts/action.txt
+          printf "%s" "${{ inputs.number || github.event.number }}" > artifacts/number.txt
+          printf "%s" "${{ github.event.action || 'opened' }}" > artifacts/action.txt
           # save built preview contents
           if [ -d _site ]; then mv _site artifacts/preview; fi
 
