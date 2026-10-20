@@ -58,4 +58,5 @@ When asked whether there are drafts waiting:
 4. If the user wants something fixed first, explain that the editor can fix it in Pages CMS (still on `drafts`), or
    Molly can fix it. Don't edit `drafts` yourself unless the user insists.
 
-Approvers (GitHub usernames) are listed in `APPROVERS` in `.github/workflows/on-drafts.yaml`; add new admins there.
+Approvers get one reminder email per weekday morning while drafts are waiting, from `.github/workflows/drafts-reminder.yaml`.
+Add new admins to `APPROVERS` there (GitHub usernames).

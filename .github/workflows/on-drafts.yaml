@@ -12,10 +12,6 @@ permissions:
   contents: read
   pull-requests: write
 
-env:
-  # GitHub usernames asked to approve drafts
-  APPROVERS: hanlonmt
-
 jobs:
   open-pr:
     runs-on: ubuntu-latest
@@ -37,13 +33,9 @@ jobs:
           if [ -z "$number" ]; then
             url=$(gh pr create --head drafts --base main \
               --title "Drafts waiting for approval" \
-              --body"Changes saved as drafts in Pages CMS. Check the preview links the bot posts below, then click **Merge pull request** to publish them to the live site. More saves to drafts are added to this pull request automatically.")
+              --body "Changes saved as drafts in Pages CMS. Check the preview links the bot posts below, then click **Merge pull request** to publish them to the live site. More saves to drafts are added to this pull request automatically.")
+            # approvers hear about it from drafts-reminder, at most once a day
             number=${url##*/}
-
-            # request review so approvers are emailed; skip anyone not yet a collaborator
-            for user in $APPROVERS; do
-              gh pr edit "$number" --add-reviewer "$user" || echo "::warning::Could not request review from $user"
-            done
           fi
           echo "number=$number" >> "$GITHUB_OUTPUT"
 
