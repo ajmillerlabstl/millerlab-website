@@ -2434,13 +2434,13 @@
   publisher: Encyclopedia of Life Sciences
   date: '2014-04-15'
   link: https://doi.org/hcn8xg
+  tags:
+  - Domestication
+  - Genomics
   orcid: 0000-0002-2722-9361
   plugin: sources.py
   file: sources.yaml
   note: "2014 \xB7 James F Hancock et al. \xB7 Crop Plants: Evolution"
-  tags:
-  - Domestication
-  - Genomics
 - title: 'From field to table: perspectives and potential for for perennial fruit
     domestication'
   publisher: 'Perennial Crops for Food Security: Proceedings of the FAO Expert Workshop'
@@ -2984,47 +2984,75 @@
   file: sources.yaml
   note: "1997 \xB7 John Z. Kiss et al. \xB7 Reduced Gravitropism in Hypocotyls of\
     \ Starch-Deficient Mutants of Arabidopsis"
-- id: doi:10.1002/ajb2.70198
-  title: A leaf phenomics approach for estimating belowground traits in North American
-    licorice
+- id: doi:10.1002/ppp3.70265
+  title: Enhance food plant diversity conservation and use through greater coordination
+    between genebanks and botanic gardens
   authors:
-  - Zachary N. Harris
-  - Vivian Tran
-  - Emelyn Piotter
-  - Meredith T. Hanlon
-  - Matthew J. Rubin
-  - Allison J. Miller
-  publisher: American Journal of Botany
-  date: '2026-05-01'
-  link: https://doi.org/hcn8wz
-  abstract: 'PREMISE: Selective breeding over thousands of years has prioritized aboveground
-    yield, with little regard for changes belowground. Roots underpin plant growth
-    and resilience, but our knowledge of these critical structures lags behind that
-    of aboveground structures. Accurately phenotyping root traits is labor-intensive,
-    expensive, and often destructive. High-throughput, nondestructive methods are
-    required to advance understanding of the fundamental biology of root systems and
-    to integrate hard-to-measure root traits into breeding programs. METHODS: We used
-    American licorice (Glycyrrhiza lepidota Pursh.), a perennial legume with a rich
-    ethnobotanical history, as a model to investigate root system phenotypes. We assessed
-    root traits across multiple populations, analyzed relationships between above-
-    and belowground phenotypes, and tested the use of multidimensional leaf traits,
-    including spectral reflectance, in predicting root traits. RESULTS: Root traits
-    of American licorice varied significantly across source populations. Root traits
-    were strongly intercorrelated and each root trait correlated with an aboveground
-    phenotype. Leaf spectral reflectance and elemental composition predicted belowground
-    traits; however, interpretation of some trait-specific signals were complicated
-    by isometric scaling between plant size and root traits. CONCLUSIONS: These findings
-    demonstrate the use of high-dimensional leaf traits as a proxy for root traits,
-    with potential applications for understanding foundational questions in plant
-    biology and in breeding programs targeting belowground structures of perennial
-    herbaceous species. Further optimization and larger studies are needed to improve
-    predictive models.'
+  - Colin K. Khoury
+  - Sarah Gora
+  - Hannes Dempewolf
+  - Mauricio Diazgranados
+  - Alex C. McAlvay
+  - Vania Azevedo
+  - Sam Brockington
+  - "\xC1ngela Cano"
+  - Daniel Carver
+  - Carly Cowell
+  - Peter Crane
+  - Cary Fowler
+  - Peter Giovannini
+  - Luigi Guarino
+  - Robbie Hart
+  - Geoff Hawtin
+  - Sarada Krishnan
+  - Charlotte Lusty
+  - Patricia Malcolm
+  - Nan McCarry
+  - Abby Meyer
+  - Allison Miller
+  - Ray Mims
+  - Tara Moreau
+  - Arshiya Noorani
+  - Susan K. Pell
+  - Juan Lucas Restrepo
+  - Erin C. Riordan
+  - Stefan Schmitz
+  - Paul Smith
+  - Charles Spillane
+  - Alvaro Toledo
+  - Raakel Toppila
+  - Maarten van Zonneveld
+  - Emily Warschefsky
+  - Peter Wenzl
+  publisher: PLANTS, PEOPLE, PLANET
+  date: '2026-09-24'
+  link: https://doi.org/hcn86s
+  abstract: "Societal Impact Statement Food plants are vital to human and planetary\
+    \ health, but their diversity is threatened, making food security, nutrition,\
+    \ and environmental goals more difficult to achieve. Food plant diversity conservation,\
+    \ research, and education can be enhanced through collaboration between sectors,\
+    \ including genebanks and botanic gardens, which possess complementary strengths\
+    \ but have historically tended to work in isolation. We describe a vision for\
+    \ conserving and promoting food plant diversity through closer cross\u2010sectoral\
+    \ collaboration, offering examples of recent successes and announcing the launch\
+    \ of the Global Conservation Consortium for Food Plants. Summary Food plant diversity\
+    \ is essential to food security and human nutrition and to productive, resilient,\
+    \ and sustainable food systems. Genebanks and botanic gardens hold large and varied\
+    \ collections of this diversity but have historically tended to work in isolation\
+    \ from each other on conservation, research, and education. We describe a vision\
+    \ for conserving and promoting food plant diversity by leveraging the complementary\
+    \ strengths of these sectors. To catalyze a more integrated global system for\
+    \ the conservation and sustainable use of food plant diversity, essential steps\
+    \ include better understanding and documenting the multiple dimensions of this\
+    \ diversity, conserving it, positioning it for broader use, and raising awareness\
+    \ about it, all of which require greater coordination around information, policies,\
+    \ and actions. We offer examples of recent efforts that have increased collaboration\
+    \ between these sectors and announce the launch of the Global Conservation Consortium\
+    \ for Food Plants."
   tags:
-  - Root Biology
-  - Perennial Crops
-  - Phenomics
-  note: "2026 \xB7 Zachary N. Harris et al. \xB7 A leaf phenomics approach for estimating\
-    \ belowground traits in North American licorice"
+  - Conservation
+  note: "2026 \xB7 Colin K. Khoury et al. \xB7 Enhance food plant diversity conservation\
+    \ and use through greater coordination between genebanks and botanic gardens"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3389/fsufs.2026.1816743
@@ -3067,184 +3095,6 @@
   - Perennial Crops
   note: "2026 \xB7 Thomas P. McKenna et al. \xB7 Alfalfa intercrop rarely limits productivity\
     \ of intermediate wheatgrass across diverse edaphic and climate conditions"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.64898/2026.01.06.697986
-  title: Smartphone image capture system and image analysis pipelines enable accurate
-    and efficient phenotyping of spaced plant mapping populations
-  authors:
-  - Stella Woeltjen
-  - Molly Hanlon
-  - Keely Brown
-  - Haley Schuhl
-  - Ivan Baxter
-  - Allison Miller
-  publisher: openRxiv
-  date: '2026-01-07'
-  link: https://doi.org/hcn8wv
-  abstract: "Plain Language Summary The lack of low-cost, user-friendly and expedient\
-    \ methods for plant phenotyping challenges researchers\u2019 ability to efficiently\
-    \ collect accurate phenotypic data in large field experiments. Here, we demonstrate\
-    \ the use of a novel, smartphone-based image capture system and two user-friendly\
-    \ image analysis pipelines (utilizing PlantCV or Biodock AI) to increase the throughput\
-    \ of plant phenotyping in two large, spaced plant populations. We showed that\
-    \ the image capture system collected images of adequate quality for downstream\
-    \ analysis using either the PlantCV or Biodock AI pipeline. Both image analysis\
-    \ pipelines produced phenotype values in line with those obtained using manual\
-    \ image annotation. Together, these results provide researchers with a low-cost,\
-    \ user-friendly image-based phenotyping method that can be widely applied to increase\
-    \ phenotyping throughout in field experiments."
-  tags:
-  - Plant Diversity
-  note: "2026 \xB7 Stella Woeltjen et al. \xB7 Smartphone image capture system and\
-    \ image analysis pipelines enable accurate and efficient phenotyping of spaced\
-    \ plant mapping populations"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1038/s41467-026-75205-3
-  title: Assembly of Silphium interspecific hybrid genomes opens the genus to phylogenomics,
-    ecogenomics, and molecular breeding
-  authors:
-  - Renan S. Souza
-  - Josh P. Clevenger
-  - Jerry Jenkins
-  - Walid Korani
-  - Jeremy Schmutz
-  - Jane Grimwood
-  - Christopher Plott
-  - Yaniv Brandvain
-  - Kathryn Turner
-  - Allison J. Miller
-  - Brent S. Hulke
-  - Louis F. Nastasi
-  - Ebony G. Murrell
-  - Lori H. Handley
-  - Jenell Webber
-  - Lori Beth Boston
-  - Stella Woeltjen
-  - Matthew J. Rubin
-  - Betsy Trana
-  - Erin Howard
-  - Ashlyn Bazzel
-  - Alex Harkess
-  - David L. Van Tassel
-  publisher: Nature Communications
-  date: '2026-07-09'
-  link: https://doi.org/hcgntc
-  abstract: Abstract Developing native perennial crops is vital for climate-resilient
-    agriculture, yet their domestication is often hindered by a lack of cost-effective
-    genomic resources. To build a framework for genomics-accelerated domestication
-    of perennials with large, complex genomes, we generated chromosome-scale, haplotype-phased
-    assemblies for Silphium integrifolium Michx. and Silphium perfoliatum L., two
-    deep-rooted native North American prairie species valued for drought tolerance
-    and oil production. The genomes are characterized by the presence of a putative
-    helical structure preserved during interphase with a loop circumference of 43
-    Mb. Using targeted sequencing of 14 Silphium species, we first refined the phylogeny
-    of the genus, recovering the Composita and Silphium subgenera while identifying
-    taxonomic discrepancies. We used a combination of low-coverage short-read sequencing
-    and target-sequencing to characterize a 258-accession diversity panel to define
-    ancestral populations and perform genome-wide association studies (GWAS) on several
-    traits. We identified 81 loci associated with environmental adaptation and domestication
-    traits; notably, variants in a MATE transporter, Alpha-Beta hydrolase and a ACR4
-    -related protein explained significant variance in seed number and floral architecture.
-    These findings establish the genomic framework necessary to accelerate the domestication
-    of Silphium and provide a model for unlocking the potential of other complex wild
-    genomes.
-  tags:
-  - Root Biology
-  - Perennial Crops
-  - Domestication
-  - Genomics
-  note: "2026 \xB7 Renan S. Souza et al. \xB7 Assembly of Silphium interspecific hybrid\
-    \ genomes opens the genus to phylogenomics, ecogenomics, and molecular breeding"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1186/s40793-026-00933-4
-  title: 'Conserved rhizosphere microbiomes and metabolic functions across diverse
-    grapevine rootstocks: implications for plant elemental composition'
-  authors:
-  - Joel F. Swift
-  - Grace E. Trello
-  - Zachary N. Harris
-  - "Zo\xEB Migicovsky"
-  - Allison J. Miller
-  publisher: Environmental Microbiome
-  date: '2026-07-26'
-  link: https://doi.org/hcn86p
-  abstract: "Abstract Background While grapevine rootstocks are essential to commercial\
-    \ viticulture, researchers still lack a complete understanding of how these root\
-    \ systems and their associated microbiomes influence the vine\u2019s mineral nutrition.\
-    \ Previous research has shown that rootstocks with similar pedigrees, reflecting\
-    \ the limited number of parental genotypes in the breeding pool, affect both the\
-    \ vine\u2019s elemental profile and microbiome composition. Here, we extend this\
-    \ work by surveying a broader diversity of rootstock genotypes representing distinct\
-    \ parentage groups across multiple scions and by assessing both functional and\
-    \ taxonomic associations between the rhizosphere metagenome and vine elemental\
-    \ composition. Results We used a rootstock diversity trial with ten rootstock\
-    \ genotypes grafted to one of two scions to simultaneously characterize the rhizosphere\
-    \ metagenome and elemental composition of both berries and roots. We found that\
-    \ elemental composition varied strongly among vine compartments, while scion and\
-    \ rootstock had comparatively minor effects. Berries of \u2018Cabernet Sauvignon\u2019\
-    \ contained higher concentrations of boron, potassium, and phosphorus than those\
-    \ of \u2018Chardonnay\u2019. Only three elements in root tissues differed among\
-    \ rootstock genotypes, and these differences were unrelated to genetic relatedness\
-    \ among rootstocks. Rhizosphere microbiome composition was also conserved across\
-    \ rootstocks, suggesting that diverse genotypes recruit a consistent microbial\
-    \ community with similar functional potential. By linking rhizosphere microbiome\
-    \ profiles with root elemental composition, we found that Streptomyces and Mesorhizobium\
-    \ were significantly associated with elemental patterns, showing negative correlations\
-    \ with a principal component heavily loaded for molybdenum, cadmium, potassium,\
-    \ and iron. Conclusions Our findings suggest that vine compartment exerts a dominant\
-    \ influence on elemental composition, while rootstock genotypes have comparatively\
-    \ modest effects. Despite the overall conservation of the rhizosphere microbiome,\
-    \ specific microbial taxa were linked to elemental variation, highlighting potential\
-    \ microbe-element associations that may influence nutrient dynamics in the grapevine\
-    \ rhizosphere. These results provide a foundation for disentangling how root-associated\
-    \ microbes contribute to vine mineral nutrition, or vice versa, across diverse\
-    \ rootstock genotypes."
-  tags:
-  - Vitis
-  - Root Biology
-  - Genomics
-  - Conservation
-  note: "2026 \xB7 Joel F. Swift et al. \xB7 Conserved rhizosphere microbiomes and\
-    \ metabolic functions across diverse grapevine rootstocks: implications for plant\
-    \ elemental composition"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.21203/rs.3.rs-8753360/v1
-  title: Haplotype-phased genomes elucidate genetic architecture of environmental
-    adaptation and domestication traits in Silphium
-  authors:
-  - David Van Tassel
-  - Renan Souza
-  - Josh Clevenger
-  - Jerry Jenkins
-  - Walid Korani
-  - Jeremy Schmutz
-  - Jane Grimwood
-  - Chris Plott
-  - Yaniv Brandvain
-  - Kathryn Turner
-  - Allison Miller
-  - Brent Hulke
-  - Louis Nastasi
-  - Ebony Murrell
-  - Lori Handley
-  - Jenell Weber
-  - Lori Boston
-  - Stella Woeltjen
-  - Matthew Rubin
-  - Betsy Trana
-  - Erin Howard
-  - Ashlyn Bazzel
-  - Alex Harkess
-  publisher: Springer Science and Business Media LLC
-  date: '2026-02-06'
-  link: https://doi.org/hcn8wt
-  note: "2026 \xB7 David Van Tassel et al. \xB7 Haplotype-phased genomes elucidate\
-    \ genetic architecture of environmental adaptation and domestication traits in\
-    \ Silphium"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/ppp3.70246
@@ -3328,75 +3178,225 @@
     \ uses, current status, and future potential"
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1002/ppp3.70265
-  title: Enhance food plant diversity conservation and use through greater coordination
-    between genebanks and botanic gardens
+- id: doi:10.1186/s40793-026-00933-4
+  title: 'Conserved rhizosphere microbiomes and metabolic functions across diverse
+    grapevine rootstocks: implications for plant elemental composition'
   authors:
-  - Colin K. Khoury
-  - Sarah Gora
-  - Hannes Dempewolf
-  - Mauricio Diazgranados
-  - Alex C. McAlvay
-  - Vania Azevedo
-  - Sam Brockington
-  - "\xC1ngela Cano"
-  - Daniel Carver
-  - Carly Cowell
-  - Peter Crane
-  - Cary Fowler
-  - Peter Giovannini
-  - Luigi Guarino
-  - Robbie Hart
-  - Geoff Hawtin
-  - Sarada Krishnan
-  - Charlotte Lusty
-  - Patricia Malcolm
-  - Nan McCarry
-  - Abby Meyer
-  - Allison Miller
-  - Ray Mims
-  - Tara Moreau
-  - Arshiya Noorani
-  - Susan K. Pell
-  - Juan Lucas Restrepo
-  - Erin C. Riordan
-  - Stefan Schmitz
-  - Paul Smith
-  - Charles Spillane
-  - Alvaro Toledo
-  - Raakel Toppila
-  - Maarten van Zonneveld
-  - Emily Warschefsky
-  - Peter Wenzl
-  publisher: PLANTS, PEOPLE, PLANET
-  date: '2026-09-24'
-  link: https://doi.org/hcn86s
-  abstract: "Societal Impact Statement Food plants are vital to human and planetary\
-    \ health, but their diversity is threatened, making food security, nutrition,\
-    \ and environmental goals more difficult to achieve. Food plant diversity conservation,\
-    \ research, and education can be enhanced through collaboration between sectors,\
-    \ including genebanks and botanic gardens, which possess complementary strengths\
-    \ but have historically tended to work in isolation. We describe a vision for\
-    \ conserving and promoting food plant diversity through closer cross\u2010sectoral\
-    \ collaboration, offering examples of recent successes and announcing the launch\
-    \ of the Global Conservation Consortium for Food Plants. Summary Food plant diversity\
-    \ is essential to food security and human nutrition and to productive, resilient,\
-    \ and sustainable food systems. Genebanks and botanic gardens hold large and varied\
-    \ collections of this diversity but have historically tended to work in isolation\
-    \ from each other on conservation, research, and education. We describe a vision\
-    \ for conserving and promoting food plant diversity by leveraging the complementary\
-    \ strengths of these sectors. To catalyze a more integrated global system for\
-    \ the conservation and sustainable use of food plant diversity, essential steps\
-    \ include better understanding and documenting the multiple dimensions of this\
-    \ diversity, conserving it, positioning it for broader use, and raising awareness\
-    \ about it, all of which require greater coordination around information, policies,\
-    \ and actions. We offer examples of recent efforts that have increased collaboration\
-    \ between these sectors and announce the launch of the Global Conservation Consortium\
-    \ for Food Plants."
+  - Joel F. Swift
+  - Grace E. Trello
+  - Zachary N. Harris
+  - "Zo\xEB Migicovsky"
+  - Allison J. Miller
+  publisher: Environmental Microbiome
+  date: '2026-07-26'
+  link: https://doi.org/hcn86p
+  abstract: "Abstract Background While grapevine rootstocks are essential to commercial\
+    \ viticulture, researchers still lack a complete understanding of how these root\
+    \ systems and their associated microbiomes influence the vine\u2019s mineral nutrition.\
+    \ Previous research has shown that rootstocks with similar pedigrees, reflecting\
+    \ the limited number of parental genotypes in the breeding pool, affect both the\
+    \ vine\u2019s elemental profile and microbiome composition. Here, we extend this\
+    \ work by surveying a broader diversity of rootstock genotypes representing distinct\
+    \ parentage groups across multiple scions and by assessing both functional and\
+    \ taxonomic associations between the rhizosphere metagenome and vine elemental\
+    \ composition. Results We used a rootstock diversity trial with ten rootstock\
+    \ genotypes grafted to one of two scions to simultaneously characterize the rhizosphere\
+    \ metagenome and elemental composition of both berries and roots. We found that\
+    \ elemental composition varied strongly among vine compartments, while scion and\
+    \ rootstock had comparatively minor effects. Berries of \u2018Cabernet Sauvignon\u2019\
+    \ contained higher concentrations of boron, potassium, and phosphorus than those\
+    \ of \u2018Chardonnay\u2019. Only three elements in root tissues differed among\
+    \ rootstock genotypes, and these differences were unrelated to genetic relatedness\
+    \ among rootstocks. Rhizosphere microbiome composition was also conserved across\
+    \ rootstocks, suggesting that diverse genotypes recruit a consistent microbial\
+    \ community with similar functional potential. By linking rhizosphere microbiome\
+    \ profiles with root elemental composition, we found that Streptomyces and Mesorhizobium\
+    \ were significantly associated with elemental patterns, showing negative correlations\
+    \ with a principal component heavily loaded for molybdenum, cadmium, potassium,\
+    \ and iron. Conclusions Our findings suggest that vine compartment exerts a dominant\
+    \ influence on elemental composition, while rootstock genotypes have comparatively\
+    \ modest effects. Despite the overall conservation of the rhizosphere microbiome,\
+    \ specific microbial taxa were linked to elemental variation, highlighting potential\
+    \ microbe-element associations that may influence nutrient dynamics in the grapevine\
+    \ rhizosphere. These results provide a foundation for disentangling how root-associated\
+    \ microbes contribute to vine mineral nutrition, or vice versa, across diverse\
+    \ rootstock genotypes."
   tags:
+  - Vitis
+  - Root Biology
+  - Genomics
   - Conservation
-  note: "2026 \xB7 Colin K. Khoury et al. \xB7 Enhance food plant diversity conservation\
-    \ and use through greater coordination between genebanks and botanic gardens"
+  note: "2026 \xB7 Joel F. Swift et al. \xB7 Conserved rhizosphere microbiomes and\
+    \ metabolic functions across diverse grapevine rootstocks: implications for plant\
+    \ elemental composition"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41467-026-75205-3
+  title: Assembly of Silphium interspecific hybrid genomes opens the genus to phylogenomics,
+    ecogenomics, and molecular breeding
+  authors:
+  - Renan S. Souza
+  - Josh P. Clevenger
+  - Jerry Jenkins
+  - Walid Korani
+  - Jeremy Schmutz
+  - Jane Grimwood
+  - Christopher Plott
+  - Yaniv Brandvain
+  - Kathryn Turner
+  - Allison J. Miller
+  - Brent S. Hulke
+  - Louis F. Nastasi
+  - Ebony G. Murrell
+  - Lori H. Handley
+  - Jenell Webber
+  - Lori Beth Boston
+  - Stella Woeltjen
+  - Matthew J. Rubin
+  - Betsy Trana
+  - Erin Howard
+  - Ashlyn Bazzel
+  - Alex Harkess
+  - David L. Van Tassel
+  publisher: Nature Communications
+  date: '2026-07-09'
+  link: https://doi.org/hcgntc
+  abstract: Abstract Developing native perennial crops is vital for climate-resilient
+    agriculture, yet their domestication is often hindered by a lack of cost-effective
+    genomic resources. To build a framework for genomics-accelerated domestication
+    of perennials with large, complex genomes, we generated chromosome-scale, haplotype-phased
+    assemblies for Silphium integrifolium Michx. and Silphium perfoliatum L., two
+    deep-rooted native North American prairie species valued for drought tolerance
+    and oil production. The genomes are characterized by the presence of a putative
+    helical structure preserved during interphase with a loop circumference of 43
+    Mb. Using targeted sequencing of 14 Silphium species, we first refined the phylogeny
+    of the genus, recovering the Composita and Silphium subgenera while identifying
+    taxonomic discrepancies. We used a combination of low-coverage short-read sequencing
+    and target-sequencing to characterize a 258-accession diversity panel to define
+    ancestral populations and perform genome-wide association studies (GWAS) on several
+    traits. We identified 81 loci associated with environmental adaptation and domestication
+    traits; notably, variants in a MATE transporter, Alpha-Beta hydrolase and a ACR4
+    -related protein explained significant variance in seed number and floral architecture.
+    These findings establish the genomic framework necessary to accelerate the domestication
+    of Silphium and provide a model for unlocking the potential of other complex wild
+    genomes.
+  tags:
+  - Root Biology
+  - Perennial Crops
+  - Domestication
+  - Genomics
+  note: "2026 \xB7 Renan S. Souza et al. \xB7 Assembly of Silphium interspecific hybrid\
+    \ genomes opens the genus to phylogenomics, ecogenomics, and molecular breeding"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/ajb2.70198
+  title: A leaf phenomics approach for estimating belowground traits in North American
+    licorice
+  authors:
+  - Zachary N. Harris
+  - Vivian Tran
+  - Emelyn Piotter
+  - Meredith T. Hanlon
+  - Matthew J. Rubin
+  - Allison J. Miller
+  publisher: American Journal of Botany
+  date: '2026-05-01'
+  link: https://doi.org/hcn8wz
+  abstract: 'PREMISE: Selective breeding over thousands of years has prioritized aboveground
+    yield, with little regard for changes belowground. Roots underpin plant growth
+    and resilience, but our knowledge of these critical structures lags behind that
+    of aboveground structures. Accurately phenotyping root traits is labor-intensive,
+    expensive, and often destructive. High-throughput, nondestructive methods are
+    required to advance understanding of the fundamental biology of root systems and
+    to integrate hard-to-measure root traits into breeding programs. METHODS: We used
+    American licorice (Glycyrrhiza lepidota Pursh.), a perennial legume with a rich
+    ethnobotanical history, as a model to investigate root system phenotypes. We assessed
+    root traits across multiple populations, analyzed relationships between above-
+    and belowground phenotypes, and tested the use of multidimensional leaf traits,
+    including spectral reflectance, in predicting root traits. RESULTS: Root traits
+    of American licorice varied significantly across source populations. Root traits
+    were strongly intercorrelated and each root trait correlated with an aboveground
+    phenotype. Leaf spectral reflectance and elemental composition predicted belowground
+    traits; however, interpretation of some trait-specific signals were complicated
+    by isometric scaling between plant size and root traits. CONCLUSIONS: These findings
+    demonstrate the use of high-dimensional leaf traits as a proxy for root traits,
+    with potential applications for understanding foundational questions in plant
+    biology and in breeding programs targeting belowground structures of perennial
+    herbaceous species. Further optimization and larger studies are needed to improve
+    predictive models.'
+  tags:
+  - Root Biology
+  - Perennial Crops
+  - Phenomics
+  note: "2026 \xB7 Zachary N. Harris et al. \xB7 A leaf phenomics approach for estimating\
+    \ belowground traits in North American licorice"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.21203/rs.3.rs-8753360/v1
+  title: Haplotype-phased genomes elucidate genetic architecture of environmental
+    adaptation and domestication traits in Silphium
+  authors:
+  - David Van Tassel
+  - Renan Souza
+  - Josh Clevenger
+  - Jerry Jenkins
+  - Walid Korani
+  - Jeremy Schmutz
+  - Jane Grimwood
+  - Chris Plott
+  - Yaniv Brandvain
+  - Kathryn Turner
+  - Allison Miller
+  - Brent Hulke
+  - Louis Nastasi
+  - Ebony Murrell
+  - Lori Handley
+  - Jenell Weber
+  - Lori Boston
+  - Stella Woeltjen
+  - Matthew Rubin
+  - Betsy Trana
+  - Erin Howard
+  - Ashlyn Bazzel
+  - Alex Harkess
+  publisher: Springer Science and Business Media LLC
+  date: '2026-02-06'
+  link: https://doi.org/hcn8wt
+  note: "2026 \xB7 David Van Tassel et al. \xB7 Haplotype-phased genomes elucidate\
+    \ genetic architecture of environmental adaptation and domestication traits in\
+    \ Silphium"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.64898/2026.01.06.697986
+  title: Smartphone image capture system and image analysis pipelines enable accurate
+    and efficient phenotyping of spaced plant mapping populations
+  authors:
+  - Stella Woeltjen
+  - Molly Hanlon
+  - Keely Brown
+  - Haley Schuhl
+  - Ivan Baxter
+  - Allison Miller
+  publisher: openRxiv
+  date: '2026-01-07'
+  link: https://doi.org/hcn8wv
+  abstract: "Plain Language Summary The lack of low-cost, user-friendly and expedient\
+    \ methods for plant phenotyping challenges researchers\u2019 ability to efficiently\
+    \ collect accurate phenotypic data in large field experiments. Here, we demonstrate\
+    \ the use of a novel, smartphone-based image capture system and two user-friendly\
+    \ image analysis pipelines (utilizing PlantCV or Biodock AI) to increase the throughput\
+    \ of plant phenotyping in two large, spaced plant populations. We showed that\
+    \ the image capture system collected images of adequate quality for downstream\
+    \ analysis using either the PlantCV or Biodock AI pipeline. Both image analysis\
+    \ pipelines produced phenotype values in line with those obtained using manual\
+    \ image annotation. Together, these results provide researchers with a low-cost,\
+    \ user-friendly image-based phenotyping method that can be widely applied to increase\
+    \ phenotyping throughout in field experiments."
+  tags:
+  - Plant Diversity
+  note: "2026 \xB7 Stella Woeltjen et al. \xB7 Smartphone image capture system and\
+    \ image analysis pipelines enable accurate and efficient phenotyping of spaced\
+    \ plant mapping populations"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/ppj2.70045
@@ -3687,59 +3687,6 @@
     \ canopy temperature"
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/557819
-  title: "Characterizing grapevine (\n                  <i>Vitis</i>\n           \
-    \       spp.) inflorescence architecture using X-ray imaging: implications for\
-    \ understanding cluster density"
-  authors:
-  - Mao Li
-  - Laura L. Klein
-  - Keith E. Duncan
-  - Ni Jiang
-  - Jason P. Londo
-  - Allison J. Miller
-  - Christopher N. Topp
-  publisher: openRxiv
-  date: '2019-02-22'
-  link: https://doi.org/gkwnvf
-  note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
-    \ inflorescence architecture using X-ray imaging: implications for understanding\
-    \ cluster density"
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.5061/dryad.7j5d5t0/4
-  title: Grafting and hybridization of grapevines
-  authors:
-  - Colin Khoury
-  - Yael Kisel
-  - Michael Kantar
-  - Ellie Barber
-  - Vincent Ricciardi
-  - Carni Klirs
-  - Leah Kucera
-  - Zia Mehrabi
-  - Nathanael Johnson
-  - Simone Klabin
-  - "\xC1lvaro Vali\xF1o"
-  - Kelsey Nowakowski
-  - Ignasi Bartomeus
-  - Navin Ramankutty
-  - Allison Miller
-  - Meagan Schipanski
-  - Michael Gore
-  - Ari Novy
-  publisher: Dryad Digital Repository
-  date: '2019-01-01'
-  link: https://doi.org/hcn86t
-  abstract: "Grafting and hybridization of grapevines, an infographic produced by\
-    \ \xC1lvaro Vali\xF1o and Kelsey Nowakowski based on the research of Allison Miller\
-    \ (Saint Louis University, Danforth Plant Science Center, and Missouri Botanical\
-    \ Garden)."
-  tags:
-  - Vitis
-  note: "2019 \xB7 Colin K. Khoury et al. \xB7 Grafting and hybridization of grapevines"
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1002/ppp3.37
   title: 'Building a botanical foundation for perennial agriculture: Global inventory
     of wild, perennial herbaceous Fabaceae species'
@@ -3805,6 +3752,59 @@
   note: "2019 \xB7 Claudia Ciotir et al. \xB7 Building a botanical foundation for\
     \ perennial agriculture: Global inventory of wild, perennial herbaceous Fabaceae\
     \ species"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/557819
+  title: "Characterizing grapevine (\n                  <i>Vitis</i>\n           \
+    \       spp.) inflorescence architecture using X-ray imaging: implications for\
+    \ understanding cluster density"
+  authors:
+  - Mao Li
+  - Laura L. Klein
+  - Keith E. Duncan
+  - Ni Jiang
+  - Jason P. Londo
+  - Allison J. Miller
+  - Christopher N. Topp
+  publisher: openRxiv
+  date: '2019-02-22'
+  link: https://doi.org/gkwnvf
+  note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
+    \ inflorescence architecture using X-ray imaging: implications for understanding\
+    \ cluster density"
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.5061/dryad.7j5d5t0/4
+  title: Grafting and hybridization of grapevines
+  authors:
+  - Colin Khoury
+  - Yael Kisel
+  - Michael Kantar
+  - Ellie Barber
+  - Vincent Ricciardi
+  - Carni Klirs
+  - Leah Kucera
+  - Zia Mehrabi
+  - Nathanael Johnson
+  - Simone Klabin
+  - "\xC1lvaro Vali\xF1o"
+  - Kelsey Nowakowski
+  - Ignasi Bartomeus
+  - Navin Ramankutty
+  - Allison Miller
+  - Meagan Schipanski
+  - Michael Gore
+  - Ari Novy
+  publisher: Dryad Digital Repository
+  date: '2019-01-01'
+  link: https://doi.org/hcn86t
+  abstract: "Grafting and hybridization of grapevines, an infographic produced by\
+    \ \xC1lvaro Vali\xF1o and Kelsey Nowakowski based on the research of Allison Miller\
+    \ (Saint Louis University, Danforth Plant Science Center, and Missouri Botanical\
+    \ Garden)."
+  tags:
+  - Vitis
+  note: "2019 \xB7 Colin K. Khoury et al. \xB7 Grafting and hybridization of grapevines"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.60692/4jbts-31s97
