@@ -371,9 +371,10 @@
     margin-bottom: 8px;
   }
 
-  .home-label {
+  // more specific than the plum band's sage label color, which is hard to read on the light card
+  .home-band[data-style="deep"] & .home-label {
     color: var(--dark-gray);
-    font-size: 0.66rem;
+    font-size: 0.7rem;
   }
 }
 
