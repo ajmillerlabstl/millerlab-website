@@ -1,4 +1,4 @@
-Visit **[ajmillerlabstl.github.io/millerlab-website](https://ajmillerlabstl.github.io/millerlab-website/)** 🚀
+Visit **[ajmillerlabstl.github.io/millerlab-website](https://ajmillerlabstl.github.io/millerlab-website)** 🚀
 
 # Miller Lab website
 
