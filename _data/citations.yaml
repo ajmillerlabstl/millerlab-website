@@ -17,11 +17,6 @@
   link: https://doi.org/hcpc99
   plugin: sources.py
   file: sources.yaml
-  note: "2026 \xB7 Zachary N. Harris et al. \xB7 Early-life stage phenomic prediction\
-    \ of field agronomic traits across breeding cycles in intermediate wheatgrass"
-  tags:
-  - Perennial Crops
-  - Phenomics
   abstract: "Perennial grains represent a promising frontier for sustainable agriculture,\
     \ but breeding progress is constrained by the accessibility of genotyping and\
     \ the difficulty of evaluating complex traits expressed for multiple years after\
@@ -48,6 +43,11 @@
     life stage phenomic data provide reproducible information about agronomic performance\
     \ expressed years later, but that predictor complexity and data integration do\
     \ not guarantee improved prediction."
+  note: "2026 \xB7 Zachary N. Harris et al. \xB7 Early-life stage phenomic prediction\
+    \ of field agronomic traits across breeding cycles in intermediate wheatgrass"
+  tags:
+  - Perennial Crops
+  - Phenomics
 - id: doi:10.1002/ppp3.70265
   title: Enhance food plant diversity conservation and use through greater coordination
     between genebanks and botanic gardens
@@ -428,9 +428,6 @@
   link: https://doi.org/hcn8wt
   plugin: sources.py
   file: sources.yaml
-  note: "2026 \xB7 David Van Tassel et al. \xB7 Haplotype-phased genomes elucidate\
-    \ genetic architecture of environmental adaptation and domestication traits in\
-    \ Silphium"
   abstract: Developing native perennial crops is vital for climate-resilient agriculture,
     yet their domestication is often hindered by a lack of cost-effective genomic
     resources. To build a framework for genomics-accelerated domestication of perennials
@@ -449,6 +446,9 @@
     explained significant variance in seed number and floral architecture. These findings
     establish the genomic framework necessary to accelerate the domestication of Silphium
     and provide a model for unlocking the potential of other complex wild genomes.
+  note: "2026 \xB7 David Van Tassel et al. \xB7 Haplotype-phased genomes elucidate\
+    \ genetic architecture of environmental adaptation and domestication traits in\
+    \ Silphium"
 - id: doi:10.64898/2026.01.06.697986
   title: Smartphone image capture system and image analysis pipelines enable accurate
     and efficient phenotyping of spaced plant mapping populations
@@ -1081,8 +1081,6 @@
   orcid: 0000-0002-2722-9361
   plugin: sources.py
   file: sources.yaml
-  note: "2023 \xB7 Inclusive collaboration across plant physiology and genomics: Now\
-    \ is the time!"
   abstract: "Within the broad field of plant sciences, what are the most pressing\
     \ challenges and opportunities to advance? Answers to this question usually include\
     \ food and nutritional security, climate change mitigation, adaptation of plants\
@@ -1108,6 +1106,8 @@
     \ successful collaboration. We conclude with approaches to share and reward collaboration\
     \ and the need to train inclusive scientists that will have the skills to thrive\
     \ in interdisciplinary contexts."
+  note: "2023 \xB7 Inclusive collaboration across plant physiology and genomics: Now\
+    \ is the time!"
 - id: doi:10.1186/s12870-023-04223-w
   title: Grapevine scion gene expression is driven by rootstock and environment interaction
   authors:
@@ -2299,9 +2299,6 @@
   link: https://doi.org/gkwnvf
   plugin: sources.py
   file: sources.yaml
-  note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
-    \ inflorescence architecture using X-ray imaging: implications for understanding\
-    \ cluster density"
   abstract: "We characterized grapevine inflorescence architecture (the rachis and\
     \ all branches without berries) to describe variation among 10 wild Vitis species,\
     \ assess phylogenetic signals underlying inflorescence architecture traits, and\
@@ -2322,6 +2319,9 @@
     \ crop quality and forecasting yield; analyses presented here can be used to tease\
     \ apart subtle, heritable features and environmental influences on this major\
     \ agronomic trait."
+  note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
+    \ inflorescence architecture using X-ray imaging: implications for understanding\
+    \ cluster density"
 - id: doi:10.1371/journal.pcbi.1006792
   title: 'IRIS-EDA: An integrated RNA-Seq interpretation system for gene expression
     data analysis'
@@ -3393,10 +3393,6 @@
   orcid: 0000-0002-2722-9361
   plugin: sources.py
   file: sources.yaml
-  note: "2014 \xB7 James F Hancock et al. \xB7 Crop Plants: Evolution"
-  tags:
-  - Domestication
-  - Genomics
   abstract: 'Agriculture arose independently in several locations across the world,
     beginning approximately 13 000 years ago in the Near East. All crop plants originated
     from wild plant populations. At the beginning of the domestication process, a
@@ -3424,6 +3420,10 @@
     archaeological evidence indicates that predomestication cultivation may have actually
     taken 1000 years. During the process of crop domestication, genetic variability
     was greatly restricted by the selection of a limited number of desirable individuals.'
+  note: "2014 \xB7 James F Hancock et al. \xB7 Crop Plants: Evolution"
+  tags:
+  - Domestication
+  - Genomics
 - id: doi:10.3159/torrey-d-13-00052.1
   title: 'Conservation genetics of edaphic endemics in naturally isolated habitats:
     a case study with<i>Geocarpon minimum</i>(Caryophyllaceae)'
