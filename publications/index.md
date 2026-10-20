@@ -9,7 +9,7 @@ redirect_from: /publications.html
 
 # {% include icon.html icon="fa-solid fa-book" %}Publications
 
-\*graduate student; \*\*undergraduate student. See also [Allison's Google Scholar page](https://scholar.google.com/citations?user=gI8SGrcAAAAJ&hl=en).
+See also [Allison's Google Scholar page](https://scholar.google.com/citations?user=gI8SGrcAAAAJ&hl=en).
 
 {% include section.html %}
 
