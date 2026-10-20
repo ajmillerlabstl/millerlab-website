@@ -135,13 +135,40 @@ nav > a.nav-highlight:hover {
   height: 240px;
   background-image: var(--image);
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: var(--position, 50% 50%);
   border-bottom: solid 1px var(--light-gray);
 }
 @media (max-width: 600px) {
   .page-banner {
     height: 140px;
   }
+}
+
+.page-banner-titled {
+  display: flex;
+  align-items: flex-end;
+  height: clamp(260px, 32vw, 460px);
+  padding: 0 max(24px, (100% - 1240px) / 2) 36px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0) 55%), var(--image);
+}
+@media (max-width: 600px) {
+  .page-banner-titled {
+    height: 220px;
+    padding-bottom: 24px;
+  }
+}
+
+.page-banner-title {
+  margin: 0;
+  font-family: var(--title);
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  text-align: left;
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+[data-dark=true] .page-banner-title {
+  color: #fff;
 }
 
 /*# sourceMappingURL=header.css.map */
