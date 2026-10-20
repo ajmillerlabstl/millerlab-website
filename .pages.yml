@@ -13,8 +13,9 @@ settings:
 media:
   input: images
   output: /images
-  # web-friendly types only (iPhone HEIC photos don't show in most browsers); big photos are shrunk on save
-  extensions: [jpg, jpeg, png, webp, gif, svg]
+  # web-friendly types only (iPhone HEIC photos don't show in most browsers); big photos are shrunk on save.
+  # Pages CMS matches extensions case-sensitively, so camera-style uppercase (.JPG) is listed too.
+  extensions: &image-types [jpg, JPG, jpeg, JPEG, png, PNG, webp, WEBP, gif, GIF, svg, SVG]
 
 content:
   - name: posts
@@ -28,7 +29,7 @@ content:
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: author, label: Author (member file name, e.g. allison-miller), type: string }
-      - { name: image, label: Image, type: image }
+      - { name: image, label: Image, type: image, options: { extensions: *image-types } }
       - { name: tags, label: "Tags (e.g. news, lab blog)", type: string }
       - { name: body, label: Text, type: rich-text }
 
@@ -40,7 +41,7 @@ content:
       fields: [name, role, group]
     fields:
       - { name: name, label: Name, type: string, required: true }
-      - { name: image, label: Photo, type: image }
+      - { name: image, label: Photo, type: image, options: { extensions: *image-types } }
       - name: role
         label: Role
         type: select
@@ -70,9 +71,34 @@ content:
     path: _data/sources.yaml
     format: yaml
     list: true
+    # every key used in sources.yaml is listed here, so saving through the form can't drop any of them
     fields:
       - { name: id, label: "DOI, written as doi:10.xxxx/xxxxx", type: string }
       - { name: note, label: "Year · first author · title (filled in automatically after saving; leave blank)", type: string }
+      - name: tags
+        label: Topics
+        type: select
+        options:
+          multiple: true
+          values: [Conservation, Domestication, Fruit & Nut Trees, Genomics, Perennial Crops, Phenomics, Plant Diversity, Root Biology, Vitis]
+      - name: buttons
+        label: "Extra links shown under the paper (data, code, media coverage, video…)"
+        type: object
+        list: true
+        fields:
+          - name: type
+            label: Kind of link (sets the icon)
+            type: select
+            options:
+              values:
+                - { name: data, label: "Data (Zenodo, Dryad, Figshare…)" }
+                - { name: source, label: "Code (GitHub…)" }
+                - { name: media, label: "Media coverage (news story, press release, blog)" }
+                - { name: youtube, label: "Video" }
+                - { name: website, label: "Other link" }
+          - { name: text, label: "Button text, e.g. Data on Zenodo (optional)", type: string }
+          - { name: link, label: Web address (full link), type: string }
+      - { name: remove, label: "Hide this paper from the site", type: boolean }
 
   # one entry per page. page text is plain markdown (not rich text) so the {% include %} codes in it survive.
   # nav and redirect_from are listed so saving a page through the form keeps its menu entry and old-site link.
@@ -103,7 +129,7 @@ content:
     format: yaml
     list: true
     fields:
-      - { name: image, label: "Photo (landscape, at least 1600 px wide)", type: image, options: { input: images/gallery, output: images/gallery } }
+      - { name: image, label: "Photo (landscape, at least 1600 px wide)", type: image, options: { input: images/gallery, output: images/gallery, extensions: *image-types } }
       - { name: caption, label: Caption shown under the photo, type: string }
       - { name: alt, label: "Description for screen readers (what's in the photo)", type: string }
 
@@ -118,7 +144,7 @@ content:
       - { name: short_title, label: "Short name, shown on the home page card and the Research page index", type: string }
       - { name: label, label: "Keywords for the card, e.g. Vitis · grafting", type: string }
       - { name: summary, label: One or two sentence summary for the home page card, type: text }
-      - { name: image, label: Photo, type: image }
+      - { name: image, label: Photo, type: image, options: { extensions: *image-types } }
       - { name: image_caption, label: Photo caption, type: string }
       - { name: people, label: "People, e.g. PI: Allison Miller. Co-PIs: …", type: text }
       - { name: website, label: Project website (full web address), type: string }
@@ -132,7 +158,7 @@ content:
     path: research/index.md
     fields: &page-fields
       - { name: title, label: Title, type: string }
-      - { name: header, label: Banner photo, type: image }
+      - { name: header, label: Banner photo, type: image, options: { extensions: *image-types } }
       - name: nav
         label: Menu
         type: object

@@ -2,8 +2,14 @@
 # To add a paper: add a line like  - id: doi:10.1002/ajb2.70198
 # Each "note" (year · first author · title) is filled in automatically on the next build, and the list is
 # kept newest first. Notes are only for reading this list; they don't appear on the site.
-# Tip: also add Allison's ORCID to _data/orcid.yaml so new papers appear on their own.
+# Papers already on the site are kept as they are; only newly added DOIs are looked up.
+# To hide a paper, keep its line and add  remove: true  under it (deleting the line also works).
 
+- id: doi:10.1002/ppj2.70112
+  note: 2026 · Zachary N. Harris et al. · Early-life stage phenomic prediction of field agronomic traits across breeding cycles in intermediate wheatgrass
+  tags:
+  - Perennial Crops
+  - Phenomics
 - id: doi:10.1002/ppp3.70265
   note: 2026 · Colin K. Khoury et al. · Enhance food plant diversity conservation and use through greater coordination between genebanks and botanic gardens
   tags:
@@ -184,6 +190,12 @@
   tags:
   - Vitis
   - Phenomics
+- id: doi:10.1101/2020.09.09.290072
+  note: 2020 · Brigette R. Williams et al. · Epigenomic patterns reflect irrigation and grafting in the grapevine clone 'Chambourcin'
+  tags:
+  - Vitis
+  - Perennial Crops
+  - Genomics
 - id: doi:10.1007/s12231-020-09494-0
   note: 2020 · Emma S. Frawley et al. · An Ethnobotanical Study of the Genus Elymus1
   tags:
@@ -316,6 +328,11 @@
   tags:
   - Root Biology
   - Domestication
+- id: doi:10.14358/PERS.82.2.51
+  note: 2016 · Matthew Maimaitiyiming et al. · Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine Species
+  tags:
+  - Vitis
+  - Root Biology
 - id: doi:10.1111/nph.13754
   note: 2015 · Daniel H. Chitwood et al. · Latent developmental and evolutionary shapes embedded within the grapevine leaf
   tags:
@@ -364,6 +381,10 @@
   tags:
   - Vitis
   - Genomics
+- id: doi:10.1111/j.1365-294x.2012.05467.x
+  note: 2012 · Allison J. Miller · Out in the cold – how big and how old? Genetic fingerprinting reveals long‐lived individuals withstand climatic oscillations in the arctic‐alpine
+  tags:
+  - Plant Diversity
 - id: doi:10.3732/ajb.1000522
   note: '2011 · Allison J. Miller et al. · From forest to field: Perennial fruit crop domestication'
   tags:
@@ -403,6 +424,11 @@
   tags:
   - Domestication
   - Fruit & Nut Trees
+- id: doi:10.1111/j.1365-294x.2006.02834.x
+  note: 2006 · Allison J. Miller et al. · Domestication and the distribution of genetic variation in wild and cultivated populations of the Mesoamerican fruit tree Spondias purpurea L. (Anacardiaceae)
+  tags:
+  - Domestication
+  - Fruit & Nut Trees
 - id: doi:10.1073/pnas.0505447102
   note: 2005 · Allison J. Miller et al. · Domestication of a Mesoamerican cultivated fruit tree, Spondias purpurea
   tags:
@@ -432,20 +458,6 @@
   note: 2022 · Zachary N Harris et al. · Temporal and environmental factors interact with rootstock genotype to shape leaf elemental composition in grafted grapevines
 - id: doi:10.1101/612010
   note: 2019 · Heather E. Schier et al. · Comparative analysis of perennial and annual <i>Phaseolus</i> seed nutrient concentrations
-- id: doi:10.14358/PERS.82.2.51
-  note: 2016 · Matthew Maimaitiyiming et al. · Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine Species
-  tags:
-  - Vitis
-  - Root Biology
-- id: doi:10.1111/j.1365-294x.2012.05467.x
-  note: 2012 · Allison J. Miller · Out in the cold – how big and how old? Genetic fingerprinting reveals long‐lived individuals withstand climatic oscillations in the arctic‐alpine
-  tags:
-  - Plant Diversity
-- id: doi:10.1111/j.1365-294x.2006.02834.x
-  note: 2006 · Allison J. Miller et al. · Domestication and the distribution of genetic variation in wild and cultivated populations of the Mesoamerican fruit tree Spondias purpurea L. (Anacardiaceae)
-  tags:
-  - Domestication
-  - Fruit & Nut Trees
 - id: doi:10.1105/tpc.5.9.1125
   remove: true
 - id: doi:10.1126/science.1188800

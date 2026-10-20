@@ -221,6 +221,11 @@ package:
   text: Package
   tooltip: Package
 
+media:
+  icon: fa-solid fa-newspaper
+  text: In the News
+  tooltip: Media coverage
+
 # Miller Lab roles
 
 research-scientist:

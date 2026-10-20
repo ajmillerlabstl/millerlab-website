@@ -1,5 +1,27 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1002/ppj2.70112
+  title: "Early\u2010life stage phenomic prediction of field agronomic traits across\
+    \ breeding cycles in intermediate wheatgrass"
+  authors:
+  - Zachary N. Harris
+  - Jackson Braley
+  - Eric Cassetta
+  - Jared Crain
+  - Lee DeHaan
+  - David Van Tassel
+  - Allison Miller
+  - Matthew J. Rubin
+  publisher: The Plant Phenome Journal
+  date: '2026-09-28'
+  link: https://doi.org/hcpc99
+  note: "2026 \xB7 Zachary N. Harris et al. \xB7 Early-life stage phenomic prediction\
+    \ of field agronomic traits across breeding cycles in intermediate wheatgrass"
+  tags:
+  - Perennial Crops
+  - Phenomics
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1111/1755-0998.13897
   title: How do threatened plant species with low genetic diversity respond to environmental
     stress? Insights from comparative conservation epigenomics and phenotypic plasticity
@@ -988,7 +1010,7 @@
   - Christine E. Edwards
   - Misha T. Kwasniewski
   - Allison J. Miller
-  publisher: openRxiv
+  publisher: bioRxiv
   date: '2020-09-10'
   link: https://doi.org/gsxsbw
   abstract: "Abstract Although DNA methylation has largely been shown to be stable\
@@ -1017,8 +1039,10 @@
   - Perennial Crops
   - Genomics
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2020 \xB7 Brigette R. Williams et al. \xB7 Epigenomic patterns reflect irrigation\
+    \ and grafting in the grapevine clone 'Chambourcin'"
 - id: doi:10.1111/mec.15736
   title: "RAD\u2010sequencing reveals patterns of diversification and hybridization,\
     \ and the accumulation of reproductive isolation in a clade of partially sympatric,\
@@ -1266,16 +1290,6 @@
   note: "2019 \xB7 Alexander G. Linan et al. \xB7 Ebony and the Mascarenes: the evolutionary\
     \ relationships and biogeography of Diospyros (Ebenaceae) in the western Indian\
     \ Ocean"
-- id: doi:10.1007/s12231-019-09472-1
-  title: Book Reviews
-  authors:
-  - Wendy L. Applequist
-  publisher: Economic Botany
-  date: '2019-09-01'
-  link: https://doi.org/hcn82q
-  orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1006792
   title: 'IRIS-EDA: An integrated RNA-Seq interpretation system for gene expression
     data analysis'
@@ -1765,7 +1779,7 @@
   file: sources.yaml
   note: "2016 \xB7 Steven T. Callen et al. \xB7 Climatic Niche Characterization of\
     \ 13 North AmericanVitisSpecies"
-- id: doi:10.14358/pers.82.2.51
+- id: doi:10.14358/PERS.82.2.51
   title: Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine
     Species
   authors:
@@ -1797,8 +1811,10 @@
   - Vitis
   - Root Biology
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2016 \xB7 Matthew Maimaitiyiming et al. \xB7 Discriminating Spectral Signatures\
+    \ Among and Within Two Closely Related Grapevine Species"
 - id: doi:10.1186/s12864-016-2834-8
   title: Genomic ancestry estimation quantifies use of wild species in grape breeding
   authors:
@@ -2441,14 +2457,6 @@
   plugin: sources.py
   file: sources.yaml
   note: "2014 \xB7 James F Hancock et al. \xB7 Crop Plants: Evolution"
-- title: 'From field to table: perspectives and potential for for perennial fruit
-    domestication'
-  publisher: 'Perennial Crops for Food Security: Proceedings of the FAO Expert Workshop'
-  date: '2021-05-19'
-  link: http://www.fao.org/3/a-i3495e.pdf
-  orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.3732/ajb.1400409
   title: 'Speaking of food: Connecting basic and applied plant science'
   authors:
@@ -2531,7 +2539,7 @@
   file: sources.yaml
   note: "2013 \xB7 Allison J. Miller et al. \xB7 Vitis Phylogenomics: Hybridization\
     \ Intensities from a SNP Array Outperform Genotype Calls"
-- id: doi:10.1111/j.1365-294X.2012.05467.x
+- id: doi:10.1111/j.1365-294x.2012.05467.x
   title: "Out in the cold \u2013 how big and how old? Genetic fingerprinting reveals\
     \ long\u2010lived individuals withstand climatic oscillations in the arctic\u2010\
     alpine"
@@ -2565,23 +2573,11 @@
   tags:
   - Plant Diversity
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1007/978-3-642-14397-7_3
-  title: Anacardiaceae
-  authors:
-  - S. K. Pell
-  - J. D. Mitchell
-  - A. J. Miller
-  - T. A. Lobova
-  publisher: Flowering Plants. Eudicots
-  date: '2010-01-01'
-  link: https://doi.org/ds39vz
-  tags:
-  - Plant Diversity
-  orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2012 \xB7 Allison J. Miller \xB7 Out in the cold \u2013 how big and how old?\
+    \ Genetic fingerprinting reveals long\u2010lived individuals withstand climatic\
+    \ oscillations in the arctic\u2010alpine"
 - id: doi:10.3732/ajb.1000522
   title: 'From forest to field: Perennial fruit crop domestication'
   authors:
@@ -2769,7 +2765,7 @@
   file: sources.yaml
   note: "2007 \xB7 Ting\u2010Shuang Yi et al. \xB7 Phylogeny of Rhus (Anacardiaceae)\
     \ Based on Sequences of Nuclear Nia-i3 Intron and Chloroplast trnC-trnD"
-- id: doi:10.1111/j.1365-294X.2006.02834.x
+- id: doi:10.1111/j.1365-294x.2006.02834.x
   title: Domestication and the distribution of genetic variation in wild and cultivated
     populations of the Mesoamerican fruit tree <i>Spondias purpurea</i> L. (Anacardiaceae)
   authors:
@@ -2805,8 +2801,11 @@
   - Domestication
   - Fruit & Nut Trees
   orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  note: "2006 \xB7 Allison J. Miller et al. \xB7 Domestication and the distribution\
+    \ of genetic variation in wild and cultivated populations of the Mesoamerican\
+    \ fruit tree Spondias purpurea L. (Anacardiaceae)"
 - id: doi:10.3732/ajb.93.12.1757
   title: "GIS\u2010based characterization of the geographic distributions of wild\
     \ and cultivated populations of the Mesoamerican fruit tree <i>Spondias purpurea</i>\
@@ -3377,7 +3376,7 @@
   - Haley Schuhl
   - Ivan Baxter
   - Allison Miller
-  publisher: openRxiv
+  publisher: bioRxiv
   date: '2026-01-07'
   link: https://doi.org/hcn8wv
   abstract: "Plain Language Summary The lack of low-cost, user-friendly and expedient\
@@ -3478,7 +3477,7 @@
   - Matthew J. Rubin
   - David L. Van Tassel
   - Allison J. Miller
-  publisher: openRxiv
+  publisher: bioRxiv
   date: '2025-09-29'
   link: https://doi.org/hcn8wx
   abstract: "Abstract Premise of the study Perennial, herbaceous members of the sunflower\
@@ -3658,7 +3657,7 @@
   - Allison J. Miller
   - Daniel H. Chitwood
   - Peter Cousins
-  publisher: openRxiv
+  publisher: bioRxiv
   date: '2022-07-10'
   link: https://doi.org/g7nh7f
   abstract: 'Abstract Premise Grapevine leaves have diverse shapes and sizes. Their
@@ -3766,7 +3765,7 @@
   - Jason P. Londo
   - Allison J. Miller
   - Christopher N. Topp
-  publisher: openRxiv
+  publisher: bioRxiv
   date: '2019-02-22'
   link: https://doi.org/gkwnvf
   note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\

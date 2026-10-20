@@ -19,7 +19,15 @@ jobs:
   shrink-images:
     uses: ./.github/workflows/shrink-images.yaml
 
-  # build after shrinking, so the site uses the smaller images
-  build-site:
+  # look up any newly added DOIs (runs after shrinking, so the two don't commit at once)
+  update-citations:
     needs: shrink-images
+    if: ${{ !cancelled() }}
+    uses: ./.github/workflows/update-citations.yaml
+    secrets: inherit
+
+  # build last, so the site uses the smaller images and new citations
+  build-site:
+    needs: [shrink-images, update-citations]
+    if: ${{ !cancelled() }}
     uses: ./.github/workflows/build-site.yaml

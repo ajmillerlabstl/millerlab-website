@@ -157,7 +157,14 @@
             <a class="home-link" href="{{ "publications/" | relative_url }}">All publications →</a>
           </div>
           <div class="home-cards">
-            {% for pub in site.data.citations limit: 3 %}
+            {% comment %} newest three published papers (preprints are left out of this peer-reviewed list) {% endcomment %}
+            {% assign recent_pubs = site.data.citations
+              | where_exp: "pub", "pub.date"
+              | where_exp: "pub", "pub.publisher != 'bioRxiv'"
+              | sort: "date"
+              | reverse
+            %}
+            {% for pub in recent_pubs limit: 3 %}
               <a class="home-card" href="{{ pub.link | default: '#' }}" target="_blank" rel="noopener noreferrer">
                 <span class="home-card-body">
                   <span class="home-chip" data-color="{{ forloop.index0 | modulo: 3 }}">

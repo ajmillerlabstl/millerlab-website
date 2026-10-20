@@ -146,8 +146,18 @@ for index, source in enumerate(sources):
     # source id
     _id = get_safe(source, "id", "").strip()
 
+    # papers already on the site are kept exactly as they are; only new ids are looked up
+    # (fields people edit in sources.yaml always come fresh from there, so removing a tag or link works)
+    existing = existing_citations.get(_id.lower())
+    if existing:
+        citation = {
+            key: value
+            for key, value in existing.items()
+            if key not in ["tags", "buttons", "description", "image", "repo", "note"]
+        }
+
     # manubot doesn't work without an id
-    if _id:
+    elif _id:
         log("Using Manubot to generate citation", indent=1)
 
         try:
@@ -171,12 +181,9 @@ for index, source in enumerate(sources):
                 # discard source from citations
                 continue
 
-    # preserve enriched fields (like abstract and tags) from existing citations file
-    existing = existing_citations.get(_id.lower())
-    if existing:
-        for key in ["abstract", "tags", "image"]:
-            if key in existing and key not in citation:
-                citation[key] = existing[key]
+    # bioRxiv preprints now list the nonprofit that runs bioRxiv as their publisher
+    if get_safe(citation, "publisher", "") == "openRxiv":
+        citation["publisher"] = "bioRxiv"
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)
