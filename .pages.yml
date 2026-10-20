@@ -13,6 +13,8 @@ settings:
 media:
   input: images
   output: /images
+  # web-friendly types only (iPhone HEIC photos don't show in most browsers); big photos are shrunk on save
+  extensions: [jpg, jpeg, png, webp, gif, svg]
 
 content:
   - name: posts

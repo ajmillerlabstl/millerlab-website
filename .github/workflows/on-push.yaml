@@ -16,5 +16,10 @@ permissions:
   pull-requests: write
 
 jobs:
+  shrink-images:
+    uses: ./.github/workflows/shrink-images.yaml
+
+  # build after shrinking, so the site uses the smaller images
   build-site:
+    needs: shrink-images
     uses: ./.github/workflows/build-site.yaml

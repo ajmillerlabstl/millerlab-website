@@ -21,6 +21,9 @@ jobs:
     steps:
       - name: Checkout main branch contents
         uses: actions/checkout@v7
+        with:
+          # latest main, so commits made earlier in this run (e.g. shrunk images) are included
+          ref: ${{ github.event.repository.default_branch || github.ref_name }}
 
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
