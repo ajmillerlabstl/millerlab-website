@@ -13,7 +13,7 @@ redirect_from: /people.html
 
 The Miller Lab group is supported through a joint faculty partnership between the [Department of Biology at Saint Louis University](http://www.slu.edu/department-of-biology-home) and the [Donald Danforth Plant Science Center](https://www.danforthcenter.org/), where the lab is based. Members of the lab team have a range of interests and expertise related to plant diversity and evolutionary biology, including bioinformatics, ethnobotany, evolutionary ecology, field botany, genetics, genomics, morphology, root biology, and statistics, among many others.  Our goal is to learn more about how perennial plants thrive and survive.
 
-We are very fortunate to work with a diversity of scientists on ongoing projects. Our current collaborators are based at the Chicago Botanic Garden, Cornell University, Danforth Plant Science Center, E. & J. Gallo Winery, The Land Institute, the Missouri Botanical Garden, Michigan State University, Missouri State University, Penn State University, South Dakota State University, University of Kansas, University of Missouri, University of Vermont and the US Department of Agriculture.
+We are very fortunate to work with a diversity of scientists on ongoing projects. Our current collaborators are based at Cornell University, Danforth Plant Science Center, E. & J. Gallo Winery, The Land Institute, the Missouri Botanical Garden, Michigan State University, Missouri State University, Penn State University, Saint Louis University, South Dakota State University, University of Kansas, University of Minnesota, University of Missouri, and University of Vermont.
 
 {% include section.html %}
 

@@ -2,7 +2,7 @@
 name: "Chrissy McAllister"
 image: images/team/chrissy-mcallister.jpg
 role: phd
-description: "PhD Biology (SLU 2014)"
+description: "PhD Biology (SLU PhD 2014)"
 group: alum
 ---
 

@@ -33,7 +33,7 @@ content:
         label: Role
         type: select
         options:
-          values: [principal-investigator, research-scientist, postdoc, phd, masters, technician, staff, undergrad, high-school, honorary]
+          values: [principal-investigator, research-scientist, research-associate, postdoc, phd, masters, technician, staff, undergrad, high-school, honorary]
       - { name: description, label: "Title and years, e.g. Lab Technician (2025 - present). Keep it short; the bio goes below.", type: string }
       - name: group
         label: Current member or alum?

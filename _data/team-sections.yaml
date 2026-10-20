@@ -6,14 +6,14 @@
 current:
   - title: ""
     roles: [principal-investigator]
-  - title: Admins
-    roles: [staff]
+  - title: Research Scientists and Postdoctoral Researchers
+    roles: [research-scientist, postdoc]
+  - title: Research Associates
+    roles: [research-associate]
   - title: Technicians
     roles: [technician]
-  - title: Research Scientists
-    roles: [research-scientist]
-  - title: Postdoctoral Researchers
-    roles: [postdoc]
+  - title: Admins
+    roles: [staff]
   - title: Saint Louis University Graduate Students
     roles: [phd, masters]
   - title: Undergraduate Researchers
@@ -25,7 +25,7 @@ current:
 
 alumni:
   - title: Former Research Scientists and Staff
-    roles: [principal-investigator, research-scientist, staff]
+    roles: [principal-investigator, research-scientist, research-associate, staff]
   - title: Former Post-docs
     roles: [postdoc]
   - title: Former Graduate Students

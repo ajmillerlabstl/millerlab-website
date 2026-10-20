@@ -2,7 +2,7 @@
 name: "Stella Woeltjen"
 image: images/team/stella-woeltjen.jpg
 role: postdoc
-description: "Postdoctoral Research Associate (2023 - present)"
+description: "Research Scientist, USDA Postdoctoral Research Associate (2023 - present)"
 pronouns: she/her
 ---
 

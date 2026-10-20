@@ -4,6 +4,7 @@ image: images/team/missy-rung-blue.jpg
 role: staff
 description: "Senior Grant Specialist (2020 - present)"
 pronouns: she/her
+group: alum
 ---
 
 *Pronouns: she/her*

@@ -2,7 +2,7 @@
 name: "Joel Swift"
 image: images/team/joel-swift.jpg
 role: phd
-description: "SLU PhD Candidate (2017 - 2022), NSF Graduate Research Fellow"
+description: "NSF Graduate Research Fellow; SLU PhD 2022"
 pronouns: he/him
 group: alum
 ---

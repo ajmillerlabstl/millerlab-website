@@ -1,7 +1,7 @@
 ---
 name: "Autumn Brown"
 image: images/team/autumn-brown.jpg
-role: research-scientist
+role: research-associate
 description: "Research Associate (2026-present)"
 ---
 

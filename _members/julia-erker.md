@@ -4,6 +4,7 @@ image: images/team/julia-erker.jpg
 role: undergrad
 description: "SLU Undergraduate Researcher (2025 - present)"
 pronouns: she/her
+group: alum
 ---
 
 *Pronouns: she/her*

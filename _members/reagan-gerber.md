@@ -2,7 +2,7 @@
 name: "Reagan Gerber"
 image: images/team/reagan-gerber.jpg
 role: undergrad
-description: "SLU Undergraduate Researcher (2025-present)"
+description: "SLU Undergraduate Researcher (2025)"
 pronouns: she/her
 group: alum
 ---

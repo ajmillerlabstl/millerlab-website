@@ -2,7 +2,7 @@
 name: "Deva Raj Khanal"
 image: images/team/deva-raj-khanal.jpg
 role: phd
-description: "PhD Student (2022 - present)"
+description: "Graduate Student (2022 - 2026); MS Biology at SLU 2026"
 pronouns: he/him
 group: alum
 ---

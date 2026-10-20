@@ -11,7 +11,7 @@ redirect_from: /research.html
 
 ## Perennial plant diversity and evolution
 
-Research in the Miller lab group focuses on perennial plant biology, diversity and evolution, with an emerging focus on understanding patterns and evolution of trait co-variation within and among organ systems and life stages. Ambitious experimental designs implemented over multiple years and sites, under controlled conditions and in the field, integrate diverse phenotyping approaches, genetics and statistical modeling to optimize and expedite perennial crop development. Long-term goals are to adapt woody perennial crops for changing climates and consumer demands, to develop novel perennial herbaceous crops for regenerative agricultural systems that offer viable products and environmental benefits, and to advance conservation and accessibility of perennial plant genetic resources.
+Research in the Miller lab group is supported by a joint faculty partnership between the Danforth Center and Saint Louis University, and focuses on perennial plant biology, diversity, and evolution. The overarching aim and scientific rationale of my research group is to advance fundamental understanding of the genetic and environmental determinants of phenotypic variation in perennial species, with the goal of developing perennial crops that benefit people and the planet. At the core of our work are multi-year, multi-site field experiments where in-field phenotyping and lab-based sample processing are paired with genetics and modeling to test hypotheses about how long-lived plants partition resources over time and how perennial plant traits influence the soil ecosphere and gas fluxes. We are working with breeders to apply these discoveries in de novo domestication and crop improvement efforts. Current research themes in the lab center on four long-term impacts: 1) adaptation and resilience in clonally propagated, woody perennials; 2) dual functionality (yield, ecosystem services) in emerging perennial herbaceous cash and crops; 3) phenomic prediction pipelines that expedite and optimize improvement of perennial crops; and 4) conservation and accessibility of perennial crop genetic resources.
 
 {% include section.html %}
 
@@ -19,7 +19,7 @@ Research in the Miller lab group focuses on perennial plant biology, diversity a
 
 {% include section.html %}
 
-## Current projects
+## Currently funded projects
 
 {% include project-list.html current=true %}
 

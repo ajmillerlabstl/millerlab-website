@@ -2,7 +2,7 @@
 name: "Karen Schmiedeler"
 image: images/team/karen-schmiedeler.jpg
 role: technician
-description: "SLU Undergraduate Researcher (2023 - 2024), Lab Technician (2025-present)"
+description: "SLU Undergraduate Researcher (2023 - 2024), Research Technician II (2025-present)"
 pronouns: she/her
 ---
 

@@ -2,7 +2,7 @@
 name: "Laura Klein"
 image: images/team/laura-klein-2.jpg
 role: phd
-description: "PhD Biology (SLU 2017)"
+description: "PhD Biology (SLU PhD 2017)"
 group: alum
 ---
 

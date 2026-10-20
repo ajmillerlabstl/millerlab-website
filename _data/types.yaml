@@ -227,6 +227,10 @@ research-scientist:
   icon: fa-solid fa-flask
   description: Research Scientist
 
+research-associate:
+  icon: fa-solid fa-flask
+  description: Research Associate
+
 technician:
   icon: fa-solid fa-seedling
   description: Lab Technician

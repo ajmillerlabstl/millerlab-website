@@ -2,7 +2,7 @@
 name: "Gillian Doty"
 image: images/team/gillian-doty.jpg
 role: technician
-description: "Lab Technician (2025-present)"
+description: "Research Technician (2025-present)"
 pronouns: she/her
 ---
 

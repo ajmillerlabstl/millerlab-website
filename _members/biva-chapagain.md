@@ -2,7 +2,7 @@
 name: "Biva Chapagain"
 image: images/team/biva-chapagain.jpg
 role: masters
-description: "MS Student (2022-present)"
+description: "Graduate Student (2022-2025); MS Biology at SLU 2025"
 pronouns: she/her
 group: alum
 ---

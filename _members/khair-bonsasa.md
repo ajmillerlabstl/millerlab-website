@@ -2,7 +2,7 @@
 name: "Khair Bonsasa"
 image: images/team/khair-bonsasa.jpg
 role: masters
-description: "MS Student (2022-present)"
+description: "MS Student (2022-2023)"
 group: alum
 ---
 
