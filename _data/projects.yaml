@@ -66,6 +66,7 @@
   current: false
 
 - title: "Global inventory (Phase I) and systematic evaluation of perennial grain, legume, and oilseed species for pre-breeding and domestication"
+  short_title: Global inventory of perennial crop candidates
   label: Perennial agriculture
   summary: Systematically evaluating wild perennial grain, legume, and oilseed species as candidates for domestication.
   image: images/research/9740812.jpg
@@ -86,6 +87,7 @@
   current: false
 
 - title: "Geographic patterns of genetic and morphological variation in threatened Mascarene Diospyros (Ebenaceae)"
+  short_title: Mascarene Diospyros conservation
   label: Diospyros · conservation
   summary: Genetic and morphological variation in threatened ebony species of the Mascarene Islands.
   image: images/research/4616471.jpg
@@ -109,6 +111,7 @@
   current: false
 
 - title: "Evolutionary ecology of the North American kudzu (Pueraria lobata, Fabaceae) invasion"
+  short_title: Kudzu invasion
   label: Kudzu · invasion
   summary: The PhD work of Steven Callen on the kudzu invasion in North America.
   image: images/research/1363981355.jpg
@@ -120,6 +123,7 @@
   current: false
 
 - title: "Evolutionary dynamics of pecan (Carya illinoinensis) and its wild relatives"
+  short_title: Pecan and its wild relatives
   label: Pecan
   summary: Evolutionary dynamics of pecan and its wild relatives.
   image: images/research/6331249.jpg
@@ -128,6 +132,7 @@
   current: false
 
 - title: "Evolution of reproductive systems in clonally propagated perennial crops"
+  short_title: Horseradish reproductive systems
   label: Horseradish
   summary: Reproductive systems in horseradish and its wild relatives.
   image: images/research/1125739.jpg
@@ -138,6 +143,7 @@
   current: false
 
 - title: "Population genetic structure and patterns of cytotypic diversity in big bluestem (Andropogon gerardii)"
+  short_title: Big bluestem cytotypes
   label: Big bluestem
   summary: The PhD work of Chrissy McAllister on big bluestem.
   image: images/research/1808672.jpg

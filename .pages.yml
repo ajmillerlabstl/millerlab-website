@@ -103,7 +103,7 @@ content:
     list: true
     fields:
       - { name: title, label: Project name, type: string }
-      - { name: short_title, label: "Short name for the home page card (optional)", type: string }
+      - { name: short_title, label: "Short name, shown on the home page card and the Research page index", type: string }
       - { name: label, label: "Keywords for the card, e.g. Vitis · grafting", type: string }
       - { name: summary, label: One or two sentence summary for the home page card, type: text }
       - { name: image, label: Photo, type: image }

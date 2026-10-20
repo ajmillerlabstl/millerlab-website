@@ -1,43 +1,37 @@
-<div id="table-of-contents"></div>
-<nav class="project-toc" aria-label="Table of Contents">
-  <div class="project-toc-header">
-    <span class="project-toc-title">Projects index</span>
-    <span class="project-toc-subtitle">Jump directly to a project</span>
-  </div>
+{%- comment -%}
+  quick index of the projects on the research page: currently funded projects as small
+  photo cards, previous projects as a row of links. names come from short_title in
+  _data/projects.yaml. ("Back to index" links on each project point here.)
+  (wrapped in nomarkdown, on a fresh line, so the page's markdown leaves the html alone)
+{%- endcomment -%}
 
-  <div class="project-toc-columns">
-    <div class="project-toc-section">
-      <h4><a href="#currently-funded-projects">Currently funded projects</a></h4>
-      <ul>
-        {% assign current_projects = site.data.projects | where: "current", true %}
-        {% for project in current_projects %}
-          <li>
-            <a href="#{{ project.title | slugify }}">
-              <span class="project-toc-text">{{ project.short_title | default: project.title }}</span>
-              {% if project.label %}
-                <span class="project-toc-badge">{{ project.label }}</span>
-              {% endif %}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+{%- assign current = site.data.projects | where: "current", true -%}
+{%- assign previous = site.data.projects | where: "current", false %}
 
-    <div class="project-toc-section">
-      <h4><a href="#previous-projects">Previous projects</a></h4>
-      <ul>
-        {% assign previous_projects = site.data.projects | where: "current", false %}
-        {% for project in previous_projects %}
-          <li>
-            <a href="#{{ project.title | slugify }}">
-              <span class="project-toc-text">{{ project.short_title | default: project.title }}</span>
-              {% if project.label %}
-                <span class="project-toc-badge">{{ project.label }}</span>
-              {% endif %}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+{::nomarkdown}
+<nav class="project-index" id="table-of-contents" aria-label="Projects on this page">
+<div class="project-index-group">
+<a class="project-index-label" href="#currently-funded-projects">Currently funded projects</a>
+<div class="project-index-cards">
+{%- for project in current %}
+<a class="project-index-card" href="#{{ project.title | slugify }}">
+{%- if project.image %}
+<img src="{{ project.image | relative_url | uri_escape }}" alt="" loading="lazy">
+{%- endif %}
+<span>{{ project.short_title | default: project.title }}</span>
+</a>
+{%- endfor %}
+</div>
+</div>
+{%- if previous.size > 0 %}
+<div class="project-index-group">
+<a class="project-index-label" href="#previous-projects">Previous projects</a>
+<div class="project-index-links">
+{%- for project in previous %}
+<a href="#{{ project.title | slugify }}">{{ project.short_title | default: project.title }}</a>
+{%- endfor %}
+</div>
+</div>
+{%- endif %}
 </nav>
+{:/nomarkdown}
