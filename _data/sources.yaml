@@ -361,11 +361,9 @@
   note: '1997 · John Z. Kiss et al. · Reduced Gravitropism in Hypocotyls of Starch-Deficient Mutants of Arabidopsis'
   tags: [Root Biology]
 
-- id: doi:10.1105/tpc.5.9.1125
-  note: '1993 · Allison J. Miller et al. · Jordan, an Active Volvox Transposable Element Similar to Higher Plant Transposons'
-  tags: [Genomics]
-
 # Explicitly excluded items (not Allison's papers, or book chapters)
+- id: doi:10.1105/tpc.5.9.1125
+  remove: true
 - id: doi:10.1126/science.1188800
   remove: true
 - id: doi:10.1007/978-3-642-20447-0_10
