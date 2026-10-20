@@ -1293,31 +1293,6 @@
   - Conservation
   abstract: "Theory predicts that edaphic endemics should exhibit high levels of population differentiation due to restricted gene flow among patchily distributed habitats. Here, we tested this prediction with the federally threatened annual Geocarpon minimum, an edaphic endemic restricted to sandstone outcrops and slick spots associated with saline prairies in the Southeastern United States. We used AFLP data to quantify population genetic variation and structure in 13 G. minimum populations using a bulked sampling scheme. Modest but significant components of genetic variance are partitioned among populations (16%) and among regions (north, south; 3%). The maintenance of private bands within most G. minimum populations suggests limited gene flow among geographically isolated populations. However, a Mantel test failed to detect a pattern of isolation by distance. Estimates of within population variation in G. minimum are relatively low compared to other edaphic endemics with similar life-histories. Results suggest conservation efforts should focus on protecting genetically unique populations and ensuring that genetic variability is adequately captured in ex situ collections."
 
-- id: doi:10.1002/9780470015902.a0003360.pub2
-  title: 'Crop Plants: Evolution'
-  authors:
-  - James F Hancock
-  - Allison J Miller
-  publisher: Encyclopedia of Life Sciences
-  date: '2014-04-15'
-  link: https://doi.org/hcn8xg
-  orcid: 0000-0002-2722-9361
-  plugin: sources.py
-  file: sources.yaml
-  note: "2014 \xB7 James F Hancock et al. \xB7 Crop Plants: Evolution"
-- title: 'From field to table: perspectives and potential for for perennial fruit
-    domestication'
-  publisher: 'Perennial Crops for Food Security: Proceedings of the FAO Expert Workshop'
-  date: '2021-05-19'
-  link: http://www.fao.org/3/a-i3495e.pdf
-  orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
-  tags:
-  - Domestication
-  - Genomics
-  abstract: "Abstract Agriculture arose independently in several locations across the world, beginning approximately 13 000 years ago in the Near East. All crop plants originated from wild plant populations. At the beginning of the domestication process, a number of changes began to appear in the genetic and physiological makeup of many crop species. Some of these changes were due to conscious selection such as increases in palatability and colour, but many of the others were the unconscious byproduct of planting and harvesting. Changes in crop species during domestication were gradual, likely taking thousands of years. Many of the traits associated with plant domestication are regulated by only a few genes, and in many cases these genes have pleiotropic effects, where they affect a number of traits simultaneously. Many of the genes associated with domestication are also clustered close together on the same chromosome. The process of domestication severely limited the amount of genetic variation in crop species. Key Concepts: The most potent force influencing variation in cultivated populations is artificial selection, a specialised case of directional selection with humans acting as the agents of selection. The morphology and physiology of crop species were gradually changed through both conscious and unconscious selection by humans. Many of the traits associated with plant domestication are regulated by only a few genes that are close together on chromosomes. A high percentage of crop species are polyploid, with more than one set of chromosomes. Agriculture probably first emerged in the hills above the Tigris River on the western edge of what is now called Iran approximately 13 000 years ago, but it also appeared independently in Mesoamerica, South America, China, Africa, Asia and Eastern North America. Until recently, it was thought that once humans began cultivation, selection for the domestication genes would be rapid; however, new archaeological evidence indicates that predomestication cultivation may have actually taken 1000 years. During the process of crop domestication, genetic variability was greatly restricted by the selection of a limited number of desirable individuals."
-
 - id: doi:10.3732/ajb.1400409
   title: 'Speaking of food: Connecting basic and applied plant science'
   authors:
@@ -1423,19 +1398,6 @@
   tags:
   - Fruit & Nut Trees
 
-- id: doi:10.1007/978-3-642-20447-0_10
-  title: Spondias
-  authors:
-  - Allison Miller
-  publisher: 'Wild Crop Relatives: Genomic and Breeding Resources'
-  date: '2011-01-01'
-  link: https://doi.org/fcg55s
-  orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
-  tags:
-  - Fruit & Nut Trees
-
 - id: doi:10.3732/ajb.0900114
   title: "Genetic variation in walnuts (\n                    <i>Juglans regia</i>\n\
     \                    and\n                    <i>J. sigillata</i>\n          \
@@ -1460,45 +1422,6 @@
   - Conservation
   - Fruit & Nut Trees
   abstract: "Walnuts are a major crop of many countries and mostly cultivated in large-scale plantations with few cultivars. Landraces provide important genetic reservoirs; thus, understanding factors influencing the geographic distribution of genetic variation in crop resources is a fundamental goal of agrobiodiversity conservation. Here, we investigated the role of human settlements and kinship on genetic variation and population structure of two walnut species: Juglans regia, an introduced species widely cultivated for its nuts, and J. sigillata, a native species cultivated locally in Yunnan. The objectives of this study were to characterize sympatric populations of J. regia and J. sigillata using 14 molecular markers and evaluate the role of Tibetan villages and kin groups (related households) on genotypic variation and population structure of J. regia and J. sigillata. Our results based on 220 walnut trees from six Tibetan villages show that although J. regia and J. sigillata are morphologically distinct, the two species are indistinguishable based on microsatellite data. Despite the lack of interspecific differences, AMOVAs partitioned among villages (5.41%, P = 0.0068) and kin groups within villages (3.34%, P = 0.0068) showed significant genetic variation. These findings suggest that village environments and familial relationships are factors contributing to the geographic structure of genetic variation in Tibetan walnuts."
-
-- id: doi:10.1126/science.1188800
-  title: "Genomic Analysis of Organismal Complexity in the Multicellular Green Alga\n\
-    \                    <i>Volvox carteri</i>"
-  authors:
-  - Simon E. Prochnik
-  - James Umen
-  - Aurora M. Nedelcu
-  - Armin Hallmann
-  - Stephen M. Miller
-  - Ichiro Nishii
-  - Patrick Ferris
-  - Alan Kuo
-  - Therese Mitros
-  - Lillian K. Fritz-Laylin
-  - Uffe Hellsten
-  - Jarrod Chapman
-  - Oleg Simakov
-  - Stefan A. Rensing
-  - Astrid Terry
-  - Jasmyn Pangilinan
-  - Vladimir Kapitonov
-  - Jerzy Jurka
-  - Asaf Salamov
-  - Harris Shapiro
-  - Jeremy Schmutz
-  - Jane Grimwood
-  - Erika Lindquist
-  - Susan Lucas
-  - Igor V. Grigoriev
-  - "R\xFCdiger Schmitt"
-  - David Kirk
-  - Daniel S. Rokhsar
-  publisher: Science
-  date: '2010-07-09'
-  link: https://doi.org/cswxn6
-  orcid: 0000-0002-2722-9361
-  plugin: orcid.py
-  file: orcid.yaml
 
 - id: doi:10.1007/s12231-009-9088-1
   title: 'Ethnobotany of Horseradish (Armoracia rusticana, Brassicaceae) and Its Wild
@@ -1985,23 +1908,6 @@
   note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
     \ inflorescence architecture using X-ray imaging: implications for understanding\
     \ cluster density"
-  plugin: sources.py
-  file: sources.yaml
-
-- id: doi:10.1101/283341
-  title: 'IRIS-DGE: An integrated RNA-seq data analysis and interpretation system
-    for differential gene expression'
-  authors:
-  - Brandon Monier
-  - Adam McDermaid
-  - Jing Zhao
-  - Anne Fennell
-  - Qin Ma
-  publisher: openRxiv
-  date: '2018-03-16'
-  link: https://doi.org/gdqcq3
-  note: "2018 \xB7 Brandon Monier et al. \xB7 IRIS-DGE: An integrated RNA-seq data\
-    \ analysis and interpretation system for differential gene expression"
   plugin: sources.py
   file: sources.yaml
 
