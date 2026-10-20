@@ -354,9 +354,9 @@
   object-fit: cover;
   margin-bottom: 8px;
 }
-.home-person .home-label {
+.home-band[data-style=deep] .home-person .home-label {
   color: var(--dark-gray);
-  font-size: 0.66rem;
+  font-size: 0.7rem;
 }
 
 .home-person:hover {
