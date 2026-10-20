@@ -120,6 +120,17 @@ log("Generating citations")
 # list of new citations
 citations = []
 
+# load existing citations to preserve manual enrichments (abstracts, tags, images, etc.)
+existing_citations = {}
+try:
+    if Path(output_file).exists():
+        for c in load_data(output_file) or []:
+            cid = get_safe(c, "id", "").strip()
+            if cid:
+                existing_citations[cid.lower()] = c
+except Exception as e:
+    log(f"Note: Could not preload existing citations: {e}", level="WARNING")
+
 
 # loop through compiled sources
 for index, source in enumerate(sources):
@@ -159,6 +170,13 @@ for index, source in enumerate(sources):
                 )
                 # discard source from citations
                 continue
+
+    # preserve enriched fields (like abstract and tags) from existing citations file
+    existing = existing_citations.get(_id.lower())
+    if existing:
+        for key in ["abstract", "tags", "image"]:
+            if key in existing and key not in citation:
+                citation[key] = existing[key]
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)
