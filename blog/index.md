@@ -1,5 +1,5 @@
 ---
-header: images/site/team.jpg
+header: images/site/banner-clover-flowers.jpg
 title: Blog
 nav:
   order: 4
