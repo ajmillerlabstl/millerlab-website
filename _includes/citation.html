@@ -8,6 +8,19 @@
   {% assign citation = include %}
 {% endif %}
 
+{% assign pub_abstract = citation.abstract %}
+{% if pub_abstract == nil or pub_abstract == "" %}
+  {% if citation.id %}
+    {% assign matched_pub = site.data.citations | where: "id", citation.id | first %}
+    {% if matched_pub and matched_pub.abstract %}
+      {% assign pub_abstract = matched_pub.abstract %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+{% if pub_abstract == nil or pub_abstract == "" %}
+  {% assign pub_abstract = citation.description %}
+{% endif %}
+
 <div class="citation-container">
   <div class="citation">
     {% if include.style == "rich" %}
@@ -74,18 +87,11 @@
       </div>
 
       {% if include.style == "rich" %}
-        {% if citation.abstract and citation.abstract != "" %}
+        {% if pub_abstract and pub_abstract != "" %}
           <details class="citation-abstract">
             <summary>View abstract</summary>
             <div class="citation-abstract-text">
-              {{ citation.abstract | markdownify }}
-            </div>
-          </details>
-        {% elsif citation.description and citation.description != "" %}
-          <details class="citation-abstract">
-            <summary>View abstract</summary>
-            <div class="citation-abstract-text">
-              {{ citation.description | markdownify }}
+              {{ pub_abstract | markdownify }}
             </div>
           </details>
         {% endif %}

@@ -92,11 +92,21 @@ $wrap: 800px;
     margin: 0;
     cursor: pointer;
     user-select: none;
+    outline: none;
+    transition: color var(--transition);
+
+    &::-webkit-details-marker {
+      color: var(--primary);
+    }
   }
 
-  summary:hover {
+  summary:hover,
+  summary:focus-visible {
     color: var(--deep);
-    background: none;
+  }
+
+  &[open] summary {
+    color: var(--deep);
   }
 
   .citation-abstract-text {
