@@ -1,6 +1,6 @@
 ---
 title: Publications
-header: images/site/banner-kernza-blue-sky.jpg
+header: /images/site/banner-kernza-blue-sky.jpg
 nav:
   order: 3
   tooltip: Published works
@@ -14,7 +14,6 @@ redirect_from: /publications.html
 <!-- For papers without a DOI yet. Once one is published, delete it here and add its DOI under Publications in Pages CMS. Preprints with a DOI show up in the main list automatically. -->
 
 - Hanlon M, Schneider HM, McCormack ML, Topp CN, Woeltjen SL, Miller AJ. In press. Incorporating root system ecology and biology into developing perennial herbaceous grain crops. *Plant and Soil*.
-- Okonkwo KC, McKenna TP, Hanlon M, Meehan S, Worth N, Thrash T, Crews TE, Miller AJ. Submitted. Site conditions and stand age shape intermediate wheatgrass responses to nitrogen fertilization and alfalfa intercropping.
 
 {% include section.html %}
 
