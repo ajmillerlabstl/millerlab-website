@@ -1,6 +1,6 @@
 ---
 layout: home
-hero_title: Perennial plant diversity <em>&amp;</em> evolution
+hero_title: Perennial plant biology, diversity <em>&amp;</em> evolution
 hero_text: From crops and their wild relatives to the root systems that help
   perennials thrive, survive, and build ecosystems.
 institutions:
