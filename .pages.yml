@@ -70,7 +70,11 @@ content:
     type: file
     path: _data/sources.yaml
     format: yaml
-    list: true
+    # papers start collapsed (showing just the citation line) so the Add button isn't far down a long list
+    list:
+      collapsible:
+        collapsed: true
+        summary: "{note} ({id})"
     # every key used in sources.yaml is listed here, so saving through the form can't drop any of them
     fields:
       - { name: id, label: "DOI, written as doi:10.xxxx/xxxxx", type: string }
