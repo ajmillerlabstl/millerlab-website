@@ -305,6 +305,8 @@
   remove: false
   note: "2023 \xB7 Inclusive collaboration across plant physiology and genomics: Now\
     \ is the time!"
+  tags:
+  - Genomics
 - id: doi:10.1002/ppj2.70045
   title: "Leveraging high\u2010dimensional seed colorspace in phenomic selection models\
     \ for herbaceous perennial crops"
@@ -424,6 +426,7 @@
   tags:
   - Perennial Crops
   - Phenomics
+  - Kernza
 - id: doi:10.1002/ppp3.10620
   title: Terroir and rootstock effects on leaf shape in California Central Valley
     vineyards
@@ -1187,6 +1190,7 @@
   - Perennial Crops
   - Domestication
   - Genomics
+  - Silphium
 - id: doi:10.1038/s42003-019-0516-1
   title: "Science\u2013graphic art partnerships to increase research impact"
   authors:
@@ -1646,6 +1650,7 @@
   - Root Biology
   - Perennial Crops
   - Phenomics
+  - Silphium
 - id: doi:10.1101/557819
   title: "Characterizing grapevine (\n                  <i>Vitis</i>\n           \
     \       spp.) inflorescence architecture using X-ray imaging: implications for\
@@ -1687,6 +1692,8 @@
   note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
     \ inflorescence architecture using X-ray imaging: implications for understanding\
     \ cluster density"
+  tags:
+  - Vitis
 - id: doi:10.1111/1755-0998.13897
   title: How do threatened plant species with low genetic diversity respond to environmental
     stress? Insights from comparative conservation epigenomics and phenotypic plasticity
@@ -3090,6 +3097,7 @@
   tags:
   - Root Biology
   - Perennial Crops
+  - Kernza
 - id: doi:10.3390/microorganisms9010092
   title: Grapevine Microbiota Reflect Diversity among Compartments and Complex Interactions
     within and among Root and Shoot Systems
@@ -4045,3 +4053,7 @@
   note: "2026 \xB7 Chukwuebuka Kenneth Okonkwo et al. \xB7 Alfalfa intercropping maintains\
     \ intermediate wheatgrass grain yield relative to nitrogen fertilization across\
     \ site conditions and stand ages"
+  tags:
+  - Root Biology
+  - Perennial Crops
+  - Kernza
