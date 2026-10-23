@@ -35,6 +35,7 @@ it means in a few words.
 | Team page sections         | `_data/team-sections.yaml`; a person's `role` picks their section    |
 | Publications               | `_papers/`, one file per paper (its DOI); `_data/citations.yaml` is generated |
 | Gallery                    | `_data/gallery.yaml`                                                 |
+| Photos page photos         | `_data/photos.yaml` (the page `photos/index.md` just loops over it)  |
 | Pages                      | `research/`, `teaching/`, `outreach/`, `media/`, `photos/`, `join-us/`, `team/`, `publications/`, `index.md` |
 | Site title, header image   | `_config.yaml`                                                       |
 | Images                     | `images/` (`team/`, `blog/`, `research/`, `photos/`...)              |
