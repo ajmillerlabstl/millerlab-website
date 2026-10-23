@@ -16,7 +16,7 @@
           </div>
         </div>
 
-        {% assign photos = site.data.gallery.items %}
+        {% assign photos = site.data.gallery %}
         <figure class="gallery" aria-roledescription="carousel" aria-label="Lab photos">
           <div class="gallery-frame">
             {% for photo in photos %}
@@ -127,7 +127,7 @@
           <a class="home-link" href="{{ "research/" | relative_url }}">All projects →</a>
         </div>
         <div class="home-cards">
-          {% assign projects = site.data.projects.items | where: "current", true %}
+          {% assign projects = site.data.projects | where: "current", true %}
           {% for project in projects %}
             {% capture link %}{{ "research/" | relative_url }}#{{ project.title | slugify }}{% endcapture %}
             <a class="home-card" href="{{ link }}">

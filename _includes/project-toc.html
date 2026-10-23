@@ -5,8 +5,8 @@
   (wrapped in nomarkdown, on a fresh line, so the page's markdown leaves the html alone)
 {%- endcomment -%}
 
-{%- assign current = site.data.projects.items | where: "current", true -%}
-{%- assign previous = site.data.projects.items | where: "current", false %}
+{%- assign current = site.data.projects | where: "current", true -%}
+{%- assign previous = site.data.projects | where: "current", false %}
 
 {::nomarkdown}
 <nav class="project-index" id="table-of-contents" aria-label="Projects on this page">

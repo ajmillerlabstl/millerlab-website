@@ -1,24 +1,23 @@
-items:
-  - image: /images/gallery/lab-group.jpg
-    caption: The Miller Lab 2026
-    alt: Miller Lab group photo
-  - image: /images/gallery/field-plot.jpg
-    caption: Miller Lab Research Plot at Shaw Nature Reserve, 2021
-    alt: Lab members working in a perennial crop field plot
-  - image: /images/gallery/vineyard.jpg
-    caption: Miller Lab members working in a plot of Kernza at our field research site
-    alt: Lab members in a field
-  - image: /images/IMG_9103.jpg
-    caption: The Miller Lab celebrates a successful root dig (and wash)!
-    alt: The Miller Lab celebrates a successful root dig (and wash)!
-  - image: /images/gallery/wildflowers.jpg
-    caption: Kernza plants ready for analysis on the Danforth Center's Bellwether
-      phenotyping platform
-    alt: Kernza plants ready for analysis on the Danforth Center's Bellwether
-      phenotyping platform
-  - image: /images/gallery/field-trip.jpg
-    caption: Lab members collecting samples in the vineyard
-    alt: Lab members hiking along a creek bed
-  - image: /images/IMG_9680 1.jpg
-    caption: Collecting root samples at the Shaw Nature Reserve research plot
-    alt: Collecting root samples at the Shaw Nature Reserve research plot
+- image: /images/gallery/lab-group.jpg
+  caption: The Miller Lab 2026
+  alt: Miller Lab group photo
+- image: /images/gallery/field-plot.jpg
+  caption: Miller Lab Research Plot at Shaw Nature Reserve, 2021
+  alt: Lab members working in a perennial crop field plot
+- image: /images/gallery/vineyard.jpg
+  caption: Miller Lab members working in a plot of Kernza at our field research site
+  alt: Lab members in a field
+- image: /images/IMG_9103.jpg
+  caption: The Miller Lab celebrates a successful root dig (and wash)!
+  alt: The Miller Lab celebrates a successful root dig (and wash)!
+- image: /images/gallery/wildflowers.jpg
+  caption: Kernza plants ready for analysis on the Danforth Center's Bellwether
+    phenotyping platform
+  alt: Kernza plants ready for analysis on the Danforth Center's Bellwether
+    phenotyping platform
+- image: /images/gallery/field-trip.jpg
+  caption: Lab members collecting samples in the vineyard
+  alt: Lab members hiking along a creek bed
+- image: /images/IMG_9680 1.jpg
+  caption: Collecting root samples at the Shaw Nature Reserve research plot
+  alt: Collecting root samples at the Shaw Nature Reserve research plot
