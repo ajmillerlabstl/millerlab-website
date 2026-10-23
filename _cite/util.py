@@ -222,6 +222,36 @@ def clean_citations(citations):
     return final, dropped
 
 
+# words in a paper's title that suggest a topic (the topics offered in the Pages CMS form).
+# each is matched at the start of a word, so "root" also catches "rootstock".
+TOPIC_KEYWORDS = {
+    "Conservation": ["conservation", "genebank", "gap analysis"],
+    "Domestication": ["domestication", "domesticat"],
+    "Fruit & Nut Trees": ["fruit tree", "nut tree", "orchard", "pistachio", "cashew", "mango", "plum"],
+    "Genomics": ["genom", "transcriptom", "sequenc"],
+    "Kernza": ["kernza", "intermediate wheatgrass", "thinopyrum"],
+    "Perennial Crops": ["perennial", "wheatgrass", "kernza", "silphium", "licorice"],
+    "Phenomics": ["phenom", "phenotyp"],
+    "Plant Diversity": ["diversity", "biodiversity"],
+    "Root Biology": ["root", "rhizosphere", "belowground"],
+    "Silphium": ["silphium"],
+    "Vitis": ["vitis", "grapevine", "grape"],
+}
+
+
+def suggest_topics(title):
+    """
+    topics whose keywords appear in a paper title, in the order the CMS form lists them
+    """
+
+    title = re.sub(r"<[^>]+>", "", str(title or "")).lower()
+    return [
+        topic
+        for topic, words in TOPIC_KEYWORDS.items()
+        if any(re.search(r"\b" + re.escape(word), title) for word in words)
+    ]
+
+
 def load_papers(folder):
     """
     read the one-file-per-paper folder (yaml front matter at the top of each .md file).
@@ -261,6 +291,14 @@ def label_papers(folder, citations):
             parts = [part for part in [year, author, title] if part]
             if parts:
                 entry["note"] = " · ".join(parts)
+                changed = True
+
+        # suggest topics for a paper nobody has picked any for (people can change them in Pages CMS)
+        if not get_safe(entry, "tags", []) and not get_safe(entry, "remove", False):
+            citation = lookup.get(_id) or lookup.get(clean) or {}
+            topics = suggest_topics(get_safe(citation, "title", ""))
+            if topics:
+                entry["tags"] = topics
                 changed = True
 
         if changed:

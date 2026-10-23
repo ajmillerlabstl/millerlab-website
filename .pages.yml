@@ -87,7 +87,7 @@ content:
         type: select
         options:
           multiple: true
-          values: [Conservation, Domestication, Fruit & Nut Trees, Genomics, Perennial Crops, Phenomics, Plant Diversity, Root Biology, Vitis]
+          values: [Conservation, Domestication, Fruit & Nut Trees, Genomics, Kernza, Perennial Crops, Phenomics, Plant Diversity, Root Biology, Silphium, Vitis]
       - name: buttons
         label: "Extra links shown under the paper (data, code, media coverage, video…)"
         type: object
