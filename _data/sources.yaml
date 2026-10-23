@@ -58,7 +58,7 @@
   remove: false
 - id: doi:10.21203/rs.3.rs-8753360/v1
   note: 2026 · David Van Tassel et al. · Haplotype-phased genomes elucidate genetic architecture of environmental adaptation and domestication traits in Silphium
-  remove: false
+  remove: true
 - id: doi:10.64898/2026.01.06.697986
   note: 2026 · Stella Woeltjen et al. · Smartphone image capture system and image analysis pipelines enable accurate and efficient phenotyping of spaced plant mapping populations
   tags:
