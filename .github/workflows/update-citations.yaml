@@ -40,7 +40,7 @@ jobs:
         uses: actions/download-artifact@v8
         with:
           name: sources
-          path: _data
+          path: .
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -63,7 +63,7 @@ jobs:
         with:
           files: |
             _data/citations.yaml
-            _data/sources.yaml
+            _papers/*.md
 
       - name: Stash updated citations
         if: |
@@ -96,8 +96,8 @@ jobs:
           github.event.number == ''
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          # sources.yaml too, for the readable notes cite.py adds
-          file_pattern: _data/citations.yaml _data/sources.yaml
+          # paper files too, for the readable notes cite.py adds
+          file_pattern: _data/citations.yaml _papers/*.md
           commit_message: "Update citations"
 
       - name: Open pull request with citations

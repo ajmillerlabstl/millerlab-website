@@ -38,7 +38,7 @@ bulk changes, see [Previewing changes on your computer](#previewing-changes-on-y
 | Lab members             | `_members/` — one file per person                                                      |
 | Team page sections      | `_data/team-sections.yaml` — section names and order                                   |
 | News and blog posts     | `_posts/` — one file per post, named `YYYY-MM-DD-short-title.md`                        |
-| Publications            | `_data/sources.yaml` (DOIs) and `_data/orcid.yaml` (ORCID iDs)                         |
+| Publications            | `_papers/` (one file per DOI) and `_data/orcid.yaml` (ORCID iDs)                         |
 | Page text               | `index.md` (home), `research/`, `team/`, `publications/`, `teaching/`, `outreach/`, `media/`, `photos/`, `join-us/` |
 | Site title, footer, links | `_config.yaml`                                                                       |
 | Images                  | `images/` — `team/` for portraits, `site/` for page banners, `blog/`, `research/`, `photos/`… |
@@ -108,7 +108,7 @@ The date in the file name is the date shown on the site.
 Papers are listed automatically from DOIs and ORCID iDs. Citations refresh every Monday, and whenever `main`
 changes.
 
-- **One paper:** add a line to `_data/sources.yaml`: `- id: doi:10.1234/abcd.5678`
+- **One paper:** add a file in `_papers/` (e.g. `doi-10-1234-abcd-5678.md`) containing `id: doi:10.1234/abcd.5678` between two `---` lines, or use Add in the Publications form in Pages CMS
 - **Everything on someone's ORCID record:** replace the `[]` in `_data/orcid.yaml` with `- orcid: 0000-0000-0000-0000`
 
 ### Change a page banner

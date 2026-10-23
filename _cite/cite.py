@@ -95,6 +95,17 @@ for plugin in plugins:
                 log(f"{len(expanded)} source(s)", indent=3)
 
 
+log("Reading papers from _papers")
+
+# one file per paper, added and edited through Pages CMS
+papers = load_papers("_papers")
+log(f"Found {len(papers)} paper file(s)", indent=1)
+for path, entry in papers:
+    entry["plugin"] = "sources.py"
+    entry["file"] = path.name
+    sources.append(entry)
+
+
 log("Merging sources by id")
 
 # merge sources with matching (non-blank) ids
@@ -148,7 +159,7 @@ for index, source in enumerate(sources):
     _id = get_safe(source, "id", "").strip()
 
     # papers already on the site are kept exactly as they are; only new ids are looked up
-    # (fields people edit in sources.yaml always come fresh from there, so removing a tag or link works)
+    # (fields people edit in the _papers files always come fresh from there, so removing a tag or link works)
     existing = existing_citations.get(_id.lower())
     if existing:
         citation = {
@@ -229,9 +240,9 @@ except Exception as e:
     log(e, level="ERROR")
     errors.append(e)
 
-# label hand-entered sources so the list is readable
+# label hand-entered papers so the list in Pages CMS is readable
 try:
-    label_sources("_data/sources.yaml", citations)
+    label_papers("_papers", citations)
 except Exception as e:
     log(e, level="WARNING")
     warnings.append(e)

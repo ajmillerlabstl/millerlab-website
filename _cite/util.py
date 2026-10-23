@@ -222,52 +222,52 @@ def clean_citations(citations):
     return final, dropped
 
 
-def label_sources(path, citations):
+def load_papers(folder):
     """
-    give each entry in a hand-edited sources file a readable "note" (year, first
-    author, title) so people can see what each id is, sort the entries newest
-    first, and strip invisible characters pasted into ids. keeps the comment
-    header at the top of the file. the note is never shown on the site.
+    read the one-file-per-paper folder (yaml front matter at the top of each .md file).
+    returns a list of (path, entry) for files with front matter.
     """
 
-    path = Path(path)
-    text = path.read_text(encoding="utf8")
-    header = []
-    for line in text.splitlines():
-        if line.startswith("#") or not line.strip():
-            header.append(line)
-        else:
-            break
+    papers = []
+    for path in sorted(Path(folder).glob("*.md")):
+        match = re.match(r"---\s*\n(.*?)\n---[ \t]*\n?(.*)", path.read_text(encoding="utf8"), re.S)
+        entry = yaml.load(match.group(1), Loader=SafeLoader) if match else None
+        if isinstance(entry, dict) and entry:
+            papers.append((path, entry))
+    return papers
 
-    entries = yaml.load(text, Loader=SafeLoader) or []
+
+def label_papers(folder, citations):
+    """
+    give each paper file a readable "note" (year, first author, title) so people can
+    see what each id is in Pages CMS, and strip invisible characters pasted into ids.
+    the note is never shown on the site.
+    """
+
     lookup = {get_safe(c, "id", ""): c for c in citations}
 
-    for entry in entries:
+    for path, entry in load_papers(folder):
         _id = str(get_safe(entry, "id", ""))
         clean = "".join(ch for ch in _id if ch.isprintable() and ch not in "​‌‍﻿").strip()
-        if clean != _id:
+        changed = clean != _id
+        if changed:
             entry["id"] = clean
-        if get_safe(entry, "note", ""):
-            continue
-        citation = lookup.get(_id) or lookup.get(clean) or {}
-        year = str(get_safe(citation, "date", ""))[:4]
-        authors = get_safe(citation, "authors", [])
-        author = authors[0] + (" et al." if len(authors) > 1 else "") if authors else ""
-        title = " ".join(str(get_safe(citation, "title", "")).split())
-        parts = [part for part in [year, author, title] if part]
-        if parts:
-            entry["note"] = " · ".join(parts)
+        if not get_safe(entry, "note", ""):
+            citation = lookup.get(_id) or lookup.get(clean) or {}
+            year = str(get_safe(citation, "date", ""))[:4]
+            authors = get_safe(citation, "authors", [])
+            author = authors[0] + (" et al." if len(authors) > 1 else "") if authors else ""
+            title = " ".join(str(get_safe(citation, "title", "")).split())
+            parts = [part for part in [year, author, title] if part]
+            if parts:
+                entry["note"] = " · ".join(parts)
+                changed = True
 
-    def newest(entry):
-        citation = lookup.get(get_safe(entry, "id", "")) or {}
-        return str(get_safe(citation, "date", "")) or "0"
-
-    entries.sort(key=newest, reverse=True)
-
-    body = yaml.dump(entries, default_flow_style=False, sort_keys=False, allow_unicode=True, width=1000)
-    new = "\n".join(header).rstrip() + "\n\n" + body
-    if new != text:
-        path.write_text(new, encoding="utf8")
+        if changed:
+            text = path.read_text(encoding="utf8")
+            body = re.match(r"---\s*\n(.*?)\n---[ \t]*\n?(.*)", text, re.S).group(2)
+            front = yaml.dump(entry, default_flow_style=False, sort_keys=False, allow_unicode=True, width=1000)
+            path.write_text(f"---\n{front}---\n{body}", encoding="utf8", newline="\n")
 
 
 def clean_abstract(text):

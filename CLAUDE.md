@@ -33,7 +33,7 @@ it means in a few words.
 | News, announcements, blog  | `_posts/`, one file per post, named `YYYY-MM-DD-title.md`            |
 | Lab members                | `_members/`, one file per person (`group: alum` moves someone to alumni) |
 | Team page sections         | `_data/team-sections.yaml`; a person's `role` picks their section    |
-| Publications               | `_data/sources.yaml`, one DOI per line                               |
+| Publications               | `_papers/`, one file per paper (its DOI); `_data/citations.yaml` is generated |
 | Gallery                    | `_data/gallery.yaml`                                                 |
 | Pages                      | `research/`, `teaching/`, `outreach/`, `media/`, `photos/`, `join-us/`, `team/`, `publications/`, `index.md` |
 | Site title, header image   | `_config.yaml`                                                       |

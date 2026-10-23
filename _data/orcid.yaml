@@ -1,5 +1,5 @@
 # ORCID records to pull publications from automatically.
 # Turned off: Allison's ORCID record isn't kept up to date and brought back duplicates and papers we'd removed.
-# Publications now come only from the DOIs in _data/sources.yaml. To turn ORCID back on, replace the [] line with the line above, without the "# ".
+# Publications now come only from the DOI files in _papers/. To turn ORCID back on, replace the [] line with the line above, without the "# ".
 # - orcid: 0000-0002-2722-9361
 []

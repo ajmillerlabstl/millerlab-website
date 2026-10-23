@@ -22,4 +22,4 @@ watchmedo shell-command \
     --recursive \
     --wait \
     --command="python3 _cite/cite.py" \
-    --patterns="_data/sources*;_data/orcid*;_data/pubmed*;_data/google-scholar*" \
+    --patterns="_papers/*;_data/sources*;_data/orcid*;_data/pubmed*;_data/google-scholar*" \
