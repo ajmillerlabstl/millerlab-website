@@ -674,5 +674,5 @@
   remove: true
 - id: doi:10.1101/283341
   remove: true
-- id: "https://www.biorxiv.org/content/10.64898/2026.10.21.759482v1 "
+- id: 10.64898/2026.10.21.759482
   remove: false
