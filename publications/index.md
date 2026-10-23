@@ -9,19 +9,29 @@ redirect_from: /publications.html
 ---
 {% include section.html %}
 
+{% include search-box.html %}
+
+{% include search-info.html %}
+
+## Preprints
+
+<!-- Papers hosted on bioRxiv move here automatically; once the published version is added, the preprint disappears. -->
+
+{% include list.html data="citations" component="citation" style="rich" filter="publisher == 'bioRxiv'" %}
+
+{% include section.html %}
+
 ## In press & in review
 
-<!-- For papers without a DOI yet. Once one is published, delete it here and add its DOI under Publications in Pages CMS. Preprints with a DOI show up in the main list automatically. -->
+<!-- For papers without a DOI yet. Once one is published, delete it here and add its DOI under Publications in Pages CMS. Preprints on bioRxiv with a DOI show up in the Preprints section automatically. -->
 
 - Hanlon M, Schneider HM, McCormack ML, Topp CN, Woeltjen SL, Miller AJ. In press. Incorporating root system ecology and biology into developing perennial herbaceous grain crops. *Plant and Soil*.
 
 {% include section.html %}
 
-{% include search-box.html %}
+## Peer-reviewed publications
 
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html data="citations" component="citation" style="rich" filter="publisher != 'bioRxiv'" %}
 
 {% include section.html %}
 
