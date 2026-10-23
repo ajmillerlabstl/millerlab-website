@@ -141,6 +141,17 @@ content:
       - { name: caption, label: Caption shown under the photo, type: string }
       - { name: alt, label: "Description for screen readers (what's in the photo)", type: string }
 
+  - name: photos-list
+    label: "Photos page: photos"
+    type: file
+    path: _data/photos.yaml
+    format: yaml
+    list: true
+    # new photos are added at the end of the list; drag one to the top to show it first on the page.
+    fields:
+      - { name: image, label: Photo, type: image, options: { input: images/photos, output: /images/photos, extensions: *image-types } }
+      - { name: caption, label: "Caption shown under the photo (can be left blank)", type: string }
+
   - name: projects
     label: Research projects
     type: file
