@@ -7,6 +7,7 @@ links:
   email: amiller@danforthcenter.org
   orcid: 0000-0002-2722-9361
   google-scholar: gI8SGrcAAAAJ&hl=en
+  linkedin: www.linkedin.com/in/allison-miller-a36996297
   home-page: https://www.danforthcenter.org/our-work/principal-investigators/allison-miller/
 ---
 *Pronouns: she/her*
