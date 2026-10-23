@@ -4,7 +4,7 @@
   (wrapped in nomarkdown, on a fresh line, so the page's markdown leaves the html alone)
 {%- endcomment -%}
 
-{%- assign projects = site.data.projects | where: "current", include.current %}
+{%- assign projects = site.data.projects.items | where: "current", include.current %}
 
 {::nomarkdown}
 {%- for project in projects %}

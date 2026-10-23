@@ -135,30 +135,46 @@ content:
     type: file
     path: _data/gallery.yaml
     format: yaml
-    list: true
+    # the photos sit under an "items" key in the file so each one can be titled by its caption when collapsed
     fields:
-      - { name: image, label: "Photo (landscape, at least 1600 px wide)", type: image, options: { input: images/gallery, output: images/gallery, extensions: *image-types } }
-      - { name: caption, label: Caption shown under the photo, type: string }
-      - { name: alt, label: "Description for screen readers (what's in the photo)", type: string }
+      - name: items
+        label: Photos
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{caption}"
+        fields:
+          - { name: image, label: "Photo (landscape, at least 1600 px wide)", type: image, options: { input: images/gallery, output: images/gallery, extensions: *image-types } }
+          - { name: caption, label: Caption shown under the photo, type: string }
+          - { name: alt, label: "Description for screen readers (what's in the photo)", type: string }
 
   - name: projects
     label: Research projects
     type: file
     path: _data/projects.yaml
     format: yaml
-    list: true
+    # the projects sit under an "items" key in the file so each one can be titled by its short name when collapsed
     fields:
-      - { name: title, label: Project name, type: string }
-      - { name: short_title, label: "Short name, shown on the home page card and the Research page index", type: string }
-      - { name: label, label: "Keywords for the card, e.g. Vitis · grafting", type: string }
-      - { name: summary, label: One or two sentence summary for the home page card, type: text }
-      - { name: image, label: Photo, type: image, options: { extensions: *image-types } }
-      - { name: image_caption, label: Photo caption, type: string }
-      - { name: people, label: "People, e.g. PI: Allison Miller. Co-PIs: …", type: text }
-      - { name: website, label: Project website (full web address), type: string }
-      - { name: description, label: "Full description for the Research page (markdown)", type: text }
-      - { name: funding, label: Funding, type: text }
-      - { name: current, label: "Current project (shown on the home page; untick to move it to Previous projects)", type: boolean }
+      - name: items
+        label: Projects
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{short_title}"
+        fields:
+          - { name: title, label: Project name, type: string }
+          - { name: short_title, label: "Short name, shown on the home page card and the Research page index", type: string }
+          - { name: label, label: "Keywords for the card, e.g. Vitis · grafting", type: string }
+          - { name: summary, label: One or two sentence summary for the home page card, type: text }
+          - { name: image, label: Photo, type: image, options: { extensions: *image-types } }
+          - { name: image_caption, label: Photo caption, type: string }
+          - { name: people, label: "People, e.g. PI: Allison Miller. Co-PIs: …", type: text }
+          - { name: website, label: Project website (full web address), type: string }
+          - { name: description, label: "Full description for the Research page (markdown)", type: text }
+          - { name: funding, label: Funding, type: text }
+          - { name: current, label: "Current project (shown on the home page; untick to move it to Previous projects)", type: boolean }
 
   - name: research
     label: "Page: Research"
