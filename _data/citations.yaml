@@ -48,6 +48,7 @@
   tags:
   - Perennial Crops
   - Phenomics
+  remove: false
 - id: doi:10.1002/ppp3.70265
   title: Enhance food plant diversity conservation and use through greater coordination
     between genebanks and botanic gardens
@@ -119,6 +120,7 @@
     \ and use through greater coordination between genebanks and botanic gardens"
   tags:
   - Conservation
+  remove: false
 - id: doi:10.3389/fsufs.2026.1816743
   title: Alfalfa intercrop rarely limits productivity of intermediate wheatgrass across
     diverse edaphic and climate conditions
@@ -161,6 +163,7 @@
   tags:
   - Root Biology
   - Perennial Crops
+  remove: false
 - id: doi:10.1002/ppp3.70246
   title: "Conservation gap analysis for wild grapevines (\n                    <i>Vitis</i>\n\
     \                    L.) of the Americas"
@@ -224,6 +227,7 @@
   - Root Biology
   - Domestication
   - Conservation
+  remove: false
 - id: doi:10.1002/ppp3.70244
   title: "Grape (\n                    <i>Vitis</i>\n                    L.) biodiversity:\
     \ Historical uses, current status, and future potential"
@@ -242,6 +246,7 @@
     \ uses, current status, and future potential"
   tags:
   - Vitis
+  remove: false
 - id: doi:10.1186/s40793-026-00933-4
   title: 'Conserved rhizosphere microbiomes and metabolic functions across diverse
     grapevine rootstocks: implications for plant elemental composition'
@@ -295,6 +300,7 @@
   - Root Biology
   - Genomics
   - Conservation
+  remove: false
 - id: doi:10.1038/s41467-026-75205-3
   title: Assembly of Silphium interspecific hybrid genomes opens the genus to phylogenomics,
     ecogenomics, and molecular breeding
@@ -353,6 +359,7 @@
   - Perennial Crops
   - Domestication
   - Genomics
+  remove: false
 - id: doi:10.1002/ajb2.70198
   title: A leaf phenomics approach for estimating belowground traits in North American
     licorice
@@ -396,6 +403,7 @@
   - Root Biology
   - Perennial Crops
   - Phenomics
+  remove: false
 - id: doi:10.21203/rs.3.rs-8753360/v1
   title: Haplotype-phased genomes elucidate genetic architecture of environmental
     adaptation and domestication traits in Silphium
@@ -449,6 +457,7 @@
   note: "2026 \xB7 David Van Tassel et al. \xB7 Haplotype-phased genomes elucidate\
     \ genetic architecture of environmental adaptation and domestication traits in\
     \ Silphium"
+  remove: false
 - id: doi:10.64898/2026.01.06.697986
   title: Smartphone image capture system and image analysis pipelines enable accurate
     and efficient phenotyping of spaced plant mapping populations
@@ -481,6 +490,7 @@
     \ plant mapping populations"
   tags:
   - Plant Diversity
+  remove: false
 - id: doi:10.1002/ppj2.70045
   title: "Leveraging high\u2010dimensional seed colorspace in phenomic selection models\
     \ for herbaceous perennial crops"
@@ -550,6 +560,7 @@
   - Perennial Crops
   - Domestication
   - Phenomics
+  remove: false
 - id: doi:10.1101/2025.09.26.678844
   title: "Watering regime affects aboveground and belowground trait covariation in\
     \ a hybrid\n                  <i>Silphium</i>\n                  population"
@@ -594,6 +605,7 @@
   - Root Biology
   - Perennial Crops
   - Phenomics
+  remove: false
 - id: doi:10.1002/ppp3.70096
   title: 'New Roots for Restoration: Building a foundation for interdisciplinary work
     in plant organismal biology and ecology to advance restoration in natural and
@@ -687,6 +699,7 @@
   tags:
   - Root Biology
   - Perennial Crops
+  remove: false
 - id: doi:10.1002/ppp3.10620
   title: Terroir and rootstock effects on leaf shape in California Central Valley
     vineyards
@@ -740,6 +753,7 @@
   - Vitis
   - Root Biology
   - Phenomics
+  remove: false
 - id: doi:10.1007/s12228-024-09798-8
   title: Evaluating trait variation and covariation in perennial, herbaceous crop
     candidate species using herbarium specimens
@@ -789,6 +803,7 @@
   tags:
   - Perennial Crops
   - Domestication
+  remove: false
 - id: doi:10.20870/oeno-one.2024.58.2.7735
   title: Grapevine leaf size influences canopy temperature
   authors:
@@ -835,6 +850,7 @@
   tags:
   - Vitis
   - Phenomics
+  remove: false
 - id: doi:10.1186/s40793-023-00539-0
   title: Grapevine bacterial communities display compartment-specific dynamics over
     space and time within the Central Valley of California
@@ -877,6 +893,7 @@
   - Root Biology
   - Perennial Crops
   - Domestication
+  remove: false
 - id: doi:10.1111/1755-0998.13897
   title: How do threatened plant species with low genetic diversity respond to environmental
     stress? Insights from comparative conservation epigenomics and phenotypic plasticity
@@ -921,6 +938,7 @@
   - Phenomics
   - Genomics
   - Conservation
+  remove: false
 - id: doi:10.1016/j.scitotenv.2023.164975
   title: 'Discussion: Prioritize perennial grain development for sustainable food
     production and environmental benefits'
@@ -982,6 +1000,7 @@
   tags:
   - Perennial Crops
   - Genomics
+  remove: false
 - id: doi:10.46471/gigabyte.84
   title: "Genome assembly of the hybrid grapevine Vitis \u2018Chambourcin\u2019"
   authors:
@@ -1020,6 +1039,7 @@
   tags:
   - Vitis
   - Genomics
+  remove: false
 - id: doi:10.3389/fpls.2023.1177406
   title: 'Sainfoin (Onobrychis spp.) crop ontology: supporting germplasm characterization
     and international research collaborations'
@@ -1071,6 +1091,7 @@
     \ supporting germplasm characterization and international research collaborations"
   tags:
   - Perennial Crops
+  remove: false
 - id: doi:10.1002/pld3.493
   title: 'Inclusive collaboration across plant physiology and genomics: Now is the
     time!'
@@ -1108,6 +1129,7 @@
     \ in interdisciplinary contexts."
   note: "2023 \xB7 Inclusive collaboration across plant physiology and genomics: Now\
     \ is the time!"
+  remove: false
 - id: doi:10.1186/s12870-023-04223-w
   title: Grapevine scion gene expression is driven by rootstock and environment interaction
   authors:
@@ -1149,6 +1171,7 @@
   - Vitis
   - Root Biology
   - Perennial Crops
+  remove: false
 - id: doi:10.1111/nph.18338
   title: Root biology never sleeps
   authors:
@@ -1208,6 +1231,7 @@
   note: "2022 \xB7 Clayton N. Carley et al. \xB7 Root biology never sleeps"
   tags:
   - Root Biology
+  remove: false
 - id: doi:10.1002/pld3.440
   title: Temporal and environmental factors interact with rootstock genotype to shape
     leaf elemental composition in grafted grapevines
@@ -1250,6 +1274,7 @@
   - Vitis
   - Root Biology
   - Perennial Crops
+  remove: false
 - id: doi:10.1101/2022.07.07.499216
   title: Grapevine leaf size influences vine canopy temperature
   authors:
@@ -1294,6 +1319,7 @@
   tags:
   - Vitis
   - Phenomics
+  remove: false
 - id: doi:10.1002/ajb2.16033
   title: Increases in vein length compensate for leaf area lost to lobing in grapevine
   authors:
@@ -1337,6 +1363,7 @@
     \ for leaf area lost to lobing in grapevine"
   tags:
   - Vitis
+  remove: false
 - id: doi:10.1093/jhered/esac010
   title: Interspecific Hybridization and Island Colonization History, not Rarity,
     Most Strongly Affect the Genetic Diversity in<i>Diospyros</i>a Clade of Mascarene-Endemic
@@ -1384,6 +1411,7 @@
   tags:
   - Genomics
   - Conservation
+  remove: false
 - id: doi:10.1016/j.pbi.2021.102150
   title: Re-imagining crop domestication in the era of high throughput phenomics
   authors:
@@ -1418,6 +1446,7 @@
   - Domestication
   - Phenomics
   - Genomics
+  remove: false
 - id: doi:10.1111/pce.14247
   title: 'Optimisation of root traits to provide enhanced ecosystem services in agricultural
     systems: A focus on cover crops'
@@ -1458,6 +1487,7 @@
     \ enhanced ecosystem services in agricultural systems: A focus on cover crops"
   tags:
   - Root Biology
+  remove: false
 - id: doi:10.1093/gigascience/giab087
   title: Multi-dimensional leaf phenotypes reflect root system genotype in grafted
     grapevine over the growing season
@@ -1512,6 +1542,7 @@
   - Root Biology
   - Phenomics
   - Genomics
+  remove: false
 - id: doi:10.1002/ajb2.1773
   title: "The role of genus and life span in predicting seed and vegetative trait\
     \ variation and correlation in\n                    <i>Lathyrus, Phaseolus</i>\n\
@@ -1556,6 +1587,7 @@
     \ Phaseolus</i> , and <i>Vicia</i>"
   tags:
   - Perennial Crops
+  remove: false
 - id: doi:10.1111/nph.17733
   title: 'Crop genetic erosion: understanding and responding to loss of crop diversity'
   authors:
@@ -1602,6 +1634,7 @@
   - Perennial Crops
   - Domestication
   - Conservation
+  remove: false
 - id: doi:10.3390/microorganisms9010092
   title: Grapevine Microbiota Reflect Diversity among Compartments and Complex Interactions
     within and among Root and Shoot Systems
@@ -1656,6 +1689,7 @@
   tags:
   - Vitis
   - Root Biology
+  remove: false
 - id: doi:10.1111/mec.15736
   title: "RAD\u2010sequencing reveals patterns of diversification and hybridization,\
     \ and the accumulation of reproductive isolation in a clade of partially sympatric,\
@@ -1702,6 +1736,7 @@
   tags:
   - Genomics
   - Conservation
+  remove: false
 - id: doi:10.3390/rs12193216
   title: Leveraging Very-High Spatial Resolution Hyperspectral and Thermal UAV Imageries
     for Characterizing Diurnal Indicators of Grapevine Physiology
@@ -1753,6 +1788,7 @@
   tags:
   - Vitis
   - Phenomics
+  remove: false
 - id: doi:10.1101/2020.09.09.290072
   title: "Epigenomic patterns reflect irrigation and grafting in the grapevine clone\
     \ \u2018Chambourcin\u2019"
@@ -1794,6 +1830,7 @@
   - Vitis
   - Perennial Crops
   - Genomics
+  remove: false
 - id: doi:10.1007/s12231-020-09494-0
   title: An Ethnobotanical Study of the Genus Elymus1
   authors:
@@ -1812,6 +1849,7 @@
     \ Elymus1"
   tags:
   - Plant Diversity
+  remove: false
 - id: doi:10.3389/fpls.2020.00034
   title: Comparative Analysis of Early Life Stage Traits in Annual and Perennial Phaseolus
     Crops and Their Wild Relatives
@@ -1861,6 +1899,7 @@
   - Root Biology
   - Perennial Crops
   - Domestication
+  remove: false
 - id: doi:10.3375/043.040.0111
   title: Toward Integrated Conservation of North America's Crop Wild Relatives
   authors:
@@ -1902,6 +1941,7 @@
   - Perennial Crops
   - Domestication
   - Conservation
+  remove: false
 - id: doi:10.1146/annurev-genet-112618-043545
   title: 'Living with Two Genomes: Grafting and Its Implications for Plant Genome-to-Genome
     Interactions, Phenotypic Variation, and Evolution'
@@ -1934,6 +1974,7 @@
     \ and Evolution"
   tags:
   - Genomics
+  remove: false
 - id: doi:10.2135/cropsci2019.05.0353
   title: Using Living Germplasm Collections to Characterize, Improve, and Conserve
     Woody Perennials
@@ -1969,6 +2010,7 @@
   tags:
   - Perennial Crops
   - Conservation
+  remove: false
 - id: doi:10.2135/cropsci2019.05.0309
   title: A Road Map for Conservation, Use, and Public Engagement around North America's
     Crop Wild Relatives and Wild Utilized Plants
@@ -2013,6 +2055,7 @@
   tags:
   - Perennial Crops
   - Conservation
+  remove: false
 - id: doi:10.1093/jxb/erz394
   title: 'Characterizing 3D inflorescence architecture in grapevine using X-ray imaging
     and advanced morphometrics: implications for understanding cluster density'
@@ -2057,6 +2100,7 @@
   - Vitis
   - Phenomics
   - Genomics
+  remove: false
 - id: doi:10.1038/s42003-019-0516-1
   title: "Science\u2013graphic art partnerships to increase research impact"
   authors:
@@ -2093,6 +2137,7 @@
     \ to increase research impact"
   tags:
   - Plant Diversity
+  remove: false
 - id: doi:10.1093/botlinnean/boz034
   title: 'Ebony and the Mascarenes: the evolutionary relationships and biogeography
     of Diospyros (Ebenaceae) in the western Indian Ocean'
@@ -2125,6 +2170,7 @@
     \ Ocean"
   tags:
   - Genomics
+  remove: false
 - id: doi:10.1002/ppp3.37
   title: 'Building a botanical foundation for perennial agriculture: Global inventory
     of wild, perennial herbaceous Fabaceae species'
@@ -2192,6 +2238,7 @@
   - Perennial Crops
   - Domestication
   - Conservation
+  remove: false
 - id: doi:10.3390/su11102787
   title: Comparative Analysis of Perennial and Annual Phaseolus Seed Nutrient Concentrations
   authors:
@@ -2232,6 +2279,7 @@
     \ and Annual Phaseolus Seed Nutrient Concentrations"
   tags:
   - Perennial Crops
+  remove: false
 - id: doi:10.1038/s41438-019-0146-2
   title: "Rootstock effects on scion phenotypes in a \u2018Chambourcin\u2019 experimental\
     \ vineyard"
@@ -2282,6 +2330,7 @@
   - Vitis
   - Root Biology
   - Phenomics
+  remove: false
 - id: doi:10.1101/557819
   title: "Characterizing grapevine (\n                  <i>Vitis</i>\n           \
     \       spp.) inflorescence architecture using X-ray imaging: implications for\
@@ -2322,6 +2371,7 @@
   note: "2019 \xB7 Mao Li et al. \xB7 Characterizing grapevine ( <i>Vitis</i> spp.)\
     \ inflorescence architecture using X-ray imaging: implications for understanding\
     \ cluster density"
+  remove: false
 - id: doi:10.1371/journal.pcbi.1006792
   title: 'IRIS-EDA: An integrated RNA-Seq interpretation system for gene expression
     data analysis'
@@ -2368,6 +2418,7 @@
     \ system for gene expression data analysis"
   tags:
   - Genomics
+  remove: false
 - id: doi:10.5061/dryad.7j5d5t0/4
   title: Grafting and hybridization of grapevines
   authors:
@@ -2401,6 +2452,7 @@
   note: "2019 \xB7 Colin K. Khoury et al. \xB7 Grafting and hybridization of grapevines"
   tags:
   - Vitis
+  remove: false
 - id: doi:10.3389/fpls.2018.00553
   title: 'Topological Data Analysis as a Morphometric Method: Using Persistent Homology
     to Demarcate a Leaf Morphospace'
@@ -2468,6 +2520,7 @@
   tags:
   - Phenomics
   - Genomics
+  remove: false
 - id: doi:10.3390/su10030730
   title: 'Perennial Grain Legume Domestication Phase I: Criteria for Candidate Species
     Selection'
@@ -2506,6 +2559,7 @@
   - Perennial Crops
   - Domestication
   - Genomics
+  remove: false
 - id: doi:10.1002/ajb2.1033
   title: "High\u2010throughput sequencing data clarify evolutionary relationships\
     \ among North American <i>Vitis</i> species and improve identification in <scp>USDA\
@@ -2553,6 +2607,7 @@
   - Domestication
   - Genomics
   - Conservation
+  remove: false
 - id: doi:10.3389/fpls.2017.00373
   title: 'Digital Morphometrics of Two North American Grapevines (Vitis: Vitaceae)
     Quantifies Leaf Variation between Species, within Species, and among Individuals'
@@ -2595,6 +2650,7 @@
   - Vitis
   - Phenomics
   - Genomics
+  remove: false
 - id: doi:10.1111/pbr.12413
   title: Pollination and sterility in horseradish
   authors:
@@ -2628,6 +2684,7 @@
   note: "2016 \xB7 S. Alan Walters et al. \xB7 Pollination and sterility in horseradish"
   tags:
   - Plant Diversity
+  remove: false
 - id: doi:10.3732/ajb.1600146
   title: Single nucleotide polymorphism discovery via genotyping by sequencing to
     assess population genetic structure and recurrent polyploidization in <i>Andropogon
@@ -2669,6 +2726,7 @@
     \ and recurrent polyploidization in Andropogon gerardii"
   tags:
   - Genomics
+  remove: false
 - id: doi:10.1186/s12864-016-2834-8
   title: Genomic ancestry estimation quantifies use of wild species in grape breeding
   authors:
@@ -2718,6 +2776,7 @@
   - Vitis
   - Domestication
   - Genomics
+  remove: false
 - id: doi:10.3732/ajb.1600143
   title: Report from The International Plant and Animal Genome Meeting
   authors:
@@ -2980,6 +3039,7 @@
   - Root Biology
   - Perennial Crops
   - Domestication
+  remove: false
 - id: doi:10.5344/ajev.2016.15110
   title: Climatic Niche Characterization of 13 North American<i>Vitis</i>Species
   authors:
@@ -3022,6 +3082,7 @@
   - Root Biology
   - Domestication
   - Genomics
+  remove: false
 - id: doi:10.2135/cropsci2015.06.0356
   title: A Pipeline Strategy for Grain Crop Domestication
   authors:
@@ -3076,6 +3137,7 @@
   note: "2016 \xB7 Lee R. DeHaan et al. \xB7 A Pipeline Strategy for Grain Crop Domestication"
   tags:
   - Domestication
+  remove: false
 - id: doi:10.1016/j.tplants.2015.11.008
   title: 'Rootstocks: Diversity, Domestication, and Impacts on Shoot Phenotypes'
   authors:
@@ -3097,6 +3159,7 @@
   tags:
   - Root Biology
   - Domestication
+  remove: false
 - id: doi:10.14358/PERS.82.2.51
   title: Discriminating Spectral Signatures Among and Within Two Closely Related Grapevine
     Species
@@ -3133,6 +3196,7 @@
   tags:
   - Vitis
   - Root Biology
+  remove: false
 - id: doi:10.1111/nph.13754
   title: Latent developmental and evolutionary shapes embedded within the grapevine
     leaf
@@ -3175,6 +3239,7 @@
   - Vitis
   - Domestication
   - Phenomics
+  remove: false
 - id: doi:10.5344/ajev.2015.15012
   title: Population Structure of <i>Vitis rupestris</i>, an Important Resource for
     Viticulture
@@ -3209,6 +3274,7 @@
     \ an Important Resource for Viticulture"
   tags:
   - Vitis
+  remove: false
 - id: doi:10.1038/nplants.2015.78
   title: Expanding the role of botanical gardens in the future of food
   authors:
@@ -3229,6 +3295,7 @@
     \ in the future of food"
   tags:
   - Plant Diversity
+  remove: false
 - id: doi:10.1111/ddi.12341
   title: Signatures of niche conservatism and niche shift in the North American kudzu
     (<i>Pueraria montana</i>) invasion
@@ -3272,6 +3339,7 @@
     \ niche shift in the North American kudzu (<i>Pueraria montana</i>) invasion"
   tags:
   - Plant Diversity
+  remove: false
 - id: doi:10.60692/4jbts-31s97
   title: Leaves as composites of latent developmental and evolutionary shapes
   authors:
@@ -3303,6 +3371,7 @@
   - Vitis
   - Domestication
   - Phenomics
+  remove: false
 - id: doi:10.3732/ajb.1400296
   title: Environmental correlates of cytotype distribution in <i>Andropogon gerardii</i>
     (Poaceae)
@@ -3350,6 +3419,7 @@
     \ cytotype distribution in Andropogon gerardii (Poaceae)"
   tags:
   - Genomics
+  remove: false
 - id: doi:10.3732/ajb.1400409
   title: 'Speaking of food: Connecting basic and applied plant science'
   authors:
@@ -3382,6 +3452,7 @@
     \ and applied plant science"
   tags:
   - Conservation
+  remove: false
 - id: doi:10.1002/9780470015902.a0003360.pub2
   title: 'Crop Plants: Evolution'
   authors:
@@ -3424,6 +3495,7 @@
   tags:
   - Domestication
   - Genomics
+  remove: false
 - id: doi:10.3159/torrey-d-13-00052.1
   title: 'Conservation genetics of edaphic endemics in naturally isolated habitats:
     a case study with<i>Geocarpon minimum</i>(Caryophyllaceae)'
@@ -3459,6 +3531,7 @@
   - Root Biology
   - Genomics
   - Conservation
+  remove: false
 - id: doi:10.1371/journal.pone.0078680
   title: 'Vitis Phylogenomics: Hybridization Intensities from a SNP Array Outperform
     Genotype Calls'
@@ -3509,6 +3582,7 @@
   tags:
   - Vitis
   - Genomics
+  remove: false
 - id: doi:10.1111/j.1365-294x.2012.05467.x
   title: "Out in the cold \u2013 how big and how old? Genetic fingerprinting reveals\
     \ long\u2010lived individuals withstand climatic oscillations in the arctic\u2010\
@@ -3548,6 +3622,7 @@
     \ oscillations in the arctic\u2010alpine"
   tags:
   - Plant Diversity
+  remove: false
 - id: doi:10.3732/ajb.1000522
   title: 'From forest to field: Perennial fruit crop domestication'
   authors:
@@ -3587,6 +3662,7 @@
   - Perennial Crops
   - Domestication
   - Genomics
+  remove: false
 - id: doi:10.1007/s11295-011-0384-4
   title: Geographic patterns of genetic variation in native pecans
   authors:
@@ -3604,6 +3680,7 @@
     \ in native pecans"
   tags:
   - Fruit & Nut Trees
+  remove: false
 - id: doi:10.3732/ajb.0900114
   title: "Genetic variation in walnuts (\n                    <i>Juglans regia</i>\n\
     \                    and\n                    <i>J. sigillata</i>\n          \
@@ -3648,6 +3725,7 @@
   - Domestication
   - Conservation
   - Fruit & Nut Trees
+  remove: false
 - id: doi:10.1007/s12231-009-9088-1
   title: 'Ethnobotany of Horseradish (Armoracia rusticana, Brassicaceae) and Its Wild
     Relatives (Armoracia spp.): Reproductive Biology and Local Uses in Their Native
@@ -3666,6 +3744,7 @@
     \ Biology and Local Uses in Their Native Ranges"
   tags:
   - Plant Diversity
+  remove: false
 - id: doi:10.3159/08-ra-020r.1
   title: Characterization of a Domesticated Tree Lineage (Spondias purpurea, Anacardiaceae)
     Based on Nuclear and Chloroplast Sequence Data<sup>1</sup>
@@ -3701,6 +3780,7 @@
   - Domestication
   - Genomics
   - Fruit & Nut Trees
+  remove: false
 - id: doi:10.1600/036364407781179635
   title: Phylogeny of &lt;I&gt;Rhus&lt;/I&gt; (Anacardiaceae) Based on Sequences of
     Nuclear &lt;I&gt;Nia-i3&lt;/I&gt; Intron and Chloroplast &lt;I&gt;trnC-trnD&lt;/I&gt;
@@ -3735,6 +3815,7 @@
     \ Based on Sequences of Nuclear Nia-i3 Intron and Chloroplast trnC-trnD"
   tags:
   - Genomics
+  remove: false
 - id: doi:10.1663/0007-196x(2007)59[102:dhnatt]2.0.co;2
   title: Darwin's Harvest. New Approaches to the Origins, Evolution, and Conservation
     of Crops
@@ -3749,6 +3830,7 @@
     \ Evolution, and Conservation of Crops"
   tags:
   - Conservation
+  remove: false
 - id: doi:10.3732/ajb.93.12.1757
   title: "GIS\u2010based characterization of the geographic distributions of wild\
     \ and cultivated populations of the Mesoamerican fruit tree <i>Spondias purpurea</i>\
@@ -3786,6 +3868,7 @@
   tags:
   - Domestication
   - Fruit & Nut Trees
+  remove: false
 - id: doi:10.1111/j.1365-294x.2006.02834.x
   title: Domestication and the distribution of genetic variation in wild and cultivated
     populations of the Mesoamerican fruit tree <i>Spondias purpurea</i> L. (Anacardiaceae)
@@ -3827,6 +3910,7 @@
   tags:
   - Domestication
   - Fruit & Nut Trees
+  remove: false
 - id: doi:10.1073/pnas.0505447102
   title: "Domestication of a Mesoamerican cultivated fruit tree,\n               \
     \     <i>Spondias purpurea</i>"
@@ -3866,6 +3950,7 @@
   tags:
   - Domestication
   - Fruit & Nut Trees
+  remove: false
 - id: doi:10.1016/j.ympev.2004.07.006
   title: Phylogenetic and biogeographic diversification of Rhus (Anacardiaceae) in
     the Northern Hemisphere
@@ -3883,6 +3968,7 @@
     \ diversification of Rhus (Anacardiaceae) in the Northern Hemisphere"
   tags:
   - Genomics
+  remove: false
 - id: doi:10.1086/322948
   title: Phylogeny and Biogeography of<i>Rhus</i>(Anacardiaceae) Based on ITS Sequence
     Data
@@ -3916,6 +4002,7 @@
     \ Based on ITS Sequence Data"
   tags:
   - Genomics
+  remove: false
 - id: doi:10.1016/s0273-1177(97)00635-2
   title: What is the threshold amount of starch necessary for full gravitropic sensitivity
     ?
@@ -3933,6 +4020,7 @@
     \ necessary for full gravitropic sensitivity ?"
   tags:
   - Plant Diversity
+  remove: false
 - id: doi:10.1093/oxfordjournals.pcp.a029199
   title: Reduced Gravitropism in Hypocotyls of Starch-Deficient Mutants of Arabidopsis
   authors:
@@ -3967,3 +4055,44 @@
     \ Starch-Deficient Mutants of Arabidopsis"
   tags:
   - Root Biology
+  remove: false
+- id: doi:10.64898/2026.10.21.759482
+  title: Alfalfa intercropping maintains intermediate wheatgrass grain yield relative
+    to nitrogen fertilization across site conditions and stand ages
+  authors:
+  - Chukwuebuka Kenneth Okonkwo
+  - Thomas P McKenna
+  - Molly Hanlon
+  - Shannon Meehan
+  - Nia Worth
+  - Tyler Thrash
+  - Timothy E Crews
+  - Allison J Miller
+  publisher: bioRxiv
+  abstract: Intermediate wheatgrass (IWG; Thinopyrum intermedium) is a promising perennial
+    grain crop, but yield instability remains a major challenge. We compared effects
+    of nitrogen fertilization and intercropping with alfalfa (Medicago sativa L.)
+    on IWG biomass, grain yield, and root traits across three stand ages at two nearby
+    sites in eastern Missouri differing in soil properties (Planthaven Farms and Danforth
+    Center Field Research Site). Four treatments (unfertilized IWG, fertilized IWG,
+    IWG-alfalfa intercrop, and alfalfa monoculture) were established in a randomized
+    complete block design with four replications per site. Biomass and grain yield
+    were evaluated at per-row and field scales, while roots were measured to 1 m depth
+    during the second stand age. Alfalfa intercropping maintained IWG grain yield
+    without synthetic N fertilizer, although treatment responses varied by site and
+    stand age. At Planthaven, differences became more pronounced as stands matured,
+    with intercropped IWG producing the greatest per-row biomass and grain yield in
+    stand age three. At the Danforth Center Field Research Site, intercropped IWG
+    produced greater per-row biomass and grain yield than monocultures, whereas fertilized
+    IWG tended to produce greater field-scale biomass; grain yield declined across
+    treatments with stand age. Across sites, nitrogen fertilization increased vegetative
+    biomass more consistently than grain yield. Despite having fewer IWG rows, intercrops
+    maintained field-scale grain yield comparable to fertilized IWG in several site-years.
+    Root traits responded weakly to management and were structured primarily by soil
+    depth. These findings highlight the importance of site conditions, and stand age,
+    when evaluating management strategies for perennial grain production.
+  date: '2026-10-23'
+  link: https://doi.org/hcpphx
+  remove: false
+  plugin: sources.py
+  file: sources.yaml
